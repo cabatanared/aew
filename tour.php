@@ -592,6 +592,7 @@ bottom: 2.7em;
           </iframe>
         </div>
 
+        <!-- General Medina Contents -->
         <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  padding-top: 56.25%; border: 5px solid #f9a11c;">
           <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAExdiiK3Io/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
