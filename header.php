@@ -243,7 +243,8 @@ $lastUriSegment = array_pop($uriSegments);
     background: #fff;
     z-index: 11;
     /*border-bottom: 1px solid #08bf68;*/
-    border-bottom: 6px solid #d4935d;
+    border-bottom: 6px solid #9D1F45;
+
 }
 
 
