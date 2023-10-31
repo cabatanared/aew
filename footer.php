@@ -62,20 +62,20 @@
               </div>
 
               <div style="margin-top: -1em;">
-                <img src="assets/icons/cloud.png" style="position: absolute;right: 3vw;top:40vh; width: 7vw;">  
+                <img src="assets/icons/cloud.png" style="position: absolute;right: 3vw;top:37vh; width: 7vw;">  
               </div>
 
               <div>
-                <img src="assets/icons/mail.png" style="position: absolute; left: 2vw;top:45vh;width: 7vw;">  
+                <img src="assets/icons/mail.png" style="position: absolute; left: 2vw;top:46vh;width: 6.5vw;">  
               </div>
 
             </div>
 
-          <br>
+       
           <p id="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
           
           <div style="margin-top: -1em;">
-            <img src="assets/icons/stars.png" style="position: absolute;right: 25vw;top:50vh; width: 7vw;">  
+            <img src="assets/icons/stars.png" style="position: absolute;right: 25vw;top:46vh; width: 7vw;">  
           </div>
 
           </section>
