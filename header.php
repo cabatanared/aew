@@ -123,20 +123,29 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgdna {
-    top:28em;
+    /* top:28em; */
+    top:75vh;
   }
 
   .imgblackwhiteatom{
     top: 15vh;
     left: 8vw;
+    width: 5vw;
   }
   .imgpinkgrass{
     top:9vh;
     left:37vw;
+    width: 5vw;
   }
   .imgblackwhitecloud{
     top:13vh;
     left:55vw;
+    width:7vw;
+  }
+  .imgbrownbird{
+    top:13vh;
+    right:10vw;
+    width:10vw;
   }
 
 
@@ -959,12 +968,19 @@ li.portal a, li.portal p{
  }
  .imgblackwhiteatom{
   top:15vh;
+  width:10vw;
  }
  .imgblackwhitecloud{
-  top:15vh;
+  top:17vh;
+  width:12vw;
  }
  .imgpinkgrass{
   top:15vh;
+  width:8vw;
+ }
+ .imgbrownbird{
+  top:17vh;
+  width:12vw;
  }
 
 }
@@ -1002,7 +1018,7 @@ li.portal a, li.portal p{
 @media (max-width: 439px){
  
  .imgdna {
-  top: 20em;
+  top: 28em;
  }
 
 }
