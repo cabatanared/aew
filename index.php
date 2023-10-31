@@ -269,7 +269,7 @@ left: 167px;
 
 
     </style>
-<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>-->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
   <div class="parallax" id="parallax">
@@ -279,7 +279,7 @@ left: 167px;
       </div>
     </div> -->
     <div id="group2" class="parallax__group" style="margin-top: 90px !important;">
-      <div class="parallax__layer parallax__layer--back" style="position: relative;height: 100vh;background: #ffdbbc;">
+      <div class="parallax__layer parallax__layer--back" style="position: relative;height: 100vh;background: #FFF6CE;">
 
         <!--<img src="Assets for Webdesign/Graphics/shape 3.png" style="position: absolute;left: -12vw;top: 10vh;width: 24vw;">-->          
         <img class="imgscope" src="Assets for Webdesign/Graphics/AEW50 Brand Elements (2).png" style="position: absolute;left: 6vw;width: 13vw;">
