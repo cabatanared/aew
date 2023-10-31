@@ -312,20 +312,21 @@ $lastUriSegment = array_pop($uriSegments);
   display: grid;
 }
 li.portal:hover {
-   background: #FFCC24;
+   background: #FF997D; 
 }
 
 li.active {
-    /* background-color:#d4935d; */
-    background-color: #FDB1C5;  
+    /*background-color: #08bf68;*/
+    background-color:#FECCD9;
 }
 li.active a{
-  /* color: white !important; */
+  color: black !important;
 }
 
+/* background color for hover in header menu */
 .dropdown-content a:hover{
   /*background-color: #e0e0e0;*/
-  background: #FFCC24;
+  background: #FF997D;
 }
 
 ul.portal {
@@ -468,12 +469,15 @@ input, textarea{
 }
 
 .dropdown-content {
+  font-weight: normal;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  opacity: 90%;
+  font-family: 'Gabarito-Regular', sans-serif;
 }
 
 .dropdown:hover .dropdown-content {
@@ -992,6 +996,9 @@ li.portal a, li.portal p{
   /*background: #eeffe6;*/
   background: #fff;
   padding: 16px !important;
+  border-bottom: 1px solid #9D1F45;
+  font-family: 'Gabarito-Regular', sans-serif;
+  font-weight: normal;
 }
 
 .dropdown-content2 a:hover{
@@ -1124,33 +1131,43 @@ li.portal a, li.portal p{
     </div>
   </div>-->
 
-   <li class="lg-screen portal <?php echo ($lastUriSegment == ''?'active':'')?>"><a href="https://aew.pnri.dost.gov.ph/aew/2023">HOME</a>
+  <li class="lg-screen portal <?php echo ($lastUriSegment == ''?'active':'')?>"><a href="index.php">HOME</a>
       <li class="lg-screen portal dropdown <?php echo ($lastUriSegment == 'aew.php'?'active':'')?>"><a href="">ABOUT AEW</a>
       <div class="dropdown-content">
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023/aew.php" style="color:#000 !important">Overview</a>
+            <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/aew.php" style="color:#000 !important">Overview</a> -->
+            <a href="aew.php" style="color:#9D1F45 !important">Overview</a>
             <?php if($lastUriSegment == '') {?>
-            <a href="#carusel" style="color:#000 !important">AEW Over the Years</a>
+            <a href="#carusel" style="color:#9D1F45 !important">AEW Over the Years</a>
           <?php } else {?>
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023#carusel" style="color:#000 !important">AEW Over the Years</a>
+            <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023#carusel" style="color:#000 !important">AEW Over the Years</a> -->
+            <a href="#carusel" style="color:#9D1F45 !important">AEW Over the Years</a>
           <?php } ?>
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023/news.php" style="color:#000 !important">News</a>
+            <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/news.php" style="color:#000 !important">News</a> -->
+            <a href="news.php" style="color:#9D1F45 !important">News</a>
             
           </div></li>
       <li class="lg-screen portal dropdown"><a href="#">ACTIVITIES</a>
       <div class="dropdown-content">
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023/schedule.php">Schedule of Activities</a>
+            <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/schedule.php">Schedule of Activities</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/opening.php" >Opening Ceremonies</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/pnrdc.php" >Philippine Nuclear Research and Development Conference</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/map.php" >PNRI Interactive Map</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/contests.php">Contests</a>
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023/exhibit.php">Technical Exhibits</a>
+            <a href="https://aew.pnri.dost.gov.ph/aew/2023/exhibit.php">Technical Exhibits</a> -->
+            <a href="schedule.php">Schedule of Activities</a>
+            <a href="opening.php" >Opening Ceremonies</a>
+            <a href="pnrdc.php" >Philippine Nuclear Research and Development Conference</a>
+            <a href="map.php" >PNRI Interactive Map</a>
+            <a href="contests.php">Contests</a>
+            <a href="exhibit.php">Technical Exhibits</a>
             <!--<div href="#" class="dropdown2"><a href="#">Contests</a>
             <div class="dropdown-content2">
               <a href="#">Poster Making</a>
               <a href="#">Mobile Photography</a>
               <a href="#">NucleART 4.0: Digital Poster Making</a>
               </div></div>-->
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023/closing.php" >Closing Ceremonies</a>
+            <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/closing.php" >Closing Ceremonies</a> -->
+            <a href="closing.php" >Closing Ceremonies</a>
             <!--<a href="#" >Feedback</a>-->
 
             
