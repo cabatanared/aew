@@ -149,7 +149,30 @@ $lastUriSegment = array_pop($uriSegments);
     left:55vw;
   }
 
+  .aew_wave {
+    top:10vh;
+    left:58vw;
+  }
 
+  .aew_cloud {
+    top:35vh;
+    right:58vw;
+  }
+
+  .aew_atom {
+    top:35vh;
+    right:48vw;
+  }
+
+  .aew_stars {
+    top:43vh;
+    right:26vw;
+  }
+
+  .aew_mail {
+    top:44vh;
+    left:2vw;
+  }
 
 
   body, html {
@@ -271,11 +294,9 @@ $lastUriSegment = array_pop($uriSegments);
   animation-duration: 3s;
 }
 .aew_dec{
-  margin-top:14.25rem;
+  margin-top:200px;
   max-width: 350px;
   width: 80vw;
-   animation: fadeIn;
-  animation-duration: 3s;
 }
 .cfront1 {
   animation: slideInLeft;
@@ -595,6 +616,7 @@ input, textarea{
  #land{
   bottom: 17vh;
  }
+
 }
 
 @media (max-width: 1196.98px){
@@ -980,6 +1002,25 @@ li.portal a, li.portal p{
   top:42vh;
   left:45vw;
  }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
+
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
+ 
 }
 
 @media (max-width: 439px){

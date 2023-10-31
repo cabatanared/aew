@@ -22,7 +22,7 @@
                   <br>
     
                   <div>
-                    <img src="assets/icons/wave.png" class="aew_wave" style="margin-top:-50px;position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 25vw;right: 0;">
+                    <img src="assets/icons/wave.png" class="aew_wave" style="margin-top:-50px;position: absolute;width: 10vw;">
                   </div>
                   <div class="foot_title" style="color:#9D1F45;">
                     <span style="font-weight:regular;font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase">Department of Science and Technology</span><br>
@@ -51,22 +51,22 @@
                   <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank" class="website"><i class="fa-brands fa-youtube fa-lg" style="display: inline-block;padding: 1em 0.6em;"></i></a>
                   <a target="__blank" href="https://www.tiktok.com/@dost_pnri" target="_blank" class="website"><i class="fa-brands fa-tiktok fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
                 <br>
-                <img src="assets/icons/atom.png" class="aew_atom" style="margin-top: -5em;position: absolute;width: 5vw;margin-left: auto;margin-right: auto;left: 0;right: 6vw;">
+                <img src="assets/icons/atom.png" class="aew_atom" style="margin-top: -5em;position: absolute;width: 5vw;">
                 </div>   
 
               </div> 
 
               <div  style="margin-left: auto; ">
-                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 70px;">
+                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 60px;">
                 <p style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
               <div>
-                <img src="assets/icons/cloud.png" style="position: absolute;right: 3vw;top:37vh; width: 7vw;">  
+                <img src="assets/icons/cloud.png" class="aew_cloud" style="position: absolute;right: 3vw;width: 7vw;">  
               </div>
 
               <div>
-                <img src="assets/icons/mail.png" style="position: absolute; left: 2vw;top:46vh;width: 6.5vw;">  
+                <img src="assets/icons/mail.png" class="aew_mail"  style="position: absolute;width: 6.5vw;">  
               </div>
 
             </div>
@@ -75,7 +75,7 @@
           <p id="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
           
           <div style="margin-top: -1em;">
-            <img src="assets/icons/stars.png" style="position: absolute;right: 25vw;top:46vh; width: 7vw;">  
+            <img src="assets/icons/stars.png"   class="aew_stars" style="position: absolute;width: 8vw;">  
           </div>
 
           </section>
