@@ -517,9 +517,11 @@ input, textarea{
  .dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 .dropdown-content {
+  font-family: 'Gabarito-Regular' !important;
   font-weight: normal;
   display: none;
   position: absolute;
@@ -528,7 +530,6 @@ input, textarea{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   opacity: 90%;
-  font-family: 'Gabarito-Regular', sans-serif;
 }
 
 .dropdown:hover .dropdown-content {
@@ -1082,6 +1083,7 @@ li.portal a, li.portal p{
   text-decoration: none;color: #ffffff; background: #27c77b;padding: 1em;
 }
 .dropdown-content  a{
+  font-family: 'Gabarito-Regular', sans-serif !important;
   width: 100%;
  
   text-align: left !important;
@@ -1089,7 +1091,7 @@ li.portal a, li.portal p{
   background: #fff;
   padding: 16px !important;
   border-bottom: 1px solid #9D1F45;
-  font-family: 'Gabarito-Regular', sans-serif;
+  color:#9D1F45
   font-weight: normal;
 }
 
