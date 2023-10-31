@@ -16,6 +16,7 @@ $lastUriSegment = array_pop($uriSegments);
 <meta property="og:url" content="https://aew.pnri.dost.gov.ph/aew/2022"/>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627" />
+<link rel="icon" type="image/png" href="assets/logo/2023-AEW51-Logo-Smallv2.png">
 <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -113,13 +114,23 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgmans {
-        right: 8vw;top:25em; 
+        right: 10vw;top:22em; 
       }
+
+  .imgbird {
+    right: 16vw;top:14em; 
+  }
+
+  .imgcursive {
+    top:80vh;
+    left:45vw;
+  }
+
   .imgman {
         right: 20vw;top:25em; 
       }
   .imgwoman{
-    left: 8vw;top:25em;
+    left: 9vw;top:23em;
   }
 
   .imgdna {
@@ -128,8 +139,8 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgblackwhiteatom{
-    top: 15vh;
-    left: 8vw;
+    top: 20vh;
+    left: 10vw;
     width: 5vw;
   }
   .imgpinkgrass{
@@ -140,15 +151,32 @@ $lastUriSegment = array_pop($uriSegments);
   .imgblackwhitecloud{
     top:13vh;
     left:55vw;
-    width:7vw;
-  }
-  .imgbrownbird{
-    top:13vh;
-    right:10vw;
-    width:10vw;
   }
 
+  .aew_wave {
+    top:10vh;
+    left:58vw;
+  }
 
+  .aew_cloud {
+    top:35vh;
+    right:58vw;
+  }
+
+  .aew_atom {
+    top:35vh;
+    right:48vw;
+  }
+
+  .aew_stars {
+    top:43vh;
+    right:26vw;
+  }
+
+  .aew_mail {
+    top:44vh;
+    left:2vw;
+  }
 
 
   body, html {
@@ -270,11 +298,9 @@ $lastUriSegment = array_pop($uriSegments);
   animation-duration: 3s;
 }
 .aew_dec{
-  margin-top:14.25rem;
+  margin-top:200px;
   max-width: 350px;
   width: 80vw;
-   animation: fadeIn;
-  animation-duration: 3s;
 }
 .cfront1 {
   animation: slideInLeft;
@@ -581,7 +607,7 @@ input, textarea{
   background-position-x: center;
   /*min-height: 500px;*/
   min-height: 350px;
-  padding: 7rem;
+  padding: 5.5rem;
   position: relative;
   height: calc(100vh- 6em);
 }
@@ -594,6 +620,7 @@ input, textarea{
  #land{
   bottom: 17vh;
  }
+
 }
 
 @media (max-width: 1196.98px){
@@ -937,9 +964,9 @@ li.portal a, li.portal p{
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
-  .imgmans {
-
-  top:23em;
+  .imgmans{
+    right: 12vw;
+  top:30em;
   }
  .imgman {
 
@@ -964,7 +991,7 @@ li.portal a, li.portal p{
 @media (max-width: 640px){
  
  .aew {
-  width: 100%;
+  width: 70%;
  }
  .imgblackwhiteatom{
   top:15vh;
@@ -982,7 +1009,29 @@ li.portal a, li.portal p{
   top:17vh;
   width:12vw;
  }
+ .imgcursive{
+  top:42vh;
+  left:45vw;
+ }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
 
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
+ 
 }
 
 @media (max-width: 439px){
