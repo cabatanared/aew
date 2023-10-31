@@ -113,21 +113,19 @@ $lastUriSegment = array_pop($uriSegments);
     z-index: 2;
   }
 
-  .imgmans {
-        right: 10vw;top:22em; 
+  .imgsmallatoms {
+        right: 9vw;
+        top:22em; 
+        width: 8vw;
       }
 
   .imgbird {
     right: 16vw;top:14em; 
   }
 
-  .imgcursive {
-    top:80vh;
-    left:45vw;
-  }
-
-  .imgman {
+  .imgyellowshine {
         right: 20vw;top:25em; 
+        width: 5vw;
       }
   .imgwoman{
     left: 9vw;top:23em;
@@ -141,16 +139,22 @@ $lastUriSegment = array_pop($uriSegments);
   .imgblackwhiteatom{
     top: 20vh;
     left: 10vw;
-    width: 5vw;
+    width: 7vw;
   }
   .imgpinkgrass{
     top:9vh;
     left:37vw;
     width: 5vw;
   }
+  .imgbrownbird{
+    top:15vh;
+    right:14vw;
+    width: 9vw;
+  }
   .imgblackwhitecloud{
     top:13vh;
     left:55vw;
+    width: 7vw;
   }
 
   .aew_wave {
@@ -948,29 +952,31 @@ li.portal a, li.portal p{
 
 }
 
-@media screen and (min-width: 440px) and (max-width: 1120px){
+@media screen and (min-width: 400px) and (max-width: 1120px){
  
- .imgman {
+ .imgyellowshine {
   top: unset;
-  bottom:18em;
+  bottom:33em;
+  width:10vw;
  }
 
  .imgwoman {
   top: unset;
-  bottom:18em;
+  bottom:35em;
  }
 
 
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
-  .imgmans{
-    right: 12vw;
-  top:30em;
+  .imgsmallatoms{
+    right: 11vw;
+    top:30em;
   }
- .imgman {
+ .imgyellowshine {
 
-  top:42em;
+  top:45em;
+  
  }
 
  .imgwoman {
@@ -1008,10 +1014,6 @@ li.portal a, li.portal p{
  .imgbrownbird{
   top:17vh;
   width:12vw;
- }
- .imgcursive{
-  top:42vh;
-  left:45vw;
  }
  .aew_wave{
   top:48vh;

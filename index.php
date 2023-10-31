@@ -289,8 +289,8 @@ left: 167px;
         <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
         <!--<img src="Assets for Webdesign/Graphics/shape 1.png" style="position: absolute;right: -20vw;top:22vh; width: 25vw;">-->
         <!--<img src="Assets for Webdesign/Graphics/shape 2.png" style="position: absolute;right: -6vw;top:-14vh; width: 25vw;">-->
-        <img class="imgmans" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg); width: 6vw;">
-        <img class="imgman" src="assets/YellowShine.png" style="position: absolute; transform:rotate(25deg); width: 5vw;">
+        <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg);">
+        <img class="imgyellowshine" src="assets/YellowShine.png" style="position: absolute; transform:rotate(25deg);">
         <!--<img src="Assets for Webdesign/Graphics/asterisk.png" style="position: absolute;right: 8vw;top:14vh; width: 12vw;">-->
         <img class="imgbrownbird" src="assets/BrownBirdDoodle.png" style="position: absolute; transform:rotate(25deg);">
 
