@@ -281,19 +281,24 @@ left: 167px;
     <div id="group2" class="parallax__group" style="margin-top: 90px !important;">
       <div class="parallax__layer parallax__layer--back" style="position: relative;height: 100vh;background: #FFF6CE;">
 
-        <!--<img src="Assets for Webdesign/Graphics/shape 3.png" style="position: absolute;left: -12vw;top: 10vh;width: 24vw;">-->          
-        <img class="imgscope" src="Assets for Webdesign/Graphics/AEW50 Brand Elements (2).png" style="position: absolute;left: 6vw;width: 13vw;">
-        <img class="imgwoman" src="Assets for Webdesign/Graphics/woman-laptop.png" style="position: absolute; width: 35vw;">
+        <!--<img src="Assets for Webdesign/Graphics/shape 3.png" style="position: absolute;left: -12vw;top: 10vh;width: 24vw;">-->      
+        <!-- <img class="imgscope" src="Assets for Webdesign/Graphics/AEW50 Brand Elements (2).png" style="position: absolute;left: 16vw;width: 13vw;"> -->
+        <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute; width:4vw; transform:rotate(50deg); ">
+        <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="position: absolute; width:6vw;">
+        <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="position: absolute;width: 5vw;">
+        <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
         <!--<img src="Assets for Webdesign/Graphics/shape 1.png" style="position: absolute;right: -20vw;top:22vh; width: 25vw;">-->
         <!--<img src="Assets for Webdesign/Graphics/shape 2.png" style="position: absolute;right: -6vw;top:-14vh; width: 25vw;">-->
-        <img class="imgman" src="Assets for Webdesign/Graphics/man-earphones.png" style="position: absolute;width: 38vw;">
+        <img class="imgmans" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg); width: 8vw;">
+        <img class="imgman" src="assets/YellowShine.png" style="position: absolute; transform:rotate(25deg); width: 8vw;">
         <!--<img src="Assets for Webdesign/Graphics/asterisk.png" style="position: absolute;right: 8vw;top:14vh; width: 12vw;">-->
-        <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="position: absolute;right: 10vw;top:5vh; width: 10vw;">
+        <img src="assets/BrownBirdDoodle.png" style="position: absolute; transform:rotate(25deg); right:10vw; top:10vh; width:10vw;">
 
 
-        <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements (1).png" class="aew imgdna" style="position: absolute;transform:rotate(-75deg);width: 18vw;margin-left: auto;margin-right: auto;left: 0;
+        <!-- <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements (1).png" class="aew imgdna" style="position: absolute;transform:rotate(-75deg);width: 18vw;margin-left: auto;margin-right: auto;left: 0;
+right: 0;"> -->
+<img src="assets/BlackAndWhiteCursiveLine.png" class="aew imgdna" style="position: absolute;top:75vh;width: 15vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;">
-        
         
       </div>
     <!--   <div class="bubble" style="
@@ -320,7 +325,7 @@ right: 0;">
           <img class="cfront2" src="assets/c2 back.png" style="position: absolute; left:10vw; bottom:50vh ;width: 16vw;"> -->
 
         
-        <center><img src="Assets for Webdesign/AEW50_Logo-with-date.png" class="aew" style="margin-top:40px;-webkit-animation: float2 5s ease-in-out infinite;
+        <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="aew" style="margin-top:160px;-webkit-animation: float2 5s ease-in-out infinite;
           animation: float2 5s ease-in-out infinite;"></center>
         <!--<p id="date" style="font-weight: 700;color: #f98c13;font-size: 18pt;margin-bottom: 1em;text-align: center;">December 5-9, 2022</p>-->
           <center class="center_contain">

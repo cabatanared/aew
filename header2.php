@@ -27,12 +27,15 @@ $lastUriSegment = array_pop($uriSegments);
 <link href="assets/PPTelegraf-Regular.otf" rel="stylesheet">
 <link href="assets/Rubik-Regular.ttf" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
-@font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
-@font-face { font-family: Gabarito-Regular; src: url("assets/font/Gabarito/static/Gabarito-Regular.ttf"); } 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@font-face { font-family: Telegraf; src: url("assets/PPTelegraf-Regular.otf");} 
+@font-face { font-family: Rubik; src: url("assets/Rubik-Regular.ttf"); } 
+@font-face { font-family: PublicSans; src: url("assets/PublicSans-Regular.ttf"); } 
+@font-face { font-family: PublicSans-Bold; src: url("assets/PublicSans-Bold.ttf"); } 
+
+@font-face { font-family: Gabarito-Bold; src: url("assets/2023/Gabarito-Bold.ttf"); } 
+@font-face { font-family: Gabarito-Regular; src: url("assets/2023/Gabarito-Regular.ttf"); } 
   ::-webkit-scrollbar {
   width: 10px;
 }
@@ -52,7 +55,8 @@ $lastUriSegment = array_pop($uriSegments);
 }
 *{
       /*font-family: 'Poppins', sans-serif;*/
-      /* font-family: 'Gabarito-Bold', sans-serif; */
+      /* font-family: 'PublicSans'; */
+      font-family: 'Gabarito-Regular';
 }
 
 
@@ -112,31 +116,19 @@ $lastUriSegment = array_pop($uriSegments);
     z-index: 2;
   }
 
-  .imgmans {
-        right: 8vw;top:25em; 
-      }
   .imgman {
-        right: 20vw;top:25em; 
+        right: 4vw;top:20em; 
       }
   .imgwoman{
-    left: 8vw;top:25em;
+    left: 0vw;top:20em;
   }
 
   .imgdna {
     top:28em;
   }
 
-  .imgblackwhiteatom{
-    top: 15vh;
-    left: 8vw;
-  }
-  .imgpinkgrass{
-    top:9vh;
-    left:37vw;
-  }
-  .imgblackwhitecloud{
-    top:13vh;
-    left:55vw;
+  .imgscope{
+    top: 8vh;
   }
 
 
@@ -153,40 +145,11 @@ $lastUriSegment = array_pop($uriSegments);
   #flink{
     display:flex;
   }
-  /* #flink a > img:hover
+  #flink a > img:hover
   {
     border-radius: 80%;
-    background: #FF997D;
-  } */
-
-  #flink a
-  {
-    border-radius: 50%;
-    color:#ffffff;
-    background-color:#9D1F45;
-    margin: 0 5px;
-  }
-
-  #flink a.website:hover
-  {
-    background-color: #FF997D;
-    /* border-radius: 40px; */
-    border-radius: 50%;
-  /* box-shadow: 0 0 2px #888; */
-    /* padding:  0.6em 0.6em; */
-    margin: 0 5px;
-  }
-
-  #flink a.website:after
-  {
-    background-color: #FF997D;
-    /* border-radius: 50%; */
-    position:absolute;
-    width:100%;
-    height:100%;
-  /* box-shadow: 0 0 2px #888; */
-  /* padding:  0.6em 0.6em; */
-  margin: 0 5px;
+    /*background: #FFCC24;*/
+    background: #D46D18;
   }
 
    /* centre the content in the parallax layers */
@@ -255,14 +218,14 @@ $lastUriSegment = array_pop($uriSegments);
 
 
 .aew {
-  width:50vw; max-width: 900px;
+  width:50vw; max-width: 755px;
   /*width:100%; max-width: 755px;*/
   animation: fadeIn;
   animation-duration: 3s;
 }
 .aew_dec{
   margin-top:14.25rem;
-  max-width: 350px;
+  max-width: 230px;
   width: 80vw;
    animation: fadeIn;
   animation-duration: 3s;
@@ -317,6 +280,7 @@ $lastUriSegment = array_pop($uriSegments);
   font-weight: 600;
 }
 
+
 .schedules > a:hover{
   background: #ffcf73;
 }
@@ -324,21 +288,20 @@ $lastUriSegment = array_pop($uriSegments);
   display: grid;
 }
 li.portal:hover {
-   background: #FECCD9; 
+   background: #FF997D; 
 }
 
 li.active {
     /*background-color: #08bf68;*/
-    background-color:#9D1F45;
+    background-color:#FECCD9;
 }
 li.active a{
-  color: white !important;
+  color: black !important;
 }
-
 /* background color for hover in header menu */
 .dropdown-content a:hover{
   /*background-color: #e0e0e0;*/
-  background: #FECCD9;
+  background: #FF997D;
 }
 
 ul.portal {
@@ -355,9 +318,8 @@ li.portal a, .dropbtn {
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Gabarito-Bold', sans-serif;
     display: inline-block;
-    color: #43414E;
-    letter-spacing: 1.2px;
-    font-size: 17px;
+    color: #171717;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
     /*padding: 45px 16px;*/
@@ -566,13 +528,13 @@ input, textarea{
 }
 
 .foot_contain{
-  /* background: #d4935d; */
-  background:#ffffff;
+  /*background: #a9cf46;*/
+  background: #d4935d;
   background-size: cover;
   background-position-x: center;
   /*min-height: 500px;*/
   min-height: 350px;
-  padding: 7rem;
+  padding: 3rem;
   position: relative;
   height: calc(100vh- 6em);
 }
@@ -664,10 +626,6 @@ li.portal a, li.portal p{
    #land{
     bottom: 30vh;
    }
-
-  .foot_contain{
-    padding:3rem;
-  }
 }
 
 @media (max-width: 700.98px){
@@ -928,18 +886,15 @@ li.portal a, li.portal p{
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
-  .imgmans {
-
-  top:23em;
-  }
+ 
  .imgman {
 
-  top:42em;
+  top:25em;
  }
 
  .imgwoman {
 
-  top:35em;
+  top:27em;
  }
 
 }
@@ -957,14 +912,8 @@ li.portal a, li.portal p{
  .aew {
   width: 100%;
  }
- .imgblackwhiteatom{
-  top:15vh;
- }
- .imgblackwhitecloud{
-  top:15vh;
- }
- .imgpinkgrass{
-  top:15vh;
+ .imgscope{
+  top:5vh;
  }
 
 }
@@ -1082,7 +1031,7 @@ li.portal a, li.portal p{
   <div class="nav">
     <ul class="portal">
       <li style="pointer-events: none;" class="portal <?php echo ($lastUriSegment == 'index.php'?'active':'')?>">
-      <a style="margin-top: 1px;height:127px;" href="#" id="navaew"><img src="assets/logo/2023-AEW51-Logo.png" class="navlogo"></a></li>
+      <a style="margin-top: 1px;height:127px;" href="#" id="navaew"><img src="assets/Footer_Logo_dup.png" class="navlogo"></a></li>
        <!-- <li class="portal dropdown"><a href="#" >AEW</a>
       <div class="dropdown-content">
             <a href="aew.php" style="
@@ -1156,7 +1105,7 @@ li.portal a, li.portal p{
     </div>
   </div>-->
 
-  <li class="lg-screen portal <?php echo ($lastUriSegment == ''?'active':'')?>"><a href="index.php">HOME</a>
+   <li class="lg-screen portal <?php echo ($lastUriSegment == ''?'active':'')?>"><a href="index.php">HOME</a>
       <li class="lg-screen portal dropdown <?php echo ($lastUriSegment == 'aew.php'?'active':'')?>"><a href="">ABOUT AEW</a>
       <div class="dropdown-content">
             <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/aew.php" style="color:#000 !important">Overview</a> -->
@@ -1179,12 +1128,12 @@ li.portal a, li.portal p{
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/map.php" >PNRI Interactive Map</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/contests.php">Contests</a>
             <a href="https://aew.pnri.dost.gov.ph/aew/2023/exhibit.php">Technical Exhibits</a> -->
-            <a href="schedule.php"style="color:#9D1F45 !important">Schedule of Activities</a>
-            <a href="opening.php" style="color:#9D1F45 !important">Opening Ceremonies</a>
-            <a href="pnrdc.php" style="color:#9D1F45 !important">Philippine Nuclear Research and Development Conference</a>
-            <a href="map.php" style="color:#9D1F45 !important">PNRI Interactive Map</a>
-            <a href="contests.php"style="color:#9D1F45 !important">Contests</a>
-            <a href="exhibit.php"style="color:#9D1F45 !important">Technical Exhibits</a>
+            <a href="schedule.php">Schedule of Activities</a>
+            <a href="opening.php" >Opening Ceremonies</a>
+            <a href="pnrdc.php" >Philippine Nuclear Research and Development Conference</a>
+            <a href="map.php" >PNRI Interactive Map</a>
+            <a href="contests.php">Contests</a>
+            <a href="exhibit.php">Technical Exhibits</a>
             <!--<div href="#" class="dropdown2"><a href="#">Contests</a>
             <div class="dropdown-content2">
               <a href="#">Poster Making</a>
@@ -1192,7 +1141,7 @@ li.portal a, li.portal p{
               <a href="#">NucleART 4.0: Digital Poster Making</a>
               </div></div>-->
             <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/closing.php" >Closing Ceremonies</a> -->
-            <a href="closing.php" style="color:#9D1F45 !important">Closing Ceremonies</a>
+            <a href="closing.php" >Closing Ceremonies</a>
             <!--<a href="#" >Feedback</a>-->
 
             
