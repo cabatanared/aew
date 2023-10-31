@@ -47,7 +47,7 @@
                   <a target="__blank" href="https://www.facebook.com/PNRIDOST" target="_blank" class="website"><i class="fa-brands fa-facebook-f fa-lg" style="display: inline-block;padding: 1em 0.8em;"></i></a>
                   <a target="__blank" href="https://www.twitter.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-x-twitter fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
                   <a target="__blank" href="https://www.instagram.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-instagram fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
-                  <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank" class="website"><i class="fa-brands fa-youtube fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
+                  <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank" class="website"><i class="fa-brands fa-youtube fa-lg" style="display: inline-block;padding: 1em 0.6em;"></i></a>
                   <a target="__blank" href="https://www.tiktok.com/@dost_pnri" target="_blank" class="website"><i class="fa-brands fa-tiktok fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
                   </div>   
          
