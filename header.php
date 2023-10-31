@@ -16,6 +16,7 @@ $lastUriSegment = array_pop($uriSegments);
 <meta property="og:url" content="https://aew.pnri.dost.gov.ph/aew/2022"/>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627" />
+<link rel="icon" type="image/png" href="assets/logo/2023-AEW51-Logo-Smallv2.png">
 <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
