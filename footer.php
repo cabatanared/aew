@@ -22,8 +22,8 @@
                   <br>
     
                   <div>
-                    <img src="assets/icons/wave.png" class="aew_wave" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 25vw;right: 0;">
-                  </div><br><br>
+                    <img src="assets/icons/wave.png" class="aew_wave" style="margin-top:-50px;position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 25vw;right: 0;">
+                  </div>
                   <div class="foot_title" style="color:#9D1F45;">
                     <span style="font-weight:regular;font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase">Department of Science and Technology</span><br>
                     <span style="font-size: 16.5pt;font-family:  Gabarito-Bold;">Philippine Nuclear Research Institute</span>
@@ -57,11 +57,11 @@
               </div> 
 
               <div  style="margin-left: auto; ">
-                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 85px;">
+                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 70px;">
                 <p style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
-              <div style="margin-top: -1em;">
+              <div>
                 <img src="assets/icons/cloud.png" style="position: absolute;right: 3vw;top:37vh; width: 7vw;">  
               </div>
 
