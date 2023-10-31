@@ -572,7 +572,7 @@ input, textarea{
   background-position-x: center;
   /*min-height: 500px;*/
   min-height: 350px;
-  padding: 7rem;
+  padding: 5.5rem;
   position: relative;
   height: calc(100vh- 6em);
 }
