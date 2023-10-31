@@ -3,7 +3,7 @@
    ?>
 
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
-<div style="background:#ffdbbc;padding-top: 100px !important;padding: 4rem;">
+<div style="background:#FFF6CE;padding-top: 100px !important;padding: 4rem;">
   
   <center><div class="banner">
     <!-- <img src="assets/aew_banner.jpg" style="max-width: 1000px;width: 80vw;border: 1px solid;"> -->
@@ -16,7 +16,7 @@
         
         <br>
         <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_Overview.png">
-        <p align="justify" style="font-family: Rubik;">
+        <p align="justify" style="font-family: Gabarito-Regular;">
           <br>
           This weeklong celebration highlighting the latest innovations in nuclear science and technology is mandated under Presidential Proclamation No. 1211 in 1973 which declared December 7 to 15, and the second week of every year, as Atomic Energy Week. It was part of the government’s efforts to generate awareness of the Filipino people on the beneficial uses of nuclear science and technology. <br><br>
 
