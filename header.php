@@ -113,13 +113,23 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgmans {
-        right: 8vw;top:25em; 
+        right: 10vw;top:22em; 
       }
+
+  .imgbird {
+    right: 16vw;top:14em; 
+  }
+
+  .imgcursive {
+    top:80vh;
+    left:45vw;
+  }
+
   .imgman {
         right: 20vw;top:25em; 
       }
   .imgwoman{
-    left: 8vw;top:25em;
+    left: 9vw;top:23em;
   }
 
   .imgdna {
@@ -127,8 +137,8 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgblackwhiteatom{
-    top: 15vh;
-    left: 8vw;
+    top: 20vh;
+    left: 10vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -928,9 +938,9 @@ li.portal a, li.portal p{
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
-  .imgmans {
-
-  top:23em;
+  .imgmans{
+    right: 12vw;
+  top:30em;
   }
  .imgman {
 
@@ -955,18 +965,21 @@ li.portal a, li.portal p{
 @media (max-width: 640px){
  
  .aew {
-  width: 100%;
+  width: 70%;
  }
  .imgblackwhiteatom{
-  top:15vh;
+  top:23vh;
  }
  .imgblackwhitecloud{
-  top:15vh;
+  top:21vh;
  }
  .imgpinkgrass{
-  top:15vh;
+  top:20vh;
  }
-
+ .imgcursive{
+  top:42vh;
+  left:45vw;
+ }
 }
 
 @media (max-width: 439px){
