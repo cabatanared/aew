@@ -960,6 +960,9 @@ li.portal a, li.portal p{
  .imgblackwhiteatom{
   top:15vh;
  }
+ .imgblackwhitecloud{
+  top:15vh;
+ }
  .imgpinkgrass{
   top:15vh;
  }
