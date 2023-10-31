@@ -27,12 +27,12 @@ $lastUriSegment = array_pop($uriSegments);
 <link href="assets/PPTelegraf-Regular.otf" rel="stylesheet">
 <link href="assets/Rubik-Regular.ttf" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
-@font-face { font-family: Telegraf; src: url("assets/PPTelegraf-Regular.otf");} 
-@font-face { font-family: Rubik; src: url("assets/Rubik-Regular.ttf"); } 
-@font-face { font-family: PublicSans; src: url("assets/PublicSans-Regular.ttf"); } 
-@font-face { font-family: PublicSans-Bold; src: url("assets/PublicSans-Bold.ttf"); } 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
+@font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
+@font-face { font-family: Gabarito-Regular; src: url("assets/font/Gabarito/static/Gabarito-Regular.ttf"); } 
   ::-webkit-scrollbar {
   width: 10px;
 }
@@ -52,7 +52,7 @@ $lastUriSegment = array_pop($uriSegments);
 }
 *{
       /*font-family: 'Poppins', sans-serif;*/
-      font-family: 'PublicSans';
+      /* font-family: 'Gabarito-Bold', sans-serif; */
 }
 
 
@@ -141,11 +141,40 @@ $lastUriSegment = array_pop($uriSegments);
   #flink{
     display:flex;
   }
-  #flink a > img:hover
+  /* #flink a > img:hover
   {
     border-radius: 80%;
-    /*background: #FFCC24;*/
-    background: #D46D18;
+    background: #FF997D;
+  } */
+
+  #flink a
+  {
+    border-radius: 50%;
+    color:#ffffff;
+    background-color:#9D1F45;
+    margin: 0 5px;
+  }
+
+  #flink a.website:hover
+  {
+    background-color: #FF997D;
+    /* border-radius: 40px; */
+    border-radius: 50%;
+  /* box-shadow: 0 0 2px #888; */
+    /* padding:  0.6em 0.6em; */
+    margin: 0 5px;
+  }
+
+  #flink a.website:after
+  {
+    background-color: #FF997D;
+    /* border-radius: 50%; */
+    position:absolute;
+    width:100%;
+    height:100%;
+  /* box-shadow: 0 0 2px #888; */
+  /* padding:  0.6em 0.6em; */
+  margin: 0 5px;
   }
 
    /* centre the content in the parallax layers */
@@ -221,7 +250,7 @@ $lastUriSegment = array_pop($uriSegments);
 }
 .aew_dec{
   margin-top:14.25rem;
-  max-width: 230px;
+  max-width: 350px;
   width: 80vw;
    animation: fadeIn;
   animation-duration: 3s;
@@ -262,7 +291,7 @@ $lastUriSegment = array_pop($uriSegments);
   text-decoration: none;
   color: #fff;
   margin-bottom: 0.5rem;
-  font-family: 'PublicSans-Bold';
+  font-family: 'Gabarito-Bold';
 }
 .m2{
   /*background: #f9a11c !important;*/
@@ -276,7 +305,6 @@ $lastUriSegment = array_pop($uriSegments);
   font-weight: 600;
 }
 
-}
 .schedules > a:hover{
   background: #ffcf73;
 }
@@ -288,11 +316,11 @@ li.portal:hover {
 }
 
 li.active {
-    /*background-color: #08bf68;*/
-    background-color:#d4935d;
+    /* background-color:#d4935d; */
+    background-color: #FDB1C5;  
 }
 li.active a{
-  color: white !important;
+  /* color: white !important; */
 }
 
 .dropdown-content a:hover{
@@ -312,10 +340,11 @@ ul.portal {
 }
 li.portal a, .dropbtn {
     /*font-family: 'Poppins', sans-serif;*/
-    font-family: 'PublicSans-Bold', sans-serif;
+    font-family: 'Gabarito-Bold', sans-serif;
     display: inline-block;
-    color: black;
-    font-size: 15px;
+    color: #43414E;
+    letter-spacing: 1.2px;
+    font-size: 17px;
     font-weight: 500;
     text-align: center;
     /*padding: 45px 16px;*/
@@ -521,8 +550,8 @@ input, textarea{
 }
 
 .foot_contain{
-  /*background: #a9cf46;*/
-  background: #d4935d;
+  /* background: #d4935d; */
+  background:#ffffff;
   background-size: cover;
   background-position-x: center;
   /*min-height: 500px;*/
@@ -1021,7 +1050,7 @@ li.portal a, li.portal p{
   <div class="nav">
     <ul class="portal">
       <li style="pointer-events: none;" class="portal <?php echo ($lastUriSegment == 'index.php'?'active':'')?>">
-      <a style="margin-top: 1px;height:127px;" href="#" id="navaew"><img src="assets/Footer_Logo_dup.png" class="navlogo"></a></li>
+      <a style="margin-top: 1px;height:127px;" href="#" id="navaew"><img src="assets/logo/2023-AEW51-Logo.png" class="navlogo"></a></li>
        <!-- <li class="portal dropdown"><a href="#" >AEW</a>
       <div class="dropdown-content">
             <a href="aew.php" style="
