@@ -34,6 +34,7 @@ $lastUriSegment = array_pop($uriSegments);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
 @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
 @font-face { font-family: Gabarito-Regular; src: url("assets/font/Gabarito/static/Gabarito-Regular.ttf"); } 
+@font-face { font-family: DarumadropOne-Regular; src: url("assets/font/Darumadrop_One/DarumadropOne-Regular.ttf"); } 
   ::-webkit-scrollbar {
   width: 10px;
 }
@@ -409,6 +410,12 @@ li.portal a, .dropbtn {
 .article{
   /*width: 80vw;*/margin:auto; margin-top:2rem;max-width: 1000px;
 }
+
+#newss > h2{
+  font-family: 'DarumadropOne-Regular', sans-serif;
+  color: #9D1F45;
+}
+
 li.portal{
     /*border-bottom: 3px solid #08bf68;*/
 }
@@ -535,6 +542,13 @@ input, textarea{
 .dropdown:hover .dropdown-content {
   display: block;
   background: #f9f9f9;
+}
+
+.picnews{
+  max-height: 230px;
+  margin-right:1rem;
+  margin-bottom:1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #countdown{
