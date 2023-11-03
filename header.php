@@ -1282,7 +1282,9 @@ li.portal a, li.portal p{
           </div>
         </li>
 
-      <li class="lg-screen portal dropdown <?php echo ($lastUriSegment == 'souvenir.php'?'active':'')?>"><a href="https://aew.pnri.dost.gov.ph/aew/2023/souvenir.php">SOUVENIR PROGRAM</a>
+      <!-- <li class="lg-screen portal dropdown <?php echo ($lastUriSegment == 'souvenir.php'?'active':'')?>"><a href="https://aew.pnri.dost.gov.ph/aew/2023/souvenir.php">SOUVENIR PROGRAM</a>
+      </li> -->
+      <li class="lg-screen portal dropdown <?php echo ($lastUriSegment == 'souvenir.php'?'active':'')?>"><a href="souvenir.php">SOUVENIR PROGRAM</a>
       </li>
       <li class="lg-screen portal"><a href="#footer" >FOLLOW US</a></li>
 
