@@ -1149,11 +1149,8 @@ li.portal a, li.portal p{
   background: #fff;
   padding: 16px !important;
 }
-
-
-
-
 </style>
+<!-- Web Icon -->
 <link href="https://aew.pnri.dost.gov.ph/aew/2023/assets/logo/2023-AEW51-Logo-Smallv2.png" rel="icon">
 <title>Atomic Energy Week @ 51</title>
 </head>
