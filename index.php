@@ -325,7 +325,7 @@ right: 0;">
           <img class="cfront2" src="assets/c2 back.png" style="position: absolute; left:10vw; bottom:50vh ;width: 16vw;"> -->
 
         
-        <center><img src="assets/logo/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="margin-top:160px;-webkit-animation: float2 5s ease-in-out infinite;
+        <center><img src="assets/logo/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="margin-top:185px;-webkit-animation: float2 5s ease-in-out infinite;
           animation: float2 5s ease-in-out infinite;"></center>
         <!--<p id="date" style="font-weight: 700;color: #f98c13;font-size: 18pt;margin-bottom: 1em;text-align: center;">December 5-9, 2022</p>-->
           <center class="center_contain">
