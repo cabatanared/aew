@@ -581,6 +581,10 @@ bottom: 2.7em;
         <input class="inputs form-control" id="name" type="text" placeholder="NAME" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
         <br><br>
         <input class="inputs form-control" id="email" type="email" placeholder="EMAIL" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
+        <br><br>
+        <input class="inputs form-control" id="gender" type="gender" placeholder="GENDER" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
+        <br><br>
+        <input class="inputs form-control" id="country" type="country" placeholder="COUNTRY" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
 
         <h5 id="question_danger">Provide both name and email!</h5>
         
