@@ -572,7 +572,7 @@ bottom: 2.7em;
       <h1 class="modal-title"></h1>
 
 
-      <div class="modal-body" style="margin-top: 3em;">
+      <div class="modal-body" >
         <div id="modal-person" class="person">Security</div>
         <div id="modal-dialog" class="dialog">
           <p>Hold it right there! You need to provide your name and email address.</p>
@@ -582,9 +582,9 @@ bottom: 2.7em;
         <br><br>
         <input class="inputs form-control" id="email" type="email" placeholder="EMAIL" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="gender" type="gender" placeholder="GENDER" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
+        <input class="bs-select form-control" id="gender" placeholder="GENDER" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="country" type="country" placeholder="COUNTRY" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
+        <input class="inputs form-control" id="num_code" placeholder="COUNTRY" value="<?php echo (isset($_GET['num_code'])?$_GET['num_code']:'')?>">
 
         <h5 id="question_danger">Provide both name and email!</h5>
         
@@ -952,8 +952,10 @@ function scene_graphics(scene){
 
       let name = $('#name').val();
       let email = $('#email').val();
+      let gender = $('#gender').val();
+      let num_code = $('#num_code').val();
 
-      if(name == '' || email == ''){
+      if(name == '' || email == '' || gender == '' || num_code == ''){
         $('#question_danger').text("Please provide both Name and Email!");
         $('#question_danger').show();
       }
