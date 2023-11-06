@@ -575,7 +575,7 @@ bottom: 2.7em;
       <div class="modal-body" >
         <div id="modal-person" class="person">Security</div>
         <div id="modal-dialog" class="dialog">
-          <p>Hold it right there! You need to provide your name and email address.</p>
+          <p>Hold it right there! You need to provide your name, email address, gender and country origin.</p>
         </div>
 
         <input class="inputs form-control" id="name" type="text" placeholder="NAME" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
@@ -586,7 +586,7 @@ bottom: 2.7em;
         <br><br>
         <input class="inputs form-control" id="num_code" placeholder="COUNTRY" value="<?php echo (isset($_GET['num_code'])?$_GET['num_code']:'')?>">
 
-        <h5 id="question_danger">Provide both name and email!</h5>
+        <h5 id="question_danger">Please provide all required details!</h5>
         
         <div class="inputs pixel2 form-btn" onclick="scene_graphics(2)">SUBMIT</div>
         
@@ -956,7 +956,7 @@ function scene_graphics(scene){
       let num_code = $('#num_code').val();
 
       if(name == '' || email == '' || gender == '' || num_code == ''){
-        $('#question_danger').text("Please provide both Name and Email!");
+        $('#question_danger').text("Please provide all required details!");
         $('#question_danger').show();
       }
       else{
