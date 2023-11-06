@@ -11,12 +11,12 @@ $lastUriSegment = array_pop($uriSegments);
 <meta name="viewport" content="width=device-width">
 <!-- <link rel="stylesheet" href="assets/animate.min.css"/> -->
 <meta property="og:title" content="Atomic Energy Week @ 51"/>
-<meta property="og:image" content="https://aew.pnri.dost.gov.ph/aew/2022/assets/website_thumbnail.png"/>
+<meta property="og:image" content="https://aew.pnri.dost.gov.ph/aew/2023/assets/aew51_Website_thumbnail.png"/>
 <meta property="og:description" content="Atomic Energy Week @ 51"/>
-<meta property="og:url" content="https://aew.pnri.dost.gov.ph/aew/2022"/>
+<meta property="og:url" content="https://aew.pnri.dost.gov.ph/aew/2023"/>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627" />
-<link rel="icon" type="image/png" href="assets/logo/2023-AEW51-Logo-Smallv2.png">
+<!-- <link rel="icon" type="image/png" href="https://aew.pnri.dost.gov.ph/aew/2023/assets/logo/2023-AEW51-Logo-Smallv2.png"> -->
 <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -1154,7 +1154,7 @@ li.portal a, li.portal p{
 
 
 </style>
-<link href="assets/AEW50-Favicon01.png" rel="icon">
+<link href="https://aew.pnri.dost.gov.ph/aew/2023/assets/logo/2023-AEW51-Logo-Smallv2.png" rel="icon">
 <title>Atomic Energy Week @ 51</title>
 </head>
 
