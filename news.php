@@ -23,7 +23,7 @@
         
         <br>
 
-        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_News.png">
+        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/aew50/AEW50-Banners_News.png">
         <div class="row" style="background-size: contain;
     background-position: right;
     background-repeat: no-repeat;">
