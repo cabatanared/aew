@@ -84,8 +84,8 @@ session_start();
         #scene_box{
             width: calc(800px - 2em);
             margin: auto;
-            /*background: #c7ffe0;*/
-            background: #ffdbbc;
+            /* background: #ffdbbc; */
+            background: #FFF6CE;
             border: 4px solid;
             padding: 1em;
             position: absolute;
@@ -391,6 +391,9 @@ session_start();
 #start_button{
   width: 150px; text-align: center; margin:auto;margin-top: 2em; padding: 1em;
 }
+#login_button{
+  width: 150px; text-align: center; margin:auto;margin-top: 2em; padding: 1em;
+}
 #content{
   display: none;
 }
@@ -523,6 +526,9 @@ bottom: 2.7em;
  #start_button{
   padding:0.2em
  }
+ #login_button{
+  padding:0.2em
+ }
  #return_button{
   padding:0.2em;
   font-size: 20px;
@@ -590,10 +596,6 @@ bottom: 2.7em;
         
         <div class="inputs pixel2 form-btn" onclick="scene_graphics(2)">SUBMIT</div>
 
-        <!-- LOGIN -->
-        <div class="inputs pixel2 form-btn " onclick="scene_graphics(2)">LOGIN</div>
-        
-        
         <div id="guard" class="character-sm" style="/* margin-top: -24rem; */margin-left: 0;/* position: absolute; */">
           <img class="Character_spritesheet" src="smarty_animations/guard_stand.png" alt="smarty">
         </div>
@@ -636,16 +638,14 @@ bottom: 2.7em;
           <a id="return_button" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2022/">RETURN TO SITE</a>
         </div>
     <div style="text-align: center;margin-top: 0;">
-      <img src="../2022/assets/AEW50_Logo-with-DOST-PNRI.png" class="logo">
+      <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;">
       <p id="date" class="home_title">INTERACTIVE MAP</p>
     </div>
-    <!--<img src="../2022/Assets for Webdesign/Graphics/shape 3.png" style="opacity:0.3;position: absolute;left: -12vw;top: 10vh;width: 24vw;">-->
-    <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements (2).png" style="opacity:0.3;position: absolute;left: 6vw;top: 19vh;width: 10vw;">
-    <img src="../2022/Assets for Webdesign/Graphics/woman-laptop.png" style="opacity:0.3;position: absolute;left: 0vw;bottom:0; width: 25vw;">
+    <img src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;left: 6vw;top: 19vh;width: 10vw;">
+    <img src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;left: 0vw;bottom:0; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/shape 1.png" style="opacity:0.3;position: absolute;right: -20vw;top:22vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/shape 2.png" style="opacity:0.3;position: absolute;right: -6vw;top:-14vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/man-earphones.png" style="opacity:0.3;position: absolute;right: 4vw;bottom:0; width: 22vw;">
-    <!--<img src="../2022/Assets for Webdesign/Graphics/asterisk.png" style="opacity:0.3;position: absolute;right: 8vw;top:14vh; width: 12vw;">-->
     <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;">
       <div class="message">
         <div class="dialog_box">
@@ -653,7 +653,11 @@ bottom: 2.7em;
           <div id="dialog" class="dialog"></div>
         </div>
         <div style="position: absolute;width: 100vw;">
-          <div id="start_button" class="pixel2" onclick="proceed()">START TOUR</div>
+          <div id="start_button" class="pixel2" onclick="proceed()">REGISTER</div>
+        </div>
+
+        <div style="position: absolute;width: 100vw;top:65vh">
+          <div id="login_button" class="pixel2" onclick="proceed()">LOGIN</div>
         </div>
            
            <div class="character">
@@ -710,7 +714,7 @@ bottom: 2.7em;
 
 </div>
 <div style="position: absolute;width: 100vw;left:13em">
-          <a id="return_button2" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2022/">RETURN TO SITE</a>
+          <a id="return_button2" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2023/">RETURN TO SITE</a>
         </div>
       <div style="width:100vw;height:100vh;max-width: 1696px;margin:auto;position: relative;" id="game-container" style="text-align: center;">
       </div>
@@ -861,7 +865,7 @@ var scene_dialog = [
           echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Start Tour" button to play/start again.\'';
       }
       else{
-        echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Start Tour" button to begin.\'';
+        echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Register" button to begin or Click the "Login" button if you have already registered.\'';
       }
 
     ?>,
@@ -956,9 +960,9 @@ function scene_graphics(scene){
       let name = $('#name').val();
       let email = $('#email').val();
       let gender = $('#gender').val();
-      let num_code = $('#num_code').val();
+      let country = $('#country').val();
 
-      if(name == '' || email == '' || gender == '' || num_code == ''){
+      if(name == '' || email == '' || gender == '' || country == ''){
         $('#question_danger').text("Please provide all required details!");
         $('#question_danger').show();
       }
