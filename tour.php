@@ -582,13 +582,16 @@ bottom: 2.7em;
         <br><br>
         <input class="inputs form-control" id="email" type="email" placeholder="EMAIL" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
-        <input class="bs-select form-control" id="gender" placeholder="GENDER" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
+        <input class="inputs form-control" id="gender" placeholder="GENDER" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="num_code" placeholder="COUNTRY" value="<?php echo (isset($_GET['num_code'])?$_GET['num_code']:'')?>">
+        <input class="inputs form-control" id="country" placeholder="COUNTRY" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
 
         <h5 id="question_danger">Please provide all required details!</h5>
         
         <div class="inputs pixel2 form-btn" onclick="scene_graphics(2)">SUBMIT</div>
+
+        <!-- LOGIN -->
+        <div class="inputs pixel2 form-btn " onclick="scene_graphics(2)">LOGIN</div>
         
         
         <div id="guard" class="character-sm" style="/* margin-top: -24rem; */margin-left: 0;/* position: absolute; */">
@@ -855,7 +858,7 @@ var scene_dialog = [
 
 <?php 
       if(isset($_SESSION['email']) && !empty($_SESSION['email'])){         
-          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready explore more of PNRI facilities with me? Click the "Start Tour" button to play/start again.\'';
+          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Start Tour" button to play/start again.\'';
       }
       else{
         echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Start Tour" button to begin.\'';
