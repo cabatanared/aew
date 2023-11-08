@@ -551,6 +551,159 @@ bottom: 2.7em;
  }
 }
 
+.imgsmallatoms {
+        right: 9vw;
+        top:22em; 
+        width: 8vw;
+      }
+
+  .imgbird {
+    right: 16vw;top:14em; 
+  }
+
+  .imgyellowshine {
+        right: 20vw;top:25em; 
+        width: 5vw;
+      }
+  .imgwoman{
+    left: 9vw;top:23em;
+  }
+
+  .imgdna {
+    /* top:28em; */
+    top:75vh;
+  }
+
+  .imgblackwhiteatom{
+    top: 20vh;
+    left: 10vw;
+    width: 7vw;
+  }
+  .imgpinkgrass{
+    top:9vh;
+    left:30vw;
+    width: 5vw;
+  }
+  .imgbrownbird{
+    top:25vh;
+    right:14vw;
+    width: 9vw;
+  }
+  .imgblackwhitecloud{
+    top:13vh;
+    left:65vw;
+    width: 7vw;
+  }
+
+  .aew_wave {
+    top:10vh;
+    left:58vw;
+  }
+
+  .aew_cloud {
+    top:35vh;
+    right:58vw;
+  }
+
+  .aew_atom {
+    top:35vh;
+    right:48vw;
+  }
+
+  .aew_stars {
+    top:43vh;
+    right:26vw;
+  }
+
+  .aew_mail {
+    top:44vh;
+    left:2vw;
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 1120px){
+ 
+ .imgyellowshine {
+  top: unset;
+  bottom:33em;
+  width:10vw;
+ }
+
+ .imgwoman {
+  top: unset;
+  bottom:35em;
+ }
+
+
+}
+
+@media screen and (min-width: 760px) and (max-height: 1180px){
+  .imgsmallatoms{
+    right: 11vw;
+    top:30em;
+  }
+ .imgyellowshine {
+
+  top:45em;
+  
+ }
+
+ .imgwoman {
+
+  top:35em;
+ }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 890px){
+ 
+ .aew {
+  width: 65vw;
+ }
+
+}
+
+@media (max-width: 640px){
+ 
+ .aew {
+  width: 70%;
+ }
+ .imgblackwhiteatom{
+  top:15vh;
+  width:10vw;
+ }
+ .imgblackwhitecloud{
+  top:17vh;
+  width:12vw;
+ }
+ .imgpinkgrass{
+  top:15vh;
+  width:8vw;
+ }
+ .imgbrownbird{
+  top:17vh;
+  width:12vw;
+ }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
+
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
+ 
+}
+
     </style>
 </head>
 <body>
@@ -641,12 +794,20 @@ bottom: 2.7em;
       <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;">
       <p id="date" class="home_title">INTERACTIVE MAP</p>
     </div>
-    <img src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;left: 6vw;top: 19vh;width: 10vw;">
-    <img src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;left: 0vw;bottom:0; width: 25vw;">
-    <img src="../2022/Assets for Webdesign/Graphics/shape 1.png" style="opacity:0.3;position: absolute;right: -20vw;top:22vh; width: 25vw;">
+    <!-- <img src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;left: 6vw;top: 25vh;width: 8vw;">
+    <img src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;left: 6vw;bottom:0;top:60vh; width: 17vw;">
+    <img src="assets/PinkGrass.png" style="opacity:0.3;position: absolute;left: 30vw;transform:rotate(50deg);top: 10vh;width: 6vw;"> -->
+    <!-- <img src="../2022/Assets for Webdesign/Graphics/shape 1.png" style="opacity:0.3;position: absolute;right: -20vw;top:22vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/shape 2.png" style="opacity:0.3;position: absolute;right: -6vw;top:-14vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/man-earphones.png" style="opacity:0.3;position: absolute;right: 4vw;bottom:0; width: 22vw;">
-    <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;">
+    <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;"> -->
+    <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute; transform:rotate(50deg); ">
+    <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="position: absolute;">
+    <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="position: absolute;">
+    <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
+    <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg);">
+    <img class="imgyellowshine" src="assets/YellowShine.png" style="position: absolute; transform:rotate(25deg);">
+    <img class="imgbrownbird" src="assets/BrownBirdDoodle.png" style="position: absolute; transform:rotate(25deg);">
       <div class="message">
         <div class="dialog_box">
           <div id="person" class="person">Smarty</div>
