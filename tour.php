@@ -226,7 +226,7 @@ session_start();
   /* text-transform: uppercase; */
   
   font-size: 25px;
-  color: #9D1F45;
+  /* color: #9D1F45; */
 }
 /* LET'S GO BUTTON */
 .letgo-btn {
@@ -258,7 +258,7 @@ session_start();
   max-width: 600px; width: calc(100vw - 4em);
   margin: auto;background: white;border-radius: 35px;padding: 2em;
   /* padding-top: 0.4em; */
-  margin-top: 5rem;font-size: 21pt;font-weight: 500;
+  margin-top: 4rem;font-size: 21pt;font-weight: 500;
 }
 /* Pixel Middle */
 .pixel2::before {
@@ -289,7 +289,7 @@ session_start();
   padding: 6px 3px;
   position: relative;
   /* background: #f9a11c; */
-  background:#B6697D;
+  background:#FF997D;
   border-radius:25px;
   width: auto;
   z-index: 2;
@@ -506,9 +506,10 @@ textarea:focus {
   text-align: center;
 }
 .logo{
+  top:70vw;
   width: calc(100vw - 1em);
   /*max-width:500px;*/
-  max-width:250px;
+  /* max-width:250px; */
 }
 .down{
   bottom: 1.4em;
@@ -858,8 +859,9 @@ bottom: 2.7em;
         </div>
     <div style="text-align: center;">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
-      <p id="date" class="home_title">Byaheng Nukleyar</p><br>
-      <p id="date" class="home_title2">PNRI Virtual Tour</p>
+      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:50px;width:100vw; max-width: 1000px;">
+      <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
+      <p id="date" class="home_title2">PNRI Virtual Tour</p> -->
     </div>
     <!-- <img src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;left: 6vw;top: 25vh;width: 8vw;">
     <img src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;left: 6vw;bottom:0;top:60vh; width: 17vw;">
