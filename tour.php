@@ -235,9 +235,9 @@ session_start();
   font-size: 27px;
   background: #9D1F45;
   color:white;
-  border-radius:30px;
+  border-radius:40px;
   font-family:'DarumadropOne-Regular';
-  padding: 6px 3px;
+  padding: 5px 6px;
   z-index:2;
 }
 .person{
@@ -256,7 +256,7 @@ session_start();
   min-height:100px;
   /* border: 9px solid #d4935d; */
   max-width: 600px; width: calc(100vw - 4em);
-  margin: auto;background: white;border-radius: 8px;padding: 2em;
+  margin: auto;background: white;border-radius: 35px;padding: 2em;
   /* padding-top: 0.4em; */
   margin-top: 5rem;font-size: 21pt;font-weight: 500;
 }
@@ -419,7 +419,8 @@ session_start();
     color: #bcddf1;
 }
 #start_button{
-  width: 150px; text-align: center; margin:auto;margin-top: 2em; padding: 1em;
+  width: 150px; text-align: center; margin:auto;margin-top: 1em; 
+  /* padding: 1em; */
 }
 #login_button{
   width: 150px; text-align: center; margin:auto;margin-top: 2em; padding: 1em;
