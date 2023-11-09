@@ -28,6 +28,9 @@ $lastUriSegment = array_pop($uriSegments);
 <link href="assets/PPTelegraf-Regular.otf" rel="stylesheet">
 <link href="assets/Rubik-Regular.ttf" rel="stylesheet">
 
+<link href="assets/css/style.min.css" rel="stylesheet" />
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
@@ -1148,6 +1151,12 @@ li.portal a, li.portal p{
   /*background: #eeffe6;*/
   background: #fff;
   padding: 16px !important;
+}
+
+/* WEBSITE and VIRTUAL MAP VIEWS CSS */
+/* .content.has-bg .content-bg:before{content:'';background:url(images/bg-content-cover.png);position:absolute;left:0;right:0;top:0;bottom:0} */
+.milestone .title{
+  top:8vh;
 }
 </style>
 <!-- Web Icon -->
