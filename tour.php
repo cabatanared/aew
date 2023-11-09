@@ -26,6 +26,10 @@ session_start();
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
+      @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
+      @font-face { font-family: Gabarito-Regular; src: url("assets/font/Gabarito/static/Gabarito-Regular.ttf"); } 
+      @font-face { font-family: DarumadropOne-Regular; src: url("assets/font/Darumadrop_One/DarumadropOne-Regular.ttf"); } 
       /* fallback */
       @font-face {
         font-family: 'Material Icons';
@@ -70,10 +74,11 @@ session_start();
        font-family: 'VT323', monospace;
     }
 
-
+      /* DIALOG BOX Font */
       body {
           margin: 0;
-         font-family: 'VT323', monospace;
+         /* font-family: 'VT323', monospace; */
+         font-family: 'Gabarito-Regular';
           overflow: hidden;
       }
       canvas {
@@ -129,6 +134,7 @@ session_start();
            margin-top: calc(-64px * 3);
         }
 
+        /* SMARTY */
         .Character_spritesheet {
           -webkit-animation: moveSpritesheet 1s steps(2) infinite;
           animation: moveSpritesheet 1s steps(2) infinite;
@@ -147,12 +153,12 @@ session_start();
   color: white;
   height: auto;
   margin: 10px;
-  font-family: 'VT323';
+  /* font-family: 'Gabarito-Regular'; */
   
   position: relative;
   display: inline-block;
   vertical-align: top;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   
   cursor: pointer;
   
@@ -211,15 +217,28 @@ session_start();
     radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #f9a11c 15px);
 }
 
+/* BACK BUTTON */
 .pixel2 {
   position: relative;
   display: block;
-  margin: 10px;
-  font-family: 'VT323';
-  text-transform: uppercase;
+  /* margin: 10px; */
+  /* font-family: 'Gabarito-Regular'; */
+  /* text-transform: uppercase; */
   
   font-size: 25px;
-  color: white;
+  color: #9D1F45;
+}
+/* LET'S GO BUTTON */
+.letgo-btn {
+  position: relative;
+  display: block;
+  font-size: 27px;
+  background: #9D1F45;
+  color:white;
+  border-radius:30px;
+  font-family:'DarumadropOne-Regular';
+  padding: 6px 3px;
+  z-index:2;
 }
 .person{
   margin-top:0.5em;
@@ -230,14 +249,18 @@ session_start();
   color: #464646;
   font-size:17pt;
   text-align: justify;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 .dialog_box{
-  min-height:100px;border: 9px solid #d4935d;max-width: 600px; width: calc(100vw - 4em);
+  min-height:100px;
+  /* border: 9px solid #d4935d; */
+  max-width: 600px; width: calc(100vw - 4em);
   margin: auto;background: white;border-radius: 8px;padding: 2em;
-  padding-top: 0.4em;margin-top: 5rem;font-size: 21pt;font-weight: 500;
+  /* padding-top: 0.4em; */
+  margin-top: 5rem;font-size: 21pt;font-weight: 500;
 }
+/* Pixel Middle */
 .pixel2::before {
   content: "";
   display: block;
@@ -246,26 +269,28 @@ session_start();
   bottom: 10px;
   left: -10px;
   right: -10px;
-  background: #f9a11c;
+  /* background: #f9a11c; */
   z-index: -1;
 }
-
+/* Pixel Middle */
 .pixel2::after {
   content: "";
   display: block;
   position: absolute;
-  top: 4px;
-  bottom: 4px;
-  left: -6px;
-  right: -6px;
-  background: #f9a11c;
+  /* top: 2px;
+  bottom: 2px; */
+  left: -4px;
+  right: -4px;
+  /* background: #f9a11c; */
   z-index: -1;
 }
 
 .pixel2 {
-  padding: 10px 10px;
+  padding: 6px 3px;
   position: relative;
-  background: #f9a11c;
+  /* background: #f9a11c; */
+  background:#B6697D;
+  border-radius:25px;
   width: auto;
   z-index: 2;
 }
@@ -310,15 +335,20 @@ session_start();
   background: #555; 
 }
 
-
+/* HOVER FOR BUTTONS -VMAP */
 .pixel2:hover{
-  background: #b9730a;
+  background: #9D1F45;
+  color:white;
 }
 .pixel2:hover::after{
-  background: #b9730a;
+  background: #9D1F45;
 }
-.pixel2:hover::before{
+/* .pixel2:hover::before{
   background: #b9730a;
+} */
+.letgo-btn:hover{
+  background: #B6697D;
+  color:#9D1F45;
 }
 
 #places{
@@ -418,7 +448,7 @@ textarea:focus {
   outline: none;
 }
 .form-btn{
-  width: 100px; text-align: center; margin:auto;margin-top: 2em;
+  width: 100px; text-align: center; margin:auto;margin-top: 1em;
 }
 .form-control{
   width: calc(100% - 2em);
@@ -457,7 +487,22 @@ textarea:focus {
   border: 2px solid;
 }
 .home_title{
-  font-weight: 700;color: #f98c13;font-size: 60pt;margin-bottom: 0;line-height:1px;margin-top: 29px;text-align: center;
+  font-family:'DarumadropOne-Regular';
+  color: #231F20;
+  font-size: 80pt;
+  margin-bottom: 0;
+  line-height:1px;
+  /* margin-top: 29px; */
+  text-align: center;
+}
+.home_title2{
+  font-family:'DarumadropOne-Regular';
+  color: #231F20;
+  font-size: 30pt;
+  margin-top:7vh;
+  line-height:1px;
+  /* margin-top: 29px; */
+  text-align: center;
 }
 .logo{
   width: calc(100vw - 1em);
@@ -530,8 +575,8 @@ bottom: 2.7em;
   padding:0.2em
  }
  #return_button{
-  padding:0.2em;
-  font-size: 20px;
+  /* padding:0.2em; */
+  /* font-size: 20px; */
   width: 120px !important;
  }
  .character{
@@ -539,6 +584,9 @@ bottom: 2.7em;
  }
  .home_title{
   font-size: 25pt;
+ }
+ .home_title2{
+  font-size: 19pt;
  }
 }
 #info{
@@ -668,20 +716,37 @@ bottom: 2.7em;
   width: 70%;
  }
  .imgblackwhiteatom{
-  top:15vh;
+  top:20vh;
+  left:4vh;
   width:10vw;
  }
+ .imgwoman{
+  top:41vh;
+  left:2vh;
+  width:6vw;
+ }
+ .imgsmallatoms{
+  top:39vh;
+  right:15vw;
+ }
+ .imgyellowshine{
+  top:45vh;
+  right:20vw;
+ }
  .imgblackwhitecloud{
-  top:17vh;
+  top:18vh;
   width:12vw;
  }
  .imgpinkgrass{
-  top:15vh;
+  top:16vh;
   width:8vw;
  }
  .imgbrownbird{
-  top:17vh;
+  top:22vh;
   width:12vw;
+ }
+ .login-btn{
+  top:-8vh;
  }
  .aew_wave{
   top:48vh;
@@ -787,12 +852,13 @@ bottom: 2.7em;
   </div>
     
   <div id="scene_box">
-  <div style="position: absolute;width: 100vw;">
-          <a id="return_button" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2022/">RETURN TO SITE</a>
+  <div style="width: 100vw;">
+          <a id="return_button" class="pixel2" style="font-family:DarumadropOne-Regular;text-decoration: none;width:110px;text-align:center" href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
         </div>
-    <div style="text-align: center;margin-top: 0;">
-      <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;">
-      <p id="date" class="home_title">INTERACTIVE MAP</p>
+    <div style="text-align: center;">
+      <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
+      <p id="date" class="home_title">Byaheng Nukleyar</p><br>
+      <p id="date" class="home_title2">PNRI Virtual Tour</p>
     </div>
     <!-- <img src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;left: 6vw;top: 25vh;width: 8vw;">
     <img src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;left: 6vw;bottom:0;top:60vh; width: 17vw;">
@@ -801,28 +867,29 @@ bottom: 2.7em;
     <img src="../2022/Assets for Webdesign/Graphics/shape 2.png" style="opacity:0.3;position: absolute;right: -6vw;top:-14vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/man-earphones.png" style="opacity:0.3;position: absolute;right: 4vw;bottom:0; width: 22vw;">
     <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;"> -->
-    <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute; transform:rotate(50deg); ">
-    <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="position: absolute;">
-    <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="position: absolute;">
-    <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
-    <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg);">
-    <img class="imgyellowshine" src="assets/YellowShine.png" style="position: absolute; transform:rotate(25deg);">
-    <img class="imgbrownbird" src="assets/BrownBirdDoodle.png" style="position: absolute; transform:rotate(25deg);">
+    <!-- <img class="imgpinkgrass" src="assets/PinkGrass.png" style="opacity:0.3;position: absolute; transform:rotate(50deg); ">
+    <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="opacity:0.3;position: absolute;">
+    <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;">
+    <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;transform:rotate(25deg); width: 15vw;">
+    <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);">
+    <img class="imgyellowshine" src="assets/YellowShine.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);">
+    <img class="imgbrownbird" src="assets/BrownBirdDoodle.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);"> -->
       <div class="message">
         <div class="dialog_box">
-          <div id="person" class="person">Smarty</div>
+          <!-- <div id="person" class="person">Smarty</div> -->
           <div id="dialog" class="dialog"></div>
+          <div>
+            <div id="start_button" class="letgo-btn" onclick="proceed()">Let's go!</div>
+            </div>
         </div>
-        <div style="position: absolute;width: 100vw;">
-          <div id="start_button" class="pixel2" onclick="proceed()">REGISTER</div>
-        </div>
+        
 
-        <div style="position: absolute;width: 100vw;top:65vh">
-          <div id="login_button" class="pixel2" onclick="proceed()">LOGIN</div>
-        </div>
+        <!-- <div style="position: absolute;width: 100vw;top:55vh">
+          <div id="login_button" class="pixel2 login-btn" onclick="proceed()">LOGIN</div>
+        </div> -->
            
            <div class="character">
-            <img class="Character_spritesheet" src="smarty_animations/intro2.png" alt="smarty">           
+            <!-- <img class="Character_spritesheet" src="smarty_animations/intro2.png" alt="smarty">            -->
           </div>
           
         </div>
@@ -875,7 +942,7 @@ bottom: 2.7em;
 
 </div>
 <div style="position: absolute;width: 100vw;left:13em">
-          <a id="return_button2" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2023/">RETURN TO SITE</a>
+          <a id="return_button2" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
         </div>
       <div style="width:100vw;height:100vh;max-width: 1696px;margin:auto;position: relative;" id="game-container" style="text-align: center;">
       </div>
@@ -1023,7 +1090,7 @@ var scene_dialog = [
 
 <?php 
       if(isset($_SESSION['email']) && !empty($_SESSION['email'])){         
-          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Start Tour" button to play/start again.\'';
+          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Login" button to play/start again.\'';
       }
       else{
         echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Register" button to begin or Click the "Login" button if you have already registered.\'';
