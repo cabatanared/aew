@@ -564,12 +564,15 @@ bottom: 2.7em;
   font-size: 25pt;
  }
  .dialog_box{
-  padding: 1em;
-  margin-left: 0;
-  margin-top: 3rem;
+  align-items: center;
+  padding: 5em;
+  /* margin-left: 2vw; */
+  margin-top: 2rem;
+  font-size:5px;
+  width:calc(50vw - 4em);
  }
  .dialog{
-  font-size:13pt;
+  font-size:11pt;
  }
  #start_button{
   padding:0.2em
@@ -798,7 +801,7 @@ bottom: 2.7em;
  }
 
  .logo{
-    width:55vw;
+    width:65vw;
   }
 
  /* BACK BUTTON */
