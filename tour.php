@@ -249,6 +249,7 @@ session_start();
   color: #464646;
   font-size:17pt;
   text-align: justify;
+  margin-left:130px;
   /* line-height: 1.5; */
 }
 
@@ -506,8 +507,7 @@ textarea:focus {
   text-align: center;
 }
 .logo{
-  top:70vw;
-  width:60vw;
+  width:55vw;
   /* width: calc(100vw - 1em); */
   /*max-width:500px;*/
   /* max-width:250px; */
@@ -571,7 +571,9 @@ bottom: 2.7em;
   font-size:5px;
   width:calc(50vw - 4em);
  }
+ /* DIALOG BOX FONT in CP */
  .dialog{
+  margin-left:auto;
   font-size:11pt;
  }
  #start_button{
@@ -611,8 +613,8 @@ bottom: 2.7em;
 
 .imgsmallatoms {
         right: 9vw;
-        top:22em; 
-        width: 8vw;
+        top:10em; 
+        width: 13vw;
       }
 
   .imgbird {
@@ -620,11 +622,23 @@ bottom: 2.7em;
   }
 
   .imgyellowshine {
-        right: 20vw;top:25em; 
-        width: 5vw;
+        right: 6vw;
+        width: 18vw;
       }
   .imgwoman{
-    left: 9vw;top:23em;
+    left: 10vw;
+    top:20em;
+    width:15vw;
+  }
+  .smarty{
+    left: 23vw;
+    top:23em;
+    width:20vw;
+  }
+  .uranium{
+    left: 4vw;
+    top:35em;
+    width:15vw;
   }
 
   .imgdna {
@@ -633,9 +647,9 @@ bottom: 2.7em;
   }
 
   .imgblackwhiteatom{
-    top: 20vh;
-    left: 10vw;
-    width: 7vw;
+    top: 7vh;
+    left: 6vw;
+    width: 14vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -643,9 +657,9 @@ bottom: 2.7em;
     width: 5vw;
   }
   .imgbrownbird{
-    top:25vh;
-    right:14vw;
-    width: 9vw;
+    top:9vh;
+    right:9vw;
+    width: 11vw;
   }
   .imgblackwhitecloud{
     top:13vh;
@@ -690,24 +704,33 @@ bottom: 2.7em;
   top: unset;
   bottom:35em;
  }
+ .smarty {
+  top: unset;
+  bottom:35em;
+ }
+
+ .uranium {
+  top: unset;
+  bottom:35em;
+ }
 
 
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
   .imgsmallatoms{
-    right: 11vw;
-    top:30em;
+    right: 16vw;
+    top:19em;
   }
  .imgyellowshine {
 
-  top:45em;
+  top:33em;
   
  }
 
  .imgwoman {
 
-  top:35em;
+  /* top:35em; */
  }
 
 }
@@ -731,6 +754,16 @@ bottom: 2.7em;
   width:10vw;
  }
  .imgwoman{
+  top:41vh;
+  left:2vh;
+  width:6vw;
+ }
+ .smarty{
+  top:45vh;
+  left:2vh;
+  width:6vw;
+ }
+ .uranium{
   top:41vh;
   left:2vh;
   width:6vw;
@@ -814,6 +847,23 @@ bottom: 2.7em;
 }
 }
 
+    /* SMARTY ANIMATION */
+    img.smarty {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.smarty {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
 
 /* @media (max-width: 460.00px){
   .clogo{
@@ -913,7 +963,7 @@ bottom: 2.7em;
     </a>
     <div style="text-align: center;">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
-      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:80px;">
+      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:120px;">
       <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
       <p id="date" class="home_title2">PNRI Virtual Tour</p> -->
     </div>
@@ -924,13 +974,15 @@ bottom: 2.7em;
     <img src="../2022/Assets for Webdesign/Graphics/shape 2.png" style="opacity:0.3;position: absolute;right: -6vw;top:-14vh; width: 25vw;">
     <img src="../2022/Assets for Webdesign/Graphics/man-earphones.png" style="opacity:0.3;position: absolute;right: 4vw;bottom:0; width: 22vw;">
     <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;"> -->
-    <!-- <img class="imgpinkgrass" src="assets/PinkGrass.png" style="opacity:0.3;position: absolute; transform:rotate(50deg); ">
-    <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="opacity:0.3;position: absolute;">
-    <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="opacity:0.3;position: absolute;">
-    <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="opacity:0.3;position: absolute;transform:rotate(25deg); width: 15vw;">
-    <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);">
-    <img class="imgyellowshine" src="assets/YellowShine.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);">
-    <img class="imgbrownbird" src="assets/BrownBirdDoodle.png" style="opacity:0.3;position: absolute; transform:rotate(25deg);"> -->
+    <!-- <img class="imgpinkgrass" src="assets/PinkGrass.png" style="opacity:0.3;position: absolute; transform:rotate(50deg); "> -->
+    <!-- <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="opacity:0.3;position: absolute;"> -->
+    <img class="imgblackwhiteatom" src="assets/Isotopes/Tritium.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg)">
+    <img class="imgwoman" src="assets/Isotopes/Technetium-99m.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg);">
+    <img class="uranium" src="assets/Isotopes/Uranium-238.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg);">
+    <img class="imgsmallatoms" src="assets/Isotopes/Helium-4.png" style="opacity:0.3;position: absolute;">
+    <img class="imgyellowshine" src="assets/Isotopes/Nitrogen-14.png" style="opacity:0.3;position: absolute; transform:rotateY(180deg)">
+    <img class="imgbrownbird" src="assets/Isotopes/Helium-3.png" style="opacity:0.3;position: absolute; ">
+    <img class="smarty" src="assets/Isotopes/Smarty.png" style="position: absolute;">
       <div class="message">
         <div class="dialog_box">
           <!-- <div id="person" class="person">Smarty</div> -->
