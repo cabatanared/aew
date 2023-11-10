@@ -507,6 +507,7 @@ textarea:focus {
   text-align: center;
 }
 .logo{
+  margin-top:10vh;
   width:55vw;
   /* width: calc(100vw - 1em); */
   /*max-width:500px;*/
@@ -563,13 +564,23 @@ bottom: 2.7em;
  .person{
   font-size: 25pt;
  }
+ .logo{
+  margin-top:60px;
+ }
+ /* DIALOG BOX IN CP */
  .dialog_box{
   align-items: center;
   padding: 5em;
   /* margin-left: 2vw; */
   margin-top: 2rem;
-  font-size:5px;
-  width:calc(50vw - 4em);
+  font-size:4px;
+  width:calc(45vw - 4em);
+ }
+ /* LETS GO BUTTON IN CP */
+ .letgo-btn{
+  font-size:18px;
+  width:90px !important;
+  padding:6px 5px;
  }
  /* DIALOG BOX FONT in CP */
  .dialog{
@@ -614,7 +625,7 @@ bottom: 2.7em;
 .imgsmallatoms {
         right: 9vw;
         top:10em; 
-        width: 13vw;
+        width: 20vw;
       }
 
   .imgbird {
@@ -697,7 +708,7 @@ bottom: 2.7em;
  .imgyellowshine {
   top: unset;
   bottom:33em;
-  width:10vw;
+  width:20vw;
  }
 
  .imgwoman {
@@ -749,32 +760,32 @@ bottom: 2.7em;
   width: 70%;
  }
  .imgblackwhiteatom{
-  top:20vh;
-  left:4vh;
-  width:10vw;
+  top:8vh;
+  left:1vh;
+  width:20vw;
  }
  .imgwoman{
-  top:41vh;
-  left:2vh;
-  width:6vw;
+  top:20vh;
+  left:3vh;
+  width:20vw;
  }
  .smarty{
-  top:45vh;
-  left:2vh;
-  width:6vw;
+  top:30vh;
+  left:7vh;
+  width:30vw;
  }
  .uranium{
-  top:41vh;
-  left:2vh;
-  width:6vw;
+  top:34vh;
+  left:1vh;
+  width:20vw;
  }
  .imgsmallatoms{
-  top:39vh;
-  right:15vw;
+  top:20vh;
+  right:11vw;
  }
  .imgyellowshine{
-  top:45vh;
-  right:20vw;
+  top:32vh;
+  right:9vw;
  }
  .imgblackwhitecloud{
   top:18vh;
@@ -785,8 +796,8 @@ bottom: 2.7em;
   width:8vw;
  }
  .imgbrownbird{
-  top:22vh;
-  width:12vw;
+  top:11vh;
+  width:13vw;
  }
  .login-btn{
   top:-8vh;
@@ -965,7 +976,7 @@ img.smarty {
     </a>
     <div style="text-align: center;">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
-      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:120px;">
+      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo">
       <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
       <p id="date" class="home_title2">PNRI Virtual Tour</p> -->
     </div>
