@@ -148,7 +148,7 @@ session_start();
           image-rendering: pixelated;
         }
 
-        .pixel, .pixel2 {
+  .pixel, .pixel2 {
   font-size: 25px;
   color: white;
   height: auto;
@@ -507,7 +507,8 @@ textarea:focus {
 }
 .logo{
   top:70vw;
-  width: calc(100vw - 1em);
+  width:60vw;
+  /* width: calc(100vw - 1em); */
   /*max-width:500px;*/
   /* max-width:250px; */
 }
@@ -579,7 +580,11 @@ bottom: 2.7em;
  #return_button{
   /* padding:0.2em; */
   /* font-size: 20px; */
-  width: 120px !important;
+  width: 60px !important;
+ }
+ .clogo{
+  width:40px !important;
+  top:90vh;
  }
  .character{
   margin-left: 25%;
@@ -771,6 +776,48 @@ bottom: 2.7em;
  
 }
 
+/* DOST PNRI LOGO */
+.clogo{
+  width: 65px;padding-top: 13px;margin-left: auto; margin-right: 1em;
+}
+@media (max-width: 1076.00px){
+  .clogo{
+    width: 50px;
+    padding-top: 5px;
+    right: 6vw;
+    /* margin-right: 3em; */
+   }
+  .logo{
+    width:70vw; 
+  }
+}
+@media (max-width: 530.00px){
+  /* DOST PNRI LOGO */
+  .clogo{
+  width: 50px;
+ }
+
+ .logo{
+    width:55vw;
+  }
+
+ /* BACK BUTTON */
+ .pixel, .pixel2 {
+  font-size: 15px;
+  color: white;
+  height: auto;
+  margin: 10px;
+  width:50px;
+}
+}
+
+
+/* @media (max-width: 460.00px){
+  .clogo{
+    margin-right: 0;
+    display: none;
+  }
+} */
     </style>
 </head>
 <body>
@@ -854,12 +901,16 @@ bottom: 2.7em;
   </div>
     
   <div id="scene_box">
-  <div style="width: 100vw;">
-          <a id="return_button" class="pixel2" style="font-family:DarumadropOne-Regular;text-decoration: none;width:110px;text-align:center" href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
-        </div>
+    <div style="width: 100vw;">
+          <a id="return_button" class="pixel2" style="left:3vw;font-family:DarumadropOne-Regular;text-decoration: none;width:110px;text-align:center" href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
+    </div>
+    <a class="portal" style="position: absolute;right: 6vw;bottom:0;top:2vh;">
+        <img src="Assets for Webdesign/DOST_logo.png" class="clogo">
+        <img src="Assets for Webdesign/PNRI_logo.png" class="clogo">
+    </a>
     <div style="text-align: center;">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
-      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:50px;width:100vw; max-width: 1000px;">
+      <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo" style="margin-top:80px;">
       <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
       <p id="date" class="home_title2">PNRI Virtual Tour</p> -->
     </div>
