@@ -881,6 +881,9 @@ li.portal a, li.portal p{
   #countdown_contain {
     height: 100px;
   }
+  .gear {
+  top: 75vw;
+ }
 }
 
 
@@ -1008,6 +1011,9 @@ li.portal a, li.portal p{
  
  .aew {
   width: 65vw;
+ }
+ .gear {
+  top: 80w;
  }
 
 }

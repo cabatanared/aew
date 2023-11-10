@@ -138,6 +138,24 @@
   }
 }
 
+.gear {
+  position: absolute;
+	opacity: 0;
+	animation: change-img-anim 10s infinite, float2 5s ease-in-out infinite;
+  /* top: 21vw; */
+  left: 26vw;
+}
+.gear:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.gear:nth-of-type(2) {
+	animation-delay: 5s;
+}
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	50%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
 
 .bubble
 {
@@ -317,7 +335,7 @@ right: 0;">
     </div> -->
 
    <!--  <center><img src="assets/smarty.gif" id="smarty" ></center> -->
-      <div class="parallax__layer parallax__layer--base" >
+      <div class="parallax__layer parallax__layer--base aewgear_grp" >
        <!-- <center> <img src="assets/logos.png" class="logos"></center>
 
          <img class="cfront1" src="assets/c1 back.png" style="position: absolute; right:2rem;top:60px;width: 6vw;">
@@ -325,8 +343,18 @@ right: 0;">
           <img class="cfront2" src="assets/c2 back.png" style="position: absolute; left:10vw; bottom:50vh ;width: 16vw;"> -->
 
         
-        <center><img src="assets/logo/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="margin-top:185px;-webkit-animation: float2 5s ease-in-out infinite;
-          animation: float2 5s ease-in-out infinite;"></center>
+        <!-- <center><img src="assets/logo/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="margin-top:185px;-webkit-animation: float2 5s ease-in-out infinite;
+          animation: float2 5s ease-in-out infinite;"><br>
+          <img src="assets/51st_atomic_energy_week_text.png" class="gear">
+          <img src="assets/Gearing_up_description.png" class="gear">
+        </center> -->
+        <center><img src="assets/2023-AEW51-GearUp.png" class="aew" style="margin-top:185px;-webkit-animation: float2 5s ease-in-out infinite;
+          animation: float2 5s ease-in-out infinite;"><br>
+          <img src="assets/2023-AEW51-GearUp-theme.png" class="gear" style="width:50vw;">
+          <img src="assets/2023-AEW51-Logo-Text.png" class="gear" style="width:48vw;">
+          <img src="assets/2023-AEW51-date.png" class="aewdate" style="margin-top:120px;-webkit-animation: float2 5s ease-in-out infinite;
+          animation: float2 5s ease-in-out infinite; width:25vw;">
+        </center>
         <!--<p id="date" style="font-weight: 700;color: #f98c13;font-size: 18pt;margin-bottom: 1em;text-align: center;">December 5-9, 2022</p>-->
           <center class="center_contain">
             <!--<a class="bub" href="https://aewph.com/lobby" target="_blank">Click here to visit the<br> AEW Platform!</a>-->
