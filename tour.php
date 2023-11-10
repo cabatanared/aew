@@ -348,8 +348,8 @@ session_start();
   background: #b9730a;
 } */
 .letgo-btn:hover{
-  background: #B6697D;
-  color:#9D1F45;
+  background: #ff997d;
+  color:white;
 }
 
 #places{
@@ -908,6 +908,8 @@ img.smarty {
         <br><br>
         <input class="inputs form-control" id="email" type="email" placeholder="EMAIL" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
+        <input class="inputs form-control" id="age" type="age" placeholder="AGE" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
+        <br><br>
         <input class="inputs form-control" id="gender" placeholder="GENDER" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <br><br>
         <input class="inputs form-control" id="country" placeholder="COUNTRY" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
@@ -1202,7 +1204,7 @@ var scene_dialog = [
           echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Login" button to play/start again.\'';
       }
       else{
-        echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Register" button to begin or Click the "Login" button if you have already registered.\'';
+        echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Lets go!" button to begin.\'';
       }
 
     ?>,
