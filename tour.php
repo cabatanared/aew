@@ -7,16 +7,18 @@ session_start();
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8" />
-    <meta property="og:image" content="https://aew.pnri.dost.gov.ph/aew/2022/Assets for Webdesign/aew_logo_no_date.png" />
+<meta property="og:image" content="https://aew.pnri.dost.gov.ph/aew/2023/assets/aew51_Website_thumbnail.png"/>
 <meta name="viewport" content= "width=device-width, user-scalable=no">
 <meta property="og:description" content="AEW49 Virtual Tours. Learn about the facilities of PNRI" />
 
-<meta property="og:url"content="https://aew.pnri.dost.gov.ph/aew/2022/" />
+<meta property="og:url"content="https://aew.pnri.dost.gov.ph/aew/2023/" />
 
-<meta property="og:title" content="Atomic Energy Week 50 Virtual Tour" />
+<meta property="og:title" content="Atomic Energy Week 51 Virtual Tour" />
 
-    <title>AEW50 Virtual Tour</title>
-    <link href="assets/AEW50-Favicon01.png" rel="icon">
+    <!-- FAVICON -->
+    <title>AEW51 Virtual Tour</title>
+    <link href="https://aew.pnri.dost.gov.ph/aew/2023/assets/logo/2023-AEW51-Website_favicon.png" rel="icon">
+    
     <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="dist/phaser.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -83,7 +85,7 @@ session_start();
           overflow: hidden;
       }
       canvas {
-        border: 4px solid;
+        border: 4px solid #F69C12;
         
       }
 
@@ -337,7 +339,8 @@ session_start();
   padding: 6px 3px;
   position: relative;
   /* background: #f9a11c; */
-  background:#FF997D;
+  /* background:#FF997D; */
+  background:#9D1F45;
   color:white;
   border-radius:25px;
   width: auto;
@@ -423,7 +426,7 @@ session_start();
   left: 0.8em;
   z-index: 30;
   padding: 0.2em;
-  top: 0.1em;
+  top: 0.3em;
   background: white;
   border: 4px solid #f9a11c;
   /*z-index: 1;*/
@@ -468,16 +471,18 @@ session_start();
   /* SCROLL BAR */
   overflow-y: scroll;
   position: relative;
-  max-width: 600px;
+  max-width: 550px;
   width: calc(100vw - 4em);
   /*background: #efffe5;*/
   background-color:white; 
+  /* background:rgb(255, 219, 188); */
   margin: auto;
   padding: 2em;
   margin-top: 6em;
   /* border: 4px solid; */
 }
 .modal-title{
+  font-size:25px;
   margin-top: -0.5em;
   font-family: 'DarumadropOne-Regular';
   color:#9D1F45;
@@ -560,9 +565,11 @@ textarea:focus {
   cursor: pointer;
   height: 60px;
   width: 60px;
-  background: #f9a11c73;
+  /* background: #f9a11c73; */
+  background: #9D1F45;
   border-radius: 50%;
-  color: black;
+  /* color: black; */
+  color: white;
   position: absolute;
   z-index: 111111;
   border: 2px solid;
@@ -574,14 +581,16 @@ textarea:focus {
 .up{
   bottom: 4em;
   left: 4em;
-  background-image: url('Tiles/up.png');
+  background-image: url('Tiles/up2.png');
 }
 .zoom_control{
+  border: white;
   cursor: pointer;
   height: 40px;
   width: 40px;
-  background: #f9a11c82;
-  border: 2px solid;
+  /* background: #f9a11c82; */
+  background: #9D1F45;
+  border: 2px solid white;
 }
 .home_title{
   font-family:'DarumadropOne-Regular';
@@ -611,17 +620,17 @@ textarea:focus {
 .down{
   bottom: 1.4em;
   left: 4em;
-  background-image: url('Tiles/down.png');
+  background-image: url('Tiles/down2.png');
 }
 .left{
  bottom: 2.7em;
   left: 1.8em;
-  background-image: url('Tiles/left.png');
+  background-image: url('Tiles/left2.png');
 }
 .right{
 bottom: 2.7em;
   left: 6.2em;
-  background-image: url('Tiles/right.png');
+  background-image: url('Tiles/right2.png');
 }
 .responsive-iframe {
   position: absolute;
@@ -722,8 +731,12 @@ bottom: 2.7em;
         top:10em;  */
         width: 7vw;
       }
+
+.modal-dialog{
+  font-size:30px;
+}
 .register-label{
-  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:30px;font-weight:bold;color:#282829;
+  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:30px;font-weight:bold;color:#282829;margin-top: 55px;
 }
 .imgsmallatoms {
         right: 9vw;
@@ -833,8 +846,8 @@ bottom: 2.7em;
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
   .pencil{
-    right: 8vw;
-    top:-1em;
+    right: 6vw;
+    top:1vh;
   }
 
   .imgsmallatoms{
@@ -889,8 +902,8 @@ bottom: 2.7em;
  }
  /* REGISTRATION IN MOBILE */
  .pencil{
-  top:-1vh;
-  right:6vw;
+  top:1vh;
+  right:1vw;
   width:20vw;
  }
 
@@ -1075,7 +1088,7 @@ img.smarty {
         </div>
 
         <!-- General Medina Contents -->
-        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  padding-top: 56.25%; border: 5px solid #F69C12">
+        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  margin-top: 30px;padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAExdiiK3Io/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
@@ -1210,10 +1223,10 @@ img.smarty {
    <div class="sc"><button class="screenbtn right"></button></div>
 
 <div style="position:absolute;bottom: 7em;right: 0;">
-  <button  class="zoom_control" onclick="action ='zoom';"><span class="material-icons">add</span></button>
+  <button  class="zoom_control" style="color:white" onclick="action ='zoom';"><span class="material-icons">add</span></button>
 </div>
 <div style="position:absolute;bottom: 5.3em;right: 7px;font-weight: 600;"> Zoom</div>
-<div style="position:absolute;bottom: 2em;right: 0;"><button  class="zoom_control" onclick="action ='zoom_out';"><span class="material-icons">minimize</span></button></div>
+<div style="position:absolute;bottom: 2em;right: 0;"><button  class="zoom_control" style="color:white" onclick="action ='zoom_out';"><span class="material-icons">minimize</span></button></div>
 
 <script type="text/javascript">
   var timeLeft = 3;
@@ -1473,7 +1486,7 @@ function scene_graphics(scene){
             $('#lbl_email').text(email);
             $('.close').show();
             $('#question_danger').hide();
-            $('#modal-dialog').html('<p>Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
+            $('#modal-dialog').html('<p style="font-size:20px;margin-top:110px;Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
             setTimeout(countdown, 1000);
             $('.inputs').remove();
             $('#guard > img').addClass('smile');
