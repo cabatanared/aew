@@ -71,7 +71,8 @@ session_start();
 
 
       @font-face {
-       font-family: 'VT323', monospace;
+       /* font-family: 'VT323', monospace; */
+       font-family: 'Gabarito-Regular';
     }
 
       /* DIALOG BOX Font */
@@ -170,7 +171,7 @@ session_start();
   user-select: none;
 }
 
-.pixel:active, .pixel2:active {
+.pixel:active, .pixel2:active, .pixel3:active {
   top: 2px;
 }
 
@@ -218,7 +219,7 @@ session_start();
 }
 
 /* BACK BUTTON */
-.pixel2 {
+.pixel2, .pixel3 {
   position: relative;
   display: block;
   /* margin: 10px; */
@@ -296,6 +297,53 @@ session_start();
   z-index: 2;
 }
 
+/* SUBMIT BUTTON */
+.submit-btn {
+  padding: 6px 3px;
+  position: relative;
+  /* background: #f9a11c; */
+  background:#9D1F45;
+  border-radius:25px;
+  width: auto;
+  z-index: 2;
+}
+
+/* Pixel Middle */
+.pixel3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: -10px;
+  right: -10px;
+  /* background: #f9a11c; */
+  z-index: -1;
+}
+/* Pixel Middle */
+.pixel3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* top: 2px;
+  bottom: 2px; */
+  left: -4px;
+  right: -4px;
+  /* background: #f9a11c; */
+  z-index: -1;
+}
+
+.pixel3 {
+  padding: 6px 3px;
+  position: relative;
+  /* background: #f9a11c; */
+  background:#FF997D;
+  color:white;
+  border-radius:25px;
+  width: auto;
+  z-index: 2;
+}
+
 /* width */
 .modal::-webkit-scrollbar {
   width: 7px;
@@ -303,7 +351,7 @@ session_start();
 
 /* Track */
 .modal::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
  
 /* Handle */
@@ -344,6 +392,20 @@ session_start();
 .pixel2:hover::after{
   background: #9D1F45;
 }
+.pixel3:hover{
+  background: #9D1F45;
+  color:white;
+}
+.pixel3:hover::after{
+  background: #9D1F45;
+}
+.submit-btn:hover{
+  background: #FF997D;
+  color:white;
+}
+.submit-btn:hover::after{
+  background: #FF997D;
+}
 /* .pixel2:hover::before{
   background: #b9730a;
 } */
@@ -374,54 +436,85 @@ session_start();
   height: 100vh;
   position: absolute;
   background: #efffe538;
+  /* background: #FFF6CE; */
+  /* opacity:0.3; */
   z-index: 4;
 }
+
+/* REGISTRATION FONT */
 ::-webkit-input-placeholder { /* Edge */
-  font-family: 'VT323';
+  /* font-family: 'VT323'; */
+  font-family:'Gabarito-Regular';
+  color:#282829;
   font-size: 13pt;
 }
 
 ::placeholder {
-  font-family: 'VT323';
+  font-family:'Gabarito-Regular';
   font-size: 13pt;
 }
 #seconds{
   text-align: center;
 }
 .modal{
+  -webkit-transform:translate(0,0);
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  background-clip:padding-box;
+  /* border-radius: 30px; */
+  display:block;
+  opacity: 1;
   height: 100vh;
   max-height: 600px;
+  /* SCROLL BAR */
   overflow-y: scroll;
   position: relative;
   max-width: 600px;
   width: calc(100vw - 4em);
   /*background: #efffe5;*/
-  background: #ffdbbc; 
+  background-color:white; 
   margin: auto;
   padding: 2em;
   margin-top: 6em;
-  border: 4px solid;
+  /* border: 4px solid; */
 }
 .modal-title{
   margin-top: -0.5em;
+  font-family: 'DarumadropOne-Regular';
+  color:#9D1F45;
+  text-transform: uppercase;
+  line-height: 30.5px;
 }
 .question{
-  max-width: 544px;
+  /* max-width: 544px; */
   width: calc(100% - 1em);
-  background: #2b6f97;
-  color: white;
+  /* background: #2b6f97; */
+  background: #FFF6CE;
+  /* color: white; */
   padding: 0.5em;
   margin-bottom: 0.5em;
-  border: 1px solid #2b6f97;
+  border: 1px solid #FFF6CE;
   border-radius: 10px;
 }
 
 .question >div:first-child {
-    color: #bcddf1;
+    /* color: #bcddf1; */
+    color: #9D1F45;
+    font-weight:bold;
 }
 #start_button{
   width: 150px; text-align: center; margin:auto;margin-top: 1em; 
   /* padding: 1em; */
+}
+.submit-btn {
+  font-size:15px;
+  /* width: 110px; */
+  padding: 6px 3px;
+  position: relative;
+  /* background: #f9a11c; */
+  background:#9D1F45;
+  border-radius:25px;
+  /* width: auto; */
+  z-index: 2;
 }
 #login_button{
   width: 150px; text-align: center; margin:auto;margin-top: 2em; padding: 1em;
@@ -453,8 +546,10 @@ textarea:focus {
   width: 100px; text-align: center; margin:auto;margin-top: 1em;
 }
 .form-control{
+  font-family: 'Gabarito-Regular';
   width: calc(100% - 2em);
-  border: 2px solid #fff;
+  border: 1px solid #fff;
+  background-color:#FFF6CE;
   height: 3em;
   border-radius: 0;
   padding-left: 1em;
@@ -622,6 +717,14 @@ bottom: 2.7em;
  }
 }
 
+.pencil {
+        /* right: 9vw;
+        top:10em;  */
+        width: 7vw;
+      }
+.register-label{
+  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:30px;font-weight:bold;color:#282829;
+}
 .imgsmallatoms {
         right: 9vw;
         top:10em; 
@@ -634,7 +737,7 @@ bottom: 2.7em;
 
   .imgyellowshine {
         right: 6vw;
-        width: 18vw;
+        width: 20vw;
       }
   .imgwoman{
     left: 10vw;
@@ -708,7 +811,7 @@ bottom: 2.7em;
  .imgyellowshine {
   top: unset;
   bottom:33em;
-  width:20vw;
+  width:22vw;
  }
 
  .imgwoman {
@@ -729,6 +832,11 @@ bottom: 2.7em;
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
+  .pencil{
+    right: 8vw;
+    top:-1em;
+  }
+
   .imgsmallatoms{
     right: 16vw;
     top:19em;
@@ -770,7 +878,7 @@ bottom: 2.7em;
   width:20vw;
  }
  .smarty{
-  top:30vh;
+  top:35vh;
   left:7vh;
   width:30vw;
  }
@@ -778,6 +886,24 @@ bottom: 2.7em;
   top:34vh;
   left:1vh;
   width:20vw;
+ }
+ /* REGISTRATION IN MOBILE */
+ .pencil{
+  top:-1vh;
+  right:6vw;
+  width:20vw;
+ }
+
+ .modal{
+  max-height:600px;
+  padding: 1em;
+ }
+ .register-label{
+  margin-top: 30px;
+  font-size: 23px;
+ }
+ .form-control{
+  top:2vh;
  }
  .imgsmallatoms{
   top:20vh;
@@ -849,13 +975,20 @@ bottom: 2.7em;
   }
 
  /* BACK BUTTON */
- .pixel, .pixel2 {
+ .pixel, .pixel2{
   font-size: 15px;
   color: white;
   height: auto;
   margin: 10px;
   width:50px;
 }
+}
+.pixel3 {
+  font-size: 20px;
+  color: white;
+  height: auto;
+  margin: 11px;
+  width:50px;
 }
 
     /* SMARTY ANIMATION */
@@ -904,55 +1037,54 @@ img.smarty {
   </div>
 
   <div id="modal">
-    <div class="modal animate__animated  animate__zoomIn">
+    <div class="modal animate__animated  animate__zoomIn" >
       <h1 class="close" onclick="hideModal()"><span class="material-icons md-24">close</span></h1>
       <h1 class="modal-title"></h1>
 
 
-      <div class="modal-body" >
-        <div id="modal-person" class="person">Security</div>
-        <div id="modal-dialog" class="dialog">
-          <p>Hold it right there! You need to provide your name, email address, gender and country origin.</p>
+      <div class="modal-body">
+        <!-- <div id="modal-person" class="person">Security</div> -->
+        <div id="modal-dialog">
+          <!-- <p>Hold it right there! You need to provide your name, email address, gender and country origin.</p> -->
+          <p class="register-label" style="">But first, register here</p>
         </div>
-
-        <input class="inputs form-control" id="name" type="text" placeholder="NAME" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
+        <img class="pencil" src="assets/Pencil.png" style="position: absolute;">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="name" type="text" placeholder="Name" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="email" type="email" placeholder="EMAIL" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="email" type="email" placeholder="Email" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="age" type="age" placeholder="AGE" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="age" type="age" placeholder="Age" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="gender" placeholder="GENDER" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="gender" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <br><br>
-        <input class="inputs form-control" id="country" placeholder="COUNTRY" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="country" placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
 
         <h5 id="question_danger">Please provide all required details!</h5>
         
-        <div class="inputs pixel2 form-btn" onclick="scene_graphics(2)">SUBMIT</div>
+        <div class="inputs submit-btn form-btn" style="font-family:DarumadropOne-Regular;color:white;font-size:26px;" onclick="scene_graphics(2)">Submit</div>
 
-        <div id="guard" class="character-sm" style="/* margin-top: -24rem; */margin-left: 0;/* position: absolute; */">
+        <!-- <div id="guard" class="character-sm" style="/* margin-top: -24rem; */margin-left: 0;/* position: absolute; */">
           <img class="Character_spritesheet" src="smarty_animations/guard_stand.png" alt="smarty">
-        </div>
+        </div> -->
       </div>
+
       <div id="content">
-        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100%; - 1em -10px);  padding-top: 56.25%; border: 5px solid #f9a11c;">
+        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100%; - 1em -10px);  padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe id="video_frame" class="responsive-iframe"  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
 
         <!-- General Medina Contents -->
-        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  padding-top: 56.25%; border: 5px solid #f9a11c;">
+        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAExdiiK3Io/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
 
-
         <div>
           <!--<h2>Community Questions:</h2>-->
-           <h2>Virtual Tour FAQs:</h2>
-          <div style="font-size: 16pt;" id="question_list">
-            
-
-<!--  <div>
+           <h2 style="font-family:DarumadropOne-Regular;color:#231F20">Virtual Tour FAQs:</h2>
+          <div style="font-size: 14pt;" id="question_list">
+            <!--  <div>
               <textarea id="question" class='autoExpand' rows='3' data-min-rows='3'  autofocus style="max-width:560px;width: calc(100% - 2em - 10px);border: 2px solid #fff;height: 5em; border-radius: 0;" placeholder="Ask a question. We'll email you the answer."></textarea>
               <div class="pixel2 form-btn" onclick="submitQuestion()">SUBMIT</div>
               <h5 id="question_success" >Question submitted!</h5>
@@ -960,7 +1092,7 @@ img.smarty {
           </div>
         </div>
 
-        <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
+        <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
       
       </div>
     </div>
@@ -1016,7 +1148,8 @@ img.smarty {
           
         </div>
     </div>
-    <div style="width:100vw;height:100vh;background: black;background: #efffe5">
+    <!-- <div style="width:100vw;height:100vh;background: black;background: #efffe5"> -->
+    <div>
       <div id="places"  style="display: flex">
         <div style="display: grid;">
         <span style="font-size: 17pt;">Progress:</span>
@@ -1025,51 +1158,52 @@ img.smarty {
 
       <div style="margin:auto; margin-left:0.2em">
         <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 48 48" style="cursor: pointer;" onclick="$('#info').toggle()">
-        <style>
-          /* <![CDATA[ */
-          #MenuFrame rect,
-          #MenuText path {
-                fill: rgb(31, 38, 46);
-          }
-          #MenuLines rect,
-          #MenuLines polygon {
-                fill: currentColor;
-          }
-          /* ]]> */
-        </style>
-        <g id="MenuBg">
-          <rect x="2" y="8" fill="#f9a11c" width="44" height="38"/>
-        </g>
-        <g id="MenuFrame">
-          <rect x="2" y="6" width="4" height="2"/>
-          <rect x="42" y="6" width="4" height="2"/>
-          <rect x="0" y="8" width="2" height="38"/>
-          <rect x="46" y="8" width="2" height="38"/>
-          <rect x="2" y="46" width="44" height="2"/>
-        </g>
-        <g id="MenuLines">
-          <rect x="14" y="17" width="20" height="3"/>
-          <rect x="14" y="25" width="20" height="3"/>
-          <polygon points="28,33 14,33 14,36 29.5,36"/>
-        </g>
-        
-        <g id="MenuText">
-          <path d="M8.16941,1.8945h1.23828l2.21875,2.22656l2.21875-2.22656h1.23828v6.10547h-1.23828V3.60934 l-2.21875,2.13672L9.40769,3.60934v4.39062H8.16941V1.8945z"/>
-          <path d="M17.66975,1.8945h5.19922v1.08594h-3.96094v1.21875h3.50781v1.01953h-3.50781v1.69922H22.951v1.08203 h-5.28125V1.8945z"/>
-          <path d="M25.16623,1.8945h1.23828l3.80469,1.99219V1.8945h1.23828v6.10547H30.2092V5.19919l-3.80469-1.98047 v4.78125h-1.23828V1.8945z"/>
-          <path d="M33.79153,1.8945h1.23828v3.36328c0,0.27607,0.0377,0.52148,0.11328,0.73633 c0.07549,0.21484,0.18809,0.39648,0.33789,0.54492c0.14971,0.14844,0.33525,0.26113,0.55664,0.33789 c0.22129,0.07686,0.4791,0.11523,0.77344,0.11523c0.2916,0,0.54883-0.03838,0.77148-0.11523 c0.22266-0.07676,0.40879-0.18945,0.55859-0.33789c0.14971-0.14844,0.26231-0.33008,0.33789-0.54492 c0.07549-0.21484,0.11328-0.46025,0.11328-0.73633V1.8945h1.23828v3.51172c0,0.40107-0.06777,0.76562-0.20312,1.09375 c-0.13545,0.32812-0.33203,0.60938-0.58984,0.84375s-0.57363,0.41543-0.94727,0.54297 c-0.37373,0.12754-0.80019,0.19141-1.2793,0.19141c-0.4792,0-0.90566-0.06387-1.2793-0.19141 c-0.37373-0.12754-0.68945-0.30859-0.94727-0.54297S34.13,6.82809,33.99465,6.49997 c-0.13545-0.32812-0.20312-0.69268-0.20312-1.09375V1.8945z"/>
-        </g>
-      </svg>  
+          <style>
+            /* <![CDATA[ */
+            #MenuFrame rect,
+            #MenuText path {
+                  fill: rgb(31, 38, 46);
+            }
+            #MenuLines rect,
+            #MenuLines polygon {
+                  fill: currentColor;
+            }
+            /* ]]> */
+          </style>
+          <g id="MenuBg">
+            <rect x="2" y="8" fill="#f9a11c" width="44" height="38"/>
+          </g>
+          <g id="MenuFrame">
+            <rect x="2" y="6" width="4" height="2"/>
+            <rect x="42" y="6" width="4" height="2"/>
+            <rect x="0" y="8" width="2" height="38"/>
+            <rect x="46" y="8" width="2" height="38"/>
+            <rect x="2" y="46" width="44" height="2"/>
+          </g>
+          <g id="MenuLines">
+            <rect x="14" y="17" width="20" height="3"/>
+            <rect x="14" y="25" width="20" height="3"/>
+            <polygon points="28,33 14,33 14,36 29.5,36"/>
+          </g>
+          
+          <g id="MenuText">
+            <path d="M8.16941,1.8945h1.23828l2.21875,2.22656l2.21875-2.22656h1.23828v6.10547h-1.23828V3.60934 l-2.21875,2.13672L9.40769,3.60934v4.39062H8.16941V1.8945z"/>
+            <path d="M17.66975,1.8945h5.19922v1.08594h-3.96094v1.21875h3.50781v1.01953h-3.50781v1.69922H22.951v1.08203 h-5.28125V1.8945z"/>
+            <path d="M25.16623,1.8945h1.23828l3.80469,1.99219V1.8945h1.23828v6.10547H30.2092V5.19919l-3.80469-1.98047 v4.78125h-1.23828V1.8945z"/>
+            <path d="M33.79153,1.8945h1.23828v3.36328c0,0.27607,0.0377,0.52148,0.11328,0.73633 c0.07549,0.21484,0.18809,0.39648,0.33789,0.54492c0.14971,0.14844,0.33525,0.26113,0.55664,0.33789 c0.22129,0.07686,0.4791,0.11523,0.77344,0.11523c0.2916,0,0.54883-0.03838,0.77148-0.11523 c0.22266-0.07676,0.40879-0.18945,0.55859-0.33789c0.14971-0.14844,0.26231-0.33008,0.33789-0.54492 c0.07549-0.21484,0.11328-0.46025,0.11328-0.73633V1.8945h1.23828v3.51172c0,0.40107-0.06777,0.76562-0.20312,1.09375 c-0.13545,0.32812-0.33203,0.60938-0.58984,0.84375s-0.57363,0.41543-0.94727,0.54297 c-0.37373,0.12754-0.80019,0.19141-1.2793,0.19141c-0.4792,0-0.90566-0.06387-1.2793-0.19141 c-0.37373-0.12754-0.68945-0.30859-0.94727-0.54297S34.13,6.82809,33.99465,6.49997 c-0.13545-0.32812-0.20312-0.69268-0.20312-1.09375V1.8945z"/>
+          </g>
+        </svg>  
       </div>
-
-</div>
-<div style="position: absolute;width: 100vw;left:13em">
-          <a id="return_button2" class="pixel2" style="text-decoration: none;width:150px" href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
-        </div>
-      <div style="width:100vw;height:100vh;max-width: 1696px;margin:auto;position: relative;" id="game-container" style="text-align: center;">
-      </div>
-
     </div>
+  </div>
+        <div style="position: absolute;width: 100vw;left:13em">
+          <a id="return_button2" class="pixel3" style="font-family:DarumadropOne-Regular;text-align:center;text-decoration: none;width:100px" 
+            href="https://aew.pnri.dost.gov.ph/aew/2023/">Back</a>
+        </div>
+        <div style="width:100vw;height:100vh;max-width: 1696px;margin:auto;position: relative;" id="game-container" style="text-align: center;">
+        </div>
+
+                                                                                                                                                                                                                                                                                                                                                                  </div>
    <div class="sc"><button class="screenbtn up"></button></div>
    <div class="sc"><button class="screenbtn down"></button></div>
    <div class="sc"><button class="screenbtn left"></button></div>
@@ -1295,7 +1429,7 @@ function scene_graphics(scene){
         echo '
           $(\'.close\').hide();
           modal = 1;
-          $(\'.modal-title\').text(\'REGISTER\');
+          $(\'.modal-title\').text(\'\');
           $(\'#scene_box\').hide();
           $(\'#places\').show();
           $(\'#modal\').show();
