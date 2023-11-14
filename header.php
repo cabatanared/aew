@@ -772,7 +772,7 @@ li.portal a, li.portal p{
  }
  #flink > a{
   margin-bottom: 1em;
-  width:75vw !important;
+  /* width:75vw !important; */
 
  }
  #countdown_contain{
@@ -814,15 +814,21 @@ li.portal a, li.portal p{
 
 @media (max-width: 480.00px){
   .about_section{
-    line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
-
-  .foot_title{
-    font-size: 11pt;line-height: 20px;
-  }
+      visibility:hidden;
+      line-height: 17px;
+    }
+    .about_section > span{
+      font-size: 9pt!important;
+    }
+  
+    .foot_title{
+      visibility:hidden;
+      font-size: 11pt;line-height: 20px;
+    }
+    
+    .aew_dec, .gearup_slogan, .copyright{
+      visibility: hidden;
+    }
 }
 
  
@@ -1045,13 +1051,14 @@ li.portal a, li.portal p{
  }
 
  .aew_cloud{
-  top:41vh;
-  right:4vw;
- }
- .aew_atom{
-  top:41vh;
-  /* right:4vw; */
- }
+    top:41vh;
+    right:4vw;
+   }
+   .aew_atom, .aew_mail{
+    visibility: hidden;
+    top:41vh;
+    /* right:4vw; */
+   }
 
  .aew_stars{
   top:58vh;

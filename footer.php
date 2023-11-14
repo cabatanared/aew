@@ -58,7 +58,7 @@
 
               <div  style="margin-left: auto; ">
                 <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 60px;">
-                <p style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
+                <p class="gearup_slogan" style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
               <div>
@@ -72,7 +72,7 @@
             </div>
 
        
-          <p id="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
+          <p id="copyright" class="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
           
           <div style="margin-top: -1em;">
             <img src="assets/icons/stars.png"   class="aew_stars" style="position: absolute;width: 8vw;">  
