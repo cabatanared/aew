@@ -85,7 +85,7 @@ session_start();
           overflow: hidden;
       }
       canvas {
-        border: 4px solid #F69C12;
+        border: 4px solid #9D1F45;
         
       }
 
@@ -252,14 +252,15 @@ session_start();
   color: #464646;
   font-size:17pt;
   text-align: justify;
-  margin-left:130px;
+  align-items:center;
+  /* margin-left:130px; */
   /* line-height: 1.5; */
 }
 
 .dialog_box{
   min-height:100px;
   /* border: 9px solid #d4935d; */
-  max-width: 600px; width: calc(100vw - 4em);
+  max-width: 450px; width: calc(100vw - 4em);
   margin: auto;background: white;border-radius: 35px;padding: 2em;
   /* padding-top: 0.4em; */
   margin-top: 4rem;font-size: 21pt;font-weight: 500;
@@ -482,12 +483,13 @@ session_start();
   /* border: 4px solid; */
 }
 .modal-title{
-  font-size:25px;
+  font-size:23px;
   margin-top: -0.5em;
   font-family: 'DarumadropOne-Regular';
-  color:#9D1F45;
+  /* color:#9D1F45; */
+  color:#231F20;
   text-transform: uppercase;
-  line-height: 30.5px;
+  line-height: 28.5px;
 }
 .question{
   /* max-width: 544px; */
@@ -503,7 +505,7 @@ session_start();
 
 .question >div:first-child {
     /* color: #bcddf1; */
-    color: #9D1F45;
+    color: #D46306;
     font-weight:bold;
 }
 #start_button{
@@ -729,7 +731,7 @@ bottom: 2.7em;
 .pencil {
         /* right: 9vw;
         top:10em;  */
-        width: 7vw;
+        width: 8vw;
       }
 
 .modal-dialog{
@@ -757,6 +759,11 @@ bottom: 2.7em;
     top:20em;
     width:15vw;
   }
+  .imgatomblack{
+    left: 14vw;
+    top:24em;
+    width:7vw;
+  }
   .smarty{
     left: 23vw;
     top:23em;
@@ -777,6 +784,11 @@ bottom: 2.7em;
     top: 7vh;
     left: 6vw;
     width: 14vw;
+  }
+  .imgcloudblack{
+    top: 17vh;
+    left: 8vw;
+    width: 6vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -846,7 +858,7 @@ bottom: 2.7em;
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
   .pencil{
-    right: 6vw;
+    right: 4vw;
     top:1vh;
   }
 
@@ -1022,6 +1034,24 @@ img.smarty {
     100% { transform: translateY(-10px); }
 }
 
+   /* PENCIL ANIMATION */
+   img.pencil {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.smarty {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
 /* @media (max-width: 460.00px){
   .clogo{
     margin-right: 0;
@@ -1082,7 +1112,7 @@ img.smarty {
       </div>
 
       <div id="content">
-        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100%; - 1em -10px);  padding-top: 56.25%; border: 5px solid #F69C12">
+        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100%; - 1em -10px); margin-top: 30px;  padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe id="video_frame" class="responsive-iframe"  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
@@ -1134,13 +1164,18 @@ img.smarty {
     <img src="../2022/Assets for Webdesign/Graphics/AEW50 Brand Elements.png" style="opacity:0.3;position: absolute;right: 4vw;top:7vh; width: 12vw;"> -->
     <!-- <img class="imgpinkgrass" src="assets/PinkGrass.png" style="opacity:0.3;position: absolute; transform:rotate(50deg); "> -->
     <!-- <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="opacity:0.3;position: absolute;"> -->
-    <img class="imgblackwhiteatom" src="assets/Isotopes/Tritium.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg)">
+
+    <!-- <img class="imgblackwhiteatom" src="assets/Isotopes/Tritium.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg)">
     <img class="imgwoman" src="assets/Isotopes/Technetium-99m.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg);">
     <img class="uranium" src="assets/Isotopes/Uranium-238.png" style="opacity:0.3;position: absolute;transform:rotateY(180deg);">
     <img class="imgsmallatoms" src="assets/Isotopes/Helium-4.png" style="opacity:0.3;position: absolute;">
     <img class="imgyellowshine" src="assets/Isotopes/Nitrogen-14.png" style="opacity:0.3;position: absolute; transform:rotateY(180deg)">
     <img class="imgbrownbird" src="assets/Isotopes/Helium-3.png" style="opacity:0.3;position: absolute; ">
-    <img class="smarty" src="assets/Isotopes/Smarty.png" style="position: absolute;">
+    <img class="smarty" src="assets/Isotopes/Smarty.png" style="position: absolute;"> -->
+
+    <img class="imgcloudblack" src="assets/map/cloud_black.png" style="position: absolute;">
+    <img class="imgatomblack" src="assets/map/atom_black.png" style="position: absolute;">
+
       <div class="message">
         <div class="dialog_box">
           <!-- <div id="person" class="person">Smarty</div> -->
@@ -1362,7 +1397,8 @@ var scene_dialog = [
           echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Login" button to play/start again.\'';
       }
       else{
-        echo '\'Hello! My name is Smarty. I will be your guide during this Virtual Tour. Click the "Lets go!" button to begin.\'';
+        echo '\'Hello, welcome to Byaheng Nukleyar! Are you ready to have a tour of our facilities?\'';
+        
       }
 
     ?>,
