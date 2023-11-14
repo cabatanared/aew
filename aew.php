@@ -15,7 +15,7 @@
           <div class="article" style="margin:auto">
             
             <br>
-            <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_Overview.png">
+            <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/aew50/AEW50-Banners_Overview.png">
             <p align="justify" style="font-family: Gabarito-Regular;">
               <br>
               This weeklong celebration highlighting the latest innovations in nuclear science and technology is mandated under Presidential Proclamation No. 1211 in 1973 which declared December 7 to 15, and the second week of every year, as Atomic Energy Week. It was part of the government’s efforts to generate awareness of the Filipino people on the beneficial uses of nuclear science and technology. <br><br>
