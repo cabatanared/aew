@@ -483,12 +483,12 @@ session_start();
   /* background:rgb(255, 219, 188); */
   margin: auto;
   padding: 2em;
-  margin-top: 6em;
+  margin-top: 8em;
   /* border: 4px solid; */
 }
 .modal-title{
   font-size:23px;
-  margin-top: -0.5em;
+  /* margin-top: -0.5em; */
   font-family: 'DarumadropOne-Regular';
   /* color:#9D1F45; */
   color:#231F20;
