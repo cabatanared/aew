@@ -816,19 +816,37 @@ li.portal a, li.portal p{
   .about_section{
       visibility:hidden;
       line-height: 17px;
-    }
-    .about_section > span{
-      font-size: 9pt!important;
-    }
+  }
+  .about_section > span{
+    font-size: 9pt!important;
+  }
+
+  .foot_title{
+    visibility:hidden;
+    font-size: 11pt;line-height: 20px;
+  }
   
-    .foot_title{
-      visibility:hidden;
-      font-size: 11pt;line-height: 20px;
-    }
+  .aew_dec, .gearup_slogan, .copyright{
+    visibility: hidden;
+  }
+  .follow{
     
-    .aew_dec, .gearup_slogan, .copyright{
-      visibility: hidden;
-    }
+    text-align:center;
+    font-size:18px;
+    margin-top:-25vh;
+    padding-bottom:-200px;
+  }
+  .foot_contain{
+    background:#FFF6CE;
+    padding-bottom:-200px;
+  }
+  .parallax{
+    /* height:none; */
+    /* background:#FFF6CE; */
+  }
+  .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok{
+    color:#FFF6CE;
+  }
 }
 
  
@@ -1046,11 +1064,13 @@ li.portal a, li.portal p{
   width:12vw;
  }
  .aew_wave{
+  visibility:hidden;
   top:48vh;
   left:45vw;
  }
 
  .aew_cloud{
+  visibility: hidden;
     top:41vh;
     right:4vw;
    }
@@ -1061,6 +1081,7 @@ li.portal a, li.portal p{
    }
 
  .aew_stars{
+  visibility:hidden;
   top:58vh;
   /* right:4vw; */
  }
