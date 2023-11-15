@@ -33,6 +33,8 @@ $lastUriSegment = array_pop($uriSegments);
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<link href="assets/css/zoom.css" rel="stylesheet" />
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
 @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
@@ -840,6 +842,9 @@ li.portal a, li.portal p{
   .aew_dec, .gearup_slogan{
     visibility: hidden;
   }
+  .aew_dec{
+    margin-top: 90px;
+  }
   .copyright{
     font-size:18px;
   }
@@ -851,7 +856,7 @@ li.portal a, li.portal p{
     padding-bottom:-200px;
   }
   .foot_contain{
-    background:#FFF6CE;
+    /* background:#FFF6CE; */
     padding-bottom:-200px;
   }
   .parallax{
@@ -1336,9 +1341,9 @@ li.portal a, li.portal p{
             <a href="closing.php" style="color:#9D1F45 !important">Closing Ceremonies</a> -->
             <a href="schedule.php"style="color:#9D1F45 !important">Schedule</a>
             <a href="opening.php" style="color:#9D1F45 !important">Opening Ceremonies</a>
-            <a href="pnrdc.php" style="color:#9D1F45 !important">Philippine Nuclear Science Olympiad</a>
+            <a href="pnso.php" style="color:#9D1F45 !important">Philippine Nuclear Science Olympiad</a>
             <a href="sessions.php" style="color:#9D1F45 !important">Technical Sessions</a>
-            <a href="sessions.php" style="color:#9D1F45 !important">GAD Forum</a>
+            <a href="gad.php" style="color:#9D1F45 !important">GAD Forum</a>
             <a href="map.php" style="color:#9D1F45 !important">Virtual Tour</a>
             <a href="exhibit.php"style="color:#9D1F45 !important">Technical Exhibits</a>
             <a href="closing.php"style="color:#9D1F45 !important">Closing Ceremonies</a>

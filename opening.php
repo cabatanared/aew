@@ -59,7 +59,7 @@
 
 		<div class="article" style="margin: auto;">
 	        <br>
-	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_Opening.png">
+	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Opening.png" class="w3-container w3-center w3-animate-zoom">
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">

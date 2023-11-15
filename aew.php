@@ -15,7 +15,7 @@
           <div class="article" style="margin:auto">
             
             <br>
-            <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/aew50/AEW50-Banners_Overview.png">
+            <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/About.png" class="w3-container w3-center w3-animate-zoom">
             <p align="justify" style="font-family: Gabarito-Regular;">
               <br>
               This weeklong celebration highlighting the latest innovations in nuclear science and technology is mandated under Presidential Proclamation No. 1211 in 1973 which declared December 7 to 15, and the second week of every year, as Atomic Energy Week. It was part of the government’s efforts to generate awareness of the Filipino people on the beneficial uses of nuclear science and technology. <br><br>
@@ -38,10 +38,10 @@
 </div>
 
 <!-- begin #milestone -->
-<div id="milestone" class="content bg-black-darker has-bg" data-scrollview="true" >
-    <div class="content-bg" style="background-color:#231F20">
       <!-- <img src="" alt="Milestone" style="background-color:#FDB1C5"/> -->
         <!-- <img src="assets/css/bg-milestone.jpg" alt="Milestone" /> -->
+<!-- <div id="milestone" class="content bg-black-darker has-bg" data-scrollview="true" >
+    <div class="content-bg" style="background-color:#231F20">
     </div>
     <div class="container">
         <div class="row" >
@@ -71,7 +71,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
    <?php 
