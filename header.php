@@ -1209,7 +1209,7 @@ li.portal a, li.portal p{
 }
 .dropdown-content  a{
   font-family: 'Gabarito-Regular', sans-serif !important;
-  width: 100%;
+  width: 150%;
  
   text-align: left !important;
   /*background: #eeffe6;*/
