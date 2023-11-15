@@ -818,7 +818,7 @@ li.portal a, li.portal p{
 
 @media (max-width: 480.00px){
   .about_section{
-      visibility:hidden;
+      /* visibility:hidden; */
       line-height: 17px;
   }
   .about_section > span{
@@ -826,19 +826,25 @@ li.portal a, li.portal p{
   }
 
   .foot_title{
-    visibility:hidden;
+    /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
   
   .aew_dec, .gearup_slogan, .copyright{
+    /* visibility: hidden; */
+  }
+  .aew_dec, .gearup_slogan{
     visibility: hidden;
   }
   .follow{
     
     text-align:center;
     font-size:18px;
-    margin-top:-20vh;
+    /* margin-top:-20vh; */
     padding-bottom:-200px;
+  }
+  .copyright{
+    font-size:18px;
   }
   .foot_contain{
     background:#FFF6CE;
@@ -867,8 +873,9 @@ li.portal a, li.portal p{
     width: 165px;
   }
   .clogo{
-    margin-right: 0;
-    display: none;
+    margin-top:-30px;
+    margin-right:10px;
+    /* display: none; */
   }
   li.portal a {
       font-size: 11px;
