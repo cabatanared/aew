@@ -868,7 +868,7 @@ li.portal a, li.portal p{
   }
   .clogo{
     margin-right: 0;
-    display: none;
+    /* display: none; */
   }
   li.portal a {
       font-size: 11px;
@@ -918,6 +918,11 @@ li.portal a, li.portal p{
  }
 }
 
+@media (max-width: 350px){
+  .clogo{
+    display: none;
+  }
+}
 
 @media (max-height: 1366.98px){
   
