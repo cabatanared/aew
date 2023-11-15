@@ -237,7 +237,7 @@ left: 167px;
       }
 
       body {
-        background: #eee;
+        /* background: #eee; */
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color: #000;

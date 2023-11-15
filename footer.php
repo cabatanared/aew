@@ -36,7 +36,7 @@
 
                     <br>
                   </div>
-                  <h2 style="font-family:  Gabarito-Bold;color:#9D1F45;">Follow us</h2>
+                  <h2 class="follow" style="font-family:  Gabarito-Bold;color:#9D1F45;">Follow us</h2>
                 <div id="flink" style="margin-top: 1em;">
                   <!-- <a target="__blank" href="https://pnri.dost.gov.ph" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_Website.png" style="width:50px"></a>
                   <a target="__blank" href="https://www.facebook.com/PNRIDOST" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_FB.png" style="width:50px"></a>
@@ -44,12 +44,12 @@
                   <a target="__blank" href="https://www.instagram.com/dost_pnri" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_IG.png" style="width:50px"></a>
                   <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_YT.png" style="width:50px"></a>
                   <a target="__blank" href="https://www.tiktok.com/@dost_pnri" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_TikTok.png" style="width:50px"></a> -->
-                  <a target="__blank" href="https://pnri.dost.gov.ph" target="_blank" class="website"><i class="fa-solid fa-globe fa-lg" style="display: inline-block;padding: 1em 0.6em;"></i></a>
-                  <a target="__blank" href="https://www.facebook.com/PNRIDOST" target="_blank" class="website"><i class="fa-brands fa-facebook-f fa-lg" style="display: inline-block;padding: 1em 0.8em;"></i></a>
-                  <a target="__blank" href="https://www.twitter.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-x-twitter fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
-                  <a target="__blank" href="https://www.instagram.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-instagram fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
-                  <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank" class="website"><i class="fa-brands fa-youtube fa-lg" style="display: inline-block;padding: 1em 0.6em;"></i></a>
-                  <a target="__blank" href="https://www.tiktok.com/@dost_pnri" target="_blank" class="website"><i class="fa-brands fa-tiktok fa-lg" style="display: inline-block;padding: 1em 0.7em;"></i></a>
+                  <a target="__blank" href="https://pnri.dost.gov.ph" target="_blank" class="website"><i class="fa-solid fa-globe fa-lg" style="font-size: 2em;display: inline-block;padding: 0.7em 0.2em;"></i></a>
+                  <a target="__blank" href="https://www.facebook.com/PNRIDOST" target="_blank" class="website"><i class="fa-brands fa-facebook-f fa-lg" style="padding-top:10px;font-size: 2em;display: inline-block;padding: 0.7em 0.4em;"></i></a>
+                  <a target="__blank" href="https://www.twitter.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-x-twitter fa-lg" style="font-size: 2em;display: inline-block;padding: 0.7em 0.2em;"></i></a>
+                  <a target="__blank" href="https://www.instagram.com/dost_pnri" target="_blank" class="website"><i class="fa-brands fa-instagram fa-lg" style="font-size: 2em;display: inline-block;padding: 0.7em 0.3em;"></i></a>
+                  <a target="__blank" href="https://www.youtube.com/c/DOSTPNRI" target="_blank" class="website"><i class="fa-brands fa-youtube fa-lg" style="font-size: 2em;display: inline-block;padding: 0.7em 0.2em;"></i></a>
+                  <a target="__blank" href="https://www.tiktok.com/@dost_pnri" target="_blank" class="website"><i class="fa-brands fa-tiktok fa-lg" style="font-size: 2em;display: inline-block;padding: 0.7em 0.3em;"></i></a>
                 <br>
                 <img src="assets/icons/atom.png" class="aew_atom" style="margin-top: -5em;position: absolute;width: 5vw;">
                 </div>   
@@ -58,7 +58,7 @@
 
               <div  style="margin-left: auto; ">
                 <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 60px;">
-                <p style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
+                <p class="gearup_slogan" style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
               <div>
@@ -72,7 +72,7 @@
             </div>
 
        
-          <p id="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
+          <p id="copyright" class="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
           
           <div style="margin-top: -1em;">
             <img src="assets/icons/stars.png"   class="aew_stars" style="position: absolute;width: 8vw;">  

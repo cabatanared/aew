@@ -759,11 +759,6 @@ bottom: 2.7em;
     top:20em;
     width:15vw;
   }
-  .imgatomblack{
-    left: 14vw;
-    top:24em;
-    width:7vw;
-  }
   .smarty{
     left: 23vw;
     top:23em;
@@ -786,9 +781,9 @@ bottom: 2.7em;
     width: 14vw;
   }
   .imgcloudblack{
-    top: 17vh;
-    left: 8vw;
-    width: 6vw;
+    top: 7vh;
+    left: 6vw;
+    width: 14vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -1173,8 +1168,7 @@ img.smarty {
     <img class="imgbrownbird" src="assets/Isotopes/Helium-3.png" style="opacity:0.3;position: absolute; ">
     <img class="smarty" src="assets/Isotopes/Smarty.png" style="position: absolute;"> -->
 
-    <img class="imgcloudblack" src="assets/map/cloud_black.png" style="position: absolute;">
-    <img class="imgatomblack" src="assets/map/atom_black.png" style="position: absolute;">
+    <img class="imgcloudblack" src="assets/map/cloud_black.png" style="opacity:0.3;position: absolute;">
 
       <div class="message">
         <div class="dialog_box">
