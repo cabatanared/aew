@@ -300,7 +300,7 @@ left: 167px;
 
         <!--<img src="Assets for Webdesign/Graphics/shape 3.png" style="position: absolute;left: -12vw;top: 10vh;width: 24vw;">-->      
         <!-- <img class="imgscope" src="Assets for Webdesign/Graphics/AEW50 Brand Elements (2).png" style="position: absolute;left: 16vw;width: 13vw;"> -->
-        <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute; transform:rotate(50deg); ">
+        <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute;">
         <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="position: absolute;">
         <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="position: absolute;">
         <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
@@ -347,7 +347,7 @@ right: 0;">
           <img src="assets/51st_atomic_energy_week_text.png" class="gear">
           <img src="assets/Gearing_up_description.png" class="gear">
         </center> -->
-        <center><img src="assets/2023-AEW51-GearUp.png" class="aew" style="margin-top:185px;-webkit-animation: float2 5s ease-in-out infinite;
+        <center><img src="assets/2023-AEW51-GearUp.png" class="aew" style="-webkit-animation: float2 5s ease-in-out infinite;
           animation: float2 5s ease-in-out infinite;"><br>
           <img src="assets/2023-AEW51-GearUp-theme.png" class="gear" style="width:50vw;">
           <img src="assets/2023-AEW51-Logo-Text.png" class="gear" style="width:48vw;">

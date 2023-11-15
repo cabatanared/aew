@@ -149,6 +149,7 @@ $lastUriSegment = array_pop($uriSegments);
     top:9vh;
     left:37vw;
     width: 5vw;
+    transform:rotate(50deg);
   }
   .imgbrownbird{
     top:15vh;
@@ -300,6 +301,7 @@ $lastUriSegment = array_pop($uriSegments);
 
 
 .aew {
+  margin-top:185px;
   width:50vw; max-width: 900px;
   /*width:100%; max-width: 755px;*/
   animation: fadeIn;
@@ -922,6 +924,12 @@ li.portal a, li.portal p{
   .clogo{
     display: none;
   }
+  .imgwoman{
+    display: none;
+  }
+  /* .aew{
+    top:10vw;
+  } */
 }
 
 @media (max-height: 1366.98px){
@@ -1049,7 +1057,9 @@ li.portal a, li.portal p{
  .aew {
   width: 65vw;
  }
-
+ .imgwoman{
+  display:none;
+ }
 
 }
 
@@ -1057,23 +1067,49 @@ li.portal a, li.portal p{
  
  .aew {
   width: 80%;
+  top: 10vw !important;
  }
  .imgblackwhiteatom{
   top:40vh;
   width:10vw;
+  left: 80vw;
  }
  .imgblackwhitecloud{
   top:17vh;
-  width:12vw;
+  width:15vw;
   left: 10vw;
  }
  .imgpinkgrass{
-  top:15vh;
+  top:40vh;
   width:8vw;
+  left:10vw;
+  transform:rotate(-50deg);
  }
  .imgbrownbird{
   top:17vh;
   width:12vw;
+ }
+ .imgwoman{
+  display:none;
+ }
+ .imgsmallatoms{
+    right:50vw;
+    top:6em;
+    width:13vw;
+  }
+ .imgyellowshine {
+  top:10em;
+  right:35vw;
+  width:9vw;
+ }
+ .imgdna {
+    top:95vw !important;
+  }
+ .gear{
+    top:50vw;
+ }
+ .aewdate{
+    top:10vw;
  }
  .aew_wave{
   visibility:hidden;
@@ -1134,8 +1170,17 @@ li.portal a, li.portal p{
 
 @media (max-width: 439px){
  
- .imgdna {
-  top: 28em;
+ /* .aew{
+  top: 60vw !important;
+ } */
+ .gear{
+  top:70vw;
+  width:65vw !important;
+  left:16vw !important;
+ }
+ .aewdate{
+  top:50px !important;
+  width:65vw !important;
  }
 
 }
