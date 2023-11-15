@@ -27,6 +27,9 @@ session_start();
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <link href="assets/css/zoom.css" rel="stylesheet" />
+
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
       @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
@@ -513,6 +516,8 @@ session_start();
   /* padding: 1em; */
 }
 .submit-btn {
+  float:right;
+  right:3vw;
   font-size:15px;
   /* width: 110px; */
   padding: 6px 3px;
@@ -550,7 +555,7 @@ textarea:focus {
   outline: none;
 }
 .form-btn{
-  width: 100px; text-align: center; margin:auto;margin-top: 1em;
+  width: 130px; text-align: center; margin:auto;margin-top: 1em;
 }
 .form-control{
   font-family: 'Gabarito-Regular';
@@ -613,7 +618,7 @@ textarea:focus {
   text-align: center;
 }
 .logo{
-  margin-top:10vh;
+  margin-top:13vh;
   width:55vw;
   /* width: calc(100vw - 1em); */
   /*max-width:500px;*/
@@ -759,10 +764,30 @@ bottom: 2.7em;
     top:20em;
     width:15vw;
   }
+  .imgcloudblack{
+    top: 19vh;
+    left: 8vw;
+    width: 7vw;
+  }
   .imgatomblack{
     left: 14vw;
-    top:24em;
+    top:28em;
     width:7vw;
+  }
+  .imgworldred{
+    top: 72vh;
+    left: 4vw;
+    width: 5vw;
+  }
+  .imgdnablack{
+    top: 89vh;
+    left: 19vw;
+    width: 6vw;
+  }
+  .imgsunred{
+    top: -3vh;
+    left: 28vw;
+    width: 7vw;
   }
   .smarty{
     left: 23vw;
@@ -784,11 +809,6 @@ bottom: 2.7em;
     top: 7vh;
     left: 6vw;
     width: 14vw;
-  }
-  .imgcloudblack{
-    top: 17vh;
-    left: 8vw;
-    width: 6vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -1149,7 +1169,7 @@ img.smarty {
         <img src="Assets for Webdesign/DOST_logo.png" class="clogo">
         <img src="Assets for Webdesign/PNRI_logo.png" class="clogo">
     </a>
-    <div style="text-align: center;">
+    <div style="text-align: center;" class="w3-container w3-center w3-animate-zoom">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
       <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo">
       <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
@@ -1175,9 +1195,12 @@ img.smarty {
 
     <img class="imgcloudblack" src="assets/map/cloud_black.png" style="position: absolute;">
     <img class="imgatomblack" src="assets/map/atom_black.png" style="position: absolute;">
+    <img class="imgworldred" src="assets/map/world_red.png" style="position: absolute;">
+    <img class="imgdnablack" src="assets/map/dna_black.png" style="position: absolute;">
+    <img class="imgsunred" src="assets/map/sun_red.png" style="position: absolute;">
 
       <div class="message">
-        <div class="dialog_box">
+        <div class="dialog_box w3-container w3-center w3-animate-zoom">
           <!-- <div id="person" class="person">Smarty</div> -->
           <div id="dialog" class="dialog"></div>
           <div>
@@ -1522,7 +1545,7 @@ function scene_graphics(scene){
             $('#lbl_email').text(email);
             $('.close').show();
             $('#question_danger').hide();
-            $('#modal-dialog').html('<p style="font-size:20px;margin-top:110px;Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
+            $('#modal-dialog').html('<p style="font-size:20px;margin-top:140px;font-family:Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
             setTimeout(countdown, 1000);
             $('.inputs').remove();
             $('#guard > img').addClass('smile');

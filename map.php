@@ -77,7 +77,7 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">List of PNRI Facilities</a>
-	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2022/tour.php">View the Interactive Map</a>
+	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">View the Interactive Map</a>
 	                <!--<a id="btn-registration" onclick="showTab('registration')">Poster Presentation</a>
                   <a id="btn-livestream" href="#">Watch the Livestream</a>-->
 
