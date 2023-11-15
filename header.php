@@ -833,7 +833,7 @@ li.portal a, li.portal p{
     
     text-align:center;
     font-size:18px;
-    margin-top:-25vh;
+    margin-top:-20vh;
     padding-bottom:-200px;
   }
   .foot_contain{
@@ -841,8 +841,12 @@ li.portal a, li.portal p{
     padding-bottom:-200px;
   }
   .parallax{
-    /* height:none; */
-    /* background:#FFF6CE; */
+    height:120vh;
+    background:#FFF6CE;
+  }
+  body{
+    top:0;
+    bottom:-300px;
   }
   .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok{
     color:#FFF6CE;
