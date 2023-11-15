@@ -1,6 +1,7 @@
  <?php 
    include 'header.php';
    ?>
+<link href="assets/css/zoom.css" rel="stylesheet" />
 
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div style="background:#FFF6CE;padding-top: 100px !important;padding: 4rem;">

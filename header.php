@@ -1171,7 +1171,7 @@ li.portal a, li.portal p{
   background: #fff;
   padding: 16px !important;
   border-bottom: 1px solid #9D1F45;
-  color:#9D1F45
+  color:#9D1F45;
   font-weight: normal;
 }
 
