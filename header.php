@@ -841,7 +841,7 @@ li.portal a, li.portal p{
     padding-bottom:-200px;
   }
   .parallax{
-    height:120vh;
+    height:110vh;
     background:#FFF6CE;
   }
   body{
