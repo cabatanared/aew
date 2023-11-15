@@ -27,6 +27,9 @@ session_start();
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <link href="assets/css/zoom.css" rel="stylesheet" />
+
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
       @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
@@ -95,7 +98,7 @@ session_start();
             /* background: #ffdbbc; */
             background: #FFF6CE;
             border: 4px solid;
-            padding: 1em;
+            /* padding: 1em; */
             position: absolute;
             cursor: pointer;
             min-height: 100px;
@@ -290,7 +293,8 @@ session_start();
   z-index: -1;
 }
 
-.pixel2 {
+.pixel2 { 
+  /* margin-top:25px; */
   padding: 6px 3px;
   position: relative;
   /* background: #f9a11c; */
@@ -479,12 +483,12 @@ session_start();
   /* background:rgb(255, 219, 188); */
   margin: auto;
   padding: 2em;
-  margin-top: 6em;
+  margin-top: 8em;
   /* border: 4px solid; */
 }
 .modal-title{
   font-size:23px;
-  margin-top: -0.5em;
+  /* margin-top: -0.5em; */
   font-family: 'DarumadropOne-Regular';
   /* color:#9D1F45; */
   color:#231F20;
@@ -513,6 +517,8 @@ session_start();
   /* padding: 1em; */
 }
 .submit-btn {
+  float:right;
+  right:3vw;
   font-size:15px;
   /* width: 110px; */
   padding: 6px 3px;
@@ -550,7 +556,7 @@ textarea:focus {
   outline: none;
 }
 .form-btn{
-  width: 100px; text-align: center; margin:auto;margin-top: 1em;
+  width: 130px; text-align: center; margin:auto;margin-top: 1em;
 }
 .form-control{
   font-family: 'Gabarito-Regular';
@@ -613,7 +619,7 @@ textarea:focus {
   text-align: center;
 }
 .logo{
-  margin-top:10vh;
+  margin-top:13vh;
   width:55vw;
   /* width: calc(100vw - 1em); */
   /*max-width:500px;*/
@@ -678,7 +684,7 @@ bottom: 2.7em;
   align-items: center;
   padding: 5em;
   /* margin-left: 2vw; */
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size:4px;
   width:calc(45vw - 4em);
  }
@@ -759,10 +765,30 @@ bottom: 2.7em;
     top:20em;
     width:15vw;
   }
+  .imgcloudblack{
+    top: 19vh;
+    left: 8vw;
+    width: 7vw;
+  }
   .imgatomblack{
     left: 14vw;
-    top:24em;
+    top:28em;
     width:7vw;
+  }
+  .imgworldred{
+    top: 72vh;
+    left: 4vw;
+    width: 5vw;
+  }
+  .imgdnablack{
+    top: 89vh;
+    left: 19vw;
+    width: 6vw;
+  }
+  .imgsunred{
+    top: -3vh;
+    left: 28vw;
+    width: 7vw;
   }
   .smarty{
     left: 23vw;
@@ -784,11 +810,6 @@ bottom: 2.7em;
     top: 7vh;
     left: 6vw;
     width: 14vw;
-  }
-  .imgcloudblack{
-    top: 17vh;
-    left: 8vw;
-    width: 6vw;
   }
   .imgpinkgrass{
     top:9vh;
@@ -853,7 +874,6 @@ bottom: 2.7em;
   bottom:35em;
  }
 
-
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
@@ -889,6 +909,38 @@ bottom: 2.7em;
 
 @media (max-width: 640px){
  
+  /* VMAP HOMPEPAGE */
+  .imgcloudblack{
+  top:14vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:43vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
+
+ /* WELCOME AFTER LOGIN */
+ .welcome-login{
+  text-align:justify;
+  letter-spacing:-1px;
+ }
  .aew {
   width: 70%;
  }
@@ -996,7 +1048,7 @@ bottom: 2.7em;
  }
 
  .logo{
-    width:65vw;
+    width:60vw;
   }
 
  /* BACK BUTTON */
@@ -1004,7 +1056,7 @@ bottom: 2.7em;
   font-size: 15px;
   color: white;
   height: auto;
-  margin: 10px;
+  margin: 20px;
   width:50px;
 }
 }
@@ -1052,12 +1104,12 @@ img.smarty {
     100% { transform: translateY(-10px); }
 }
 
-/* @media (max-width: 460.00px){
+@media (max-width: 460.00px){
   .clogo{
     margin-right: 0;
-    display: none;
+    /* display: none; */
   }
-} */
+}
     </style>
 </head>
 <body>
@@ -1149,7 +1201,7 @@ img.smarty {
         <img src="Assets for Webdesign/DOST_logo.png" class="clogo">
         <img src="Assets for Webdesign/PNRI_logo.png" class="clogo">
     </a>
-    <div style="text-align: center;">
+    <div style="text-align: center;" class="w3-container w3-center w3-animate-zoom">
       <!-- <img src="assets/logo/2023-AEW51-GearUp-Logo.png" class="logo" style="width:50vw; max-width: 400px;"> -->
       <img src="assets/logo/AEW51-Website_Tour-Byaheng-Nukleyar.png" class="logo">
       <!-- <p id="date" class="home_title">Byaheng Nukleyar</p><br>
@@ -1175,9 +1227,12 @@ img.smarty {
 
     <img class="imgcloudblack" src="assets/map/cloud_black.png" style="position: absolute;">
     <img class="imgatomblack" src="assets/map/atom_black.png" style="position: absolute;">
+    <img class="imgworldred" src="assets/map/world_red.png" style="position: absolute;">
+    <img class="imgdnablack" src="assets/map/dna_black.png" style="position: absolute;">
+    <img class="imgsunred" src="assets/map/sun_red.png" style="position: absolute;">
 
       <div class="message">
-        <div class="dialog_box">
+        <div class="dialog_box w3-container w3-center w3-animate-zoom">
           <!-- <div id="person" class="person">Smarty</div> -->
           <div id="dialog" class="dialog"></div>
           <div>
@@ -1522,7 +1577,7 @@ function scene_graphics(scene){
             $('#lbl_email').text(email);
             $('.close').show();
             $('#question_danger').hide();
-            $('#modal-dialog').html('<p style="font-size:20px;margin-top:110px;Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
+            $('#modal-dialog').html('<p class="welcome-login" style="font-size:20px;margin-top:140px;font-family:Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
             setTimeout(countdown, 1000);
             $('.inputs').remove();
             $('#guard > img').addClass('smile');

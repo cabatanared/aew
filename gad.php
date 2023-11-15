@@ -72,16 +72,14 @@
 
 		<div class="article" style="margin: auto;">
 	        <br>
-	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Exhibit.png" class="w3-container w3-center w3-animate-zoom">
+	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/GAD.png" class="w3-container w3-center w3-animate-zoom">
 	        <div class="row">
 	        	<div id="schedule">
-	              <div class="schedules">
-	                <a id="btn-overview" class="m2" onclick="showTab('overview')">List of Technical Exhibits </a>
-	                <a id="btn-programme" onclick="showTab('programme')">Take a Peek into the Exhibits</a>
-	                <!--<a id="btn-registration" onclick="showTab('registration')">Poster Presentation</a>
-                  <a id="btn-livestream" href="#">Watch the Livestream</a>-->
+                    <div class="schedules">
+                        <!-- <a id="btn-overview" class="m2" onclick="showTab('overview')">Event Information</a> -->
+                    <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a>
 
-	              </div>
+                    </div>
 	            </div>
 
 	            <!--<div id="schedule2">
@@ -96,19 +94,18 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1zP5UlASaxLsR3A5qHIW0Hosr3q8roU3q/preview" width="640" height="480" allow="autoplay"></iframe>
-				      </div>
+	        		<!-- <div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1EgCnG6xwHRm42MCZvSFgSL8ap8g-NzZv/preview" width="640" height="480" allow="autoplay"></iframe>
+				      </div> -->
 
-				    <div class="tab" id="programme" style="min-height: 61vh;max-height: 900px;">
-              <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1bKV7bMy2vCQqYwsHSQbnXuxh9efZHBP-/preview" width="640" height="480" allow="autoplay"></iframe>-->
-              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFTqcriP1I&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe>
-				        
+				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
+            <a class="dl_pdf"href="https://bit.ly/PNRDCregister" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
+              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1-6Lckkj1BPexn3CH9d1AmWle0zZFCwIc/preview" width="640" height="480" allow="autoplay"></iframe>
+				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 
 		            <div class="tab" id="nucleart" style="min-height: 100vh;max-height: 900px;">
-		              <a href="https://drive.google.com/file/d/1yO2hNA2C2sm_gSNUktEC0JJtXqbbAbWr/view" target="_blank" style="text-decoration: none; position:absolute; z-index:11;color: #ffffff; background: #27c77b;padding: 1em;">Registration Form</a>
-		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1wvzT0Bfv7lF1Rnb42utVwCMFVWRAqFmK/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1WK2PDSi-olHDYb_1wJdm6cKIJY3dAUZs/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		              
 		            </div>
 
@@ -118,15 +115,20 @@
                   
                 </div>
 
-                <div class="tab" id="youth_panel" style="min-height: 100vh;max-height: 900px;">
-                 
-                  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16qQY7CVAXJGBgLoaJpxVJJNUdL46-5mo/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <div class="tab" id="sessions" style="min-height: 100vh;max-height: 900px;overflow-y:scroll;   ">
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1259781891549177%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F525144669633910%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1353067728799571%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                  
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F882039702822348%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                   
                 </div>
 
 				    <div class="tab " id="registration" style="min-height: 100vh;max-height: 900px;">
-              <a class="dl_pdf"href="https://bit.ly/PNRDCregister" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; ">Click here to Register</a>
-				      <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1KFYcaBzIzYdySsrKTFLgV1UIanb53wsa/preview" width="640" height="480" allow="autoplay"></iframe>
+              
+				      <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PJ2BHQkmrK1zBSPw8QNxc16jU1l5fIrw/preview" width="640" height="480" allow="autoplay"></iframe>
 		            </div>
 
 	          		<div class="tab" id="discord" style="">

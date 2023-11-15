@@ -38,7 +38,7 @@
 
 <div class="article" style="margin: auto;">
 <br>
-          <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_Souvenir-Program.png">
+          <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Souvenir.png">
           
 
         <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">

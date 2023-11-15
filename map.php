@@ -72,12 +72,12 @@
 
 		<div class="article" style="margin: auto;">
 	        <br>
-	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/AEW50-Banners_Facility-Map.png">
+	        <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Virtual Tour.png" class="w3-container w3-center w3-animate-zoom">
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">List of PNRI Facilities</a>
-	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2022/tour.php">View the Interactive Map</a>
+	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">View the Interactive Map</a>
 	                <!--<a id="btn-registration" onclick="showTab('registration')">Poster Presentation</a>
                   <a id="btn-livestream" href="#">Watch the Livestream</a>-->
 

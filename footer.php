@@ -25,7 +25,7 @@
                     <img src="assets/icons/wave.png" class="aew_wave" style="margin-top:-50px;position: absolute;width: 10vw;">
                   </div>
                   <div class="foot_title" style="color:#9D1F45;">
-                    <span style="font-weight:regular;font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase">Department of Science and Technology</span><br>
+                    <span class="dost" style="font-weight:regular;font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase">Department of Science and Technology</span><br>
                     <span style="font-size: 16.5pt;font-family:  Gabarito-Bold;">Philippine Nuclear Research Institute</span>
                   </div>
                   <div class="about_section" style="margin-top: 15px;font-family: Gabarito-Regular;font-size: 10.5pt;color:#282829">
