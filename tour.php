@@ -935,6 +935,12 @@ bottom: 2.7em;
   left:11vh;
   width:11vw;
  }
+
+ /* WELCOME AFTER LOGIN */
+ .welcome-login{
+  text-align:justify;
+  letter-spacing:-1px;
+ }
  .aew {
   width: 70%;
  }
@@ -1571,7 +1577,7 @@ function scene_graphics(scene){
             $('#lbl_email').text(email);
             $('.close').show();
             $('#question_danger').hide();
-            $('#modal-dialog').html('<p style="font-size:20px;margin-top:140px;font-family:Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
+            $('#modal-dialog').html('<p class="welcome-login" style="font-size:20px;margin-top:140px;font-family:Gabarito-Regular;color:#282829">Welcome <b><u>'+name+'</u></b>! Please take time to explore the tour and learn as much as you can!</p><h1 id="seconds">3</h1>');
             setTimeout(countdown, 1000);
             $('.inputs').remove();
             $('#guard > img').addClass('smile');
