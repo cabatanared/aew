@@ -47,7 +47,7 @@
       }
 
       .schedules a:hover{
-      background: #FFCC24;
+      background: #FECCD9;
      }
 
      .dl_pdf:hover{
@@ -65,7 +65,7 @@
       /*900*/
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
-<div class="main_content2" style="padding: 1rem;background: #ffdbbc;">
+  <div class="main_content2" style="padding: 1rem;background: #FFF6CE;">
   
 
 	<div class="row">

@@ -366,7 +366,7 @@ $lastUriSegment = array_pop($uriSegments);
 }
 
 .schedules > a:hover{
-  background: #ffcf73;
+  background: #FECCD9;
 }
 .sessions{
   display: grid;
