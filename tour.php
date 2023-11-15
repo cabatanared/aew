@@ -98,7 +98,7 @@ session_start();
             /* background: #ffdbbc; */
             background: #FFF6CE;
             border: 4px solid;
-            padding: 1em;
+            /* padding: 1em; */
             position: absolute;
             cursor: pointer;
             min-height: 100px;
@@ -293,7 +293,8 @@ session_start();
   z-index: -1;
 }
 
-.pixel2 {
+.pixel2 { 
+  /* margin-top:25px; */
   padding: 6px 3px;
   position: relative;
   /* background: #f9a11c; */
@@ -683,7 +684,7 @@ bottom: 2.7em;
   align-items: center;
   padding: 5em;
   /* margin-left: 2vw; */
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size:4px;
   width:calc(45vw - 4em);
  }
@@ -873,7 +874,6 @@ bottom: 2.7em;
   bottom:35em;
  }
 
-
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
@@ -909,6 +909,32 @@ bottom: 2.7em;
 
 @media (max-width: 640px){
  
+  /* VMAP HOMPEPAGE */
+  .imgcloudblack{
+  top:14vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:43vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
  .aew {
   width: 70%;
  }
@@ -1016,7 +1042,7 @@ bottom: 2.7em;
  }
 
  .logo{
-    width:65vw;
+    width:60vw;
   }
 
  /* BACK BUTTON */
@@ -1024,7 +1050,7 @@ bottom: 2.7em;
   font-size: 15px;
   color: white;
   height: auto;
-  margin: 10px;
+  margin: 20px;
   width:50px;
 }
 }
@@ -1072,12 +1098,12 @@ img.smarty {
     100% { transform: translateY(-10px); }
 }
 
-/* @media (max-width: 460.00px){
+@media (max-width: 460.00px){
   .clogo{
     margin-right: 0;
-    display: none;
+    /* display: none; */
   }
-} */
+}
     </style>
 </head>
 <body>
