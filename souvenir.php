@@ -13,7 +13,8 @@
         height: 100%;
       }
       .dl_pdf:hover{
-      background: #FFCC24;
+        background: #FECCD9;
+        color: #9D1F45;
      }
      .dl_pdf {
       padding: 0.8rem 2rem;
@@ -22,7 +23,8 @@
       cursor: pointer;
       margin-bottom: 0.5rem;
       font-family: 'PublicSans-Bold';
-      background: #d4935d;
+      background: #9D1F45;
+      color: #ffffff; 
      }
    </style>
 
@@ -42,7 +44,7 @@
           
 
         <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
-            <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; ">Download as PDF</a>
+            <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download as PDF</a>
             <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/preview" height="480" allow="autoplay"></iframe>-->
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" height="480" allow="autoplay"></iframe>
 

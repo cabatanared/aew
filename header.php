@@ -1462,10 +1462,10 @@ li.portal a, li.portal p{
       <a href="#">ACTIVITIES</a>
       <a href="schedule.php">&emsp;Schedule</a>
       <a href="opening.php">&emsp;Opening Ceremonies</a>
-      <a href="pnrdc.php">&emsp;Philippine Nuclear Science Olympiad</a>
-      <a href="map.php">&emsp;Technical Sessions</a>
-      <a href="contests.php">&emsp;GAD Forum</a>
-      <a href="contests.php">&emsp;Virtual Tour</a>
+      <a href="pnso.php">&emsp;Philippine Nuclear Science Olympiad</a>
+      <a href="sessions.php">&emsp;Technical Sessions</a>
+      <a href="gad.php">&emsp;GAD Forum</a>
+      <a href="map.php">&emsp;Virtual Tour</a>
       <a href="exhibit.php">&emsp;Technical Exhibits</a>
       <a href="closing.php">&emsp;Closing Ceremonies</a>
       <a href="souvenir.php">SOUVENIR PROGRAM</a>

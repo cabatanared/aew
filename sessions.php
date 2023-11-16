@@ -49,7 +49,8 @@
       }
 
       .schedules a:hover{
-      background: #FFCC24;
+        background: #FECCD9;
+        color: #9D1F45;
      }
 
      .dl_pdf:hover{
