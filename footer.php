@@ -72,7 +72,7 @@
             </div>
 
        
-          <p id="copyright" class="copyright" style="font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
+          <p id="copyright" class="copyright" style="text-align:center;margin-top:50px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829"> Copyright © 2023 Philippine Nuclear Research Institute. All rights reserved.</p>
           
           <div style="margin-top: -1em;">
             <img src="assets/icons/stars.png"   class="aew_stars" style="position: absolute;width: 8vw;">  

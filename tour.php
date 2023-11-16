@@ -1152,7 +1152,23 @@ img.smarty {
         <br><br>
         <input style="font-family:Gabarito-Regular" class="inputs form-control" id="gender" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <br><br>
-        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="country" placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="country"  list="countries" placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
+        <datalist id="countries">
+            <?php
+              include('./db_connection.php');
+
+              $query = $pdo->query("SELECT * FROM country");
+              foreach($query as $row){
+
+                ?>
+
+                  <option><?=$row['countryname']?></option>
+    <?php
+              }
+
+            ?>
+        </datalist>
+
 
         <h5 id="question_danger">Please provide all required details!</h5>
         

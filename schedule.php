@@ -1,7 +1,7 @@
  <?php 
    include 'header.php';
    ?>
-
+<link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      .responsive-iframe {
         position: absolute;
@@ -30,8 +30,8 @@
 <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Activities.png" class="w3-container w3-center w3-animate-zoom">
         <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
 
-            <!-- <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1d9I1mlLbfMwr9ZNi-rXOCl8I1wvwX2_W/preview" height="480" allow="autoplay"></iframe> -->
-              <br><br><br><h1 style="font-family: 'DarumadropOne-Regular', sans-serif;color: #9D1F45;">COMING SOON...</h1>
+            <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16gsxt4tNpmVpwYkFVmf686z4xgeWlPlL/preview" height="480" allow="autoplay"></iframe>
+              <!-- <br><br><br><h1 style="font-family: 'DarumadropOne-Regular', sans-serif;color: #9D1F45;">COMING SOON...</h1> -->
         </div>
         <br><br>
 
