@@ -1362,10 +1362,10 @@ li.portal a, li.portal p{
             <a href="aew.php" style="color:#9D1F45 !important">Overview</a>
             <a href="news.php" style="color:#9D1F45 !important">News</a>
             <?php if($lastUriSegment == '') {?>
-            <a href="#carusel" style="color:#9D1F45 !important">AEW Over the Years</a>
+            <a href="aewoveryears.php" style="color:#9D1F45 !important">AEW Over the Years</a>
           <?php } else {?>
             <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023#carusel" style="color:#9D1F45 !important">AEW Over the Years</a> -->
-            <a href="#carusel" style="color:#9D1F45 !important">AEW Over the Years</a>
+            <a href="aewoveryears.php" style="color:#9D1F45 !important">AEW Over the Years</a>
           <?php } ?>
             <!-- <a href="https://aew.pnri.dost.gov.ph/aew/2023/news.php" style="color:#9D1F45 !important">News</a> -->
             
@@ -1446,9 +1446,9 @@ li.portal a, li.portal p{
       <a href="news.php">&emsp;News</a>
       <!--<a href="https://aew.pnri.dost.gov.ph/aew/2022">&emsp;AEW Over the Years</a>-->
       <?php if($lastUriSegment == '') {?>
-            <a href="#carusel">&emsp;AEW Over the Years</a>
+            <a href="aewoveryears.php">&emsp;AEW Over the Years</a>
           <?php } else {?>
-            <a href="https://aew.pnri.dost.gov.ph/aew/2023#carusel">&emsp;AEW Over the Years</a>
+            <a href="aewoveryears.php">&emsp;AEW Over the Years</a>
           <?php } ?>
       <a href="#">ACTIVITIES</a>
       <a href="schedule.php">&emsp;Schedule</a>
