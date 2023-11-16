@@ -1,6 +1,7 @@
  <?php 
    include 'header.php';
    ?>
+   <link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      #schedule{
       width: unset;
@@ -64,7 +65,7 @@
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
-	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Program</a>
+	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                   <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a>
 
 	              </div>
@@ -83,7 +84,7 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1g5wSHzHyI7PPtGB83j4r0hBK5LpMgclA/preview" width="640" height="480" allow="autoplay"></iframe>
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">

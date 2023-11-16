@@ -1,6 +1,7 @@
  <?php 
    include 'header.php';
    ?>
+   <link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      #schedule{
       width: unset;
@@ -76,8 +77,8 @@
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
-	                <a id="btn-overview" class="m2" onclick="showTab('overview')">List of PNRI Facilities</a>
-	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">View the Interactive Map</a>
+	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Overview of PNRI Facilities & Technical Exhibits</a>
+	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">Start Tour</a>
 	                <!--<a id="btn-registration" onclick="showTab('registration')">Poster Presentation</a>
                   <a id="btn-livestream" href="#">Watch the Livestream</a>-->
 
@@ -97,7 +98,7 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/view?usp=drive_link/preview" width="640" height="480" allow="autoplay"></iframe>
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">

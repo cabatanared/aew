@@ -1,7 +1,7 @@
  <?php 
    include 'header.php';
    ?>
-
+<link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      .responsive-iframe {
         position: absolute;
@@ -44,7 +44,7 @@
         <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
             <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; ">Download as PDF</a>
             <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/preview" height="480" allow="autoplay"></iframe>-->
-            <iframe class="responsive-iframe" src="https://heyzine.com/flip-book/8ba05a73b1.html" height="480" allow="autoplay"></iframe>
+            <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" height="480" allow="autoplay"></iframe>
 
         </div>
         <br><br>

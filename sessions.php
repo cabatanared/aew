@@ -1,6 +1,8 @@
  <?php 
    include 'header.php';
    ?>
+
+<link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      #schedule{
       width: unset;
@@ -76,7 +78,8 @@
 	        <div class="row">
 	        	<div id="schedule">
                     <div class="schedules">
-                        <!-- <a id="btn-overview" class="m2" onclick="showTab('overview')">Event Information</a> -->
+                      <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
+                      <a id="btn-overview" class="m2" onclick="showTab('programme')">About the Speakers</a>
                     <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a>
 
                     </div>
@@ -94,13 +97,13 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<!-- <div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1EgCnG6xwHRm42MCZvSFgSL8ap8g-NzZv/preview" width="640" height="480" allow="autoplay"></iframe>
-				      </div> -->
+	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/164HU8FqfYRppAV-QpfmGCRUQTN2rIoYF/preview" width="640" height="480" allow="autoplay"></iframe>
+				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
             <a class="dl_pdf"href="https://bit.ly/PNRDCregister" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
-              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1-6Lckkj1BPexn3CH9d1AmWle0zZFCwIc/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/19VIBCD06u40f9L3BUzOwNPOeQ-yvLcez/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 

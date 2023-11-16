@@ -1,6 +1,8 @@
  <?php 
    include 'header.php';
    ?>
+
+<link href="assets/css/zoom.css" rel="stylesheet" />
    <style type="text/css">
      #schedule{
       width: unset;
@@ -78,9 +80,9 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Event Information</a>
-	                <a id="btn-programme" onclick="showTab('programme')">Program</a>
-	                <a id="btn-registration" onclick="showTab('registration')">Poster Presentations</a>
-                  <a id="btn-nucleart" onclick="showTab('nucleart')">Book of Abstracts</a>
+	                <a id="btn-programme" onclick="showTab('programme')">View Program</a>
+	                <a id="btn-registration" onclick="showTab('registration')">List of Finalists</a>
+                  <a id="btn-nucleart" onclick="showTab('nucleart')">Meet the Top 5 Olympiads</a>
                   <a id="btn-youth_panel" onclick="showTab('youth_panel')">Watch the Recorded Livestream</a>
 
 	              </div>
@@ -99,17 +101,17 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1EgCnG6xwHRm42MCZvSFgSL8ap8g-NzZv/preview" width="640" height="480" allow="autoplay"></iframe>
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1BuG_vk33mQvAQpbPpQLxlQGLOjABiL9j/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
             <a class="dl_pdf"href="https://bit.ly/PNRDCregister" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
-              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1-6Lckkj1BPexn3CH9d1AmWle0zZFCwIc/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 
 		            <div class="tab" id="nucleart" style="min-height: 100vh;max-height: 900px;">
-		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1WK2PDSi-olHDYb_1wJdm6cKIJY3dAUZs/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1GE9bgAKu2Ul5q3Zn3a8oOtYCMmjvFR0q/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		              
 		            </div>
 
@@ -132,7 +134,7 @@
 
 				    <div class="tab " id="registration" style="min-height: 100vh;max-height: 900px;">
               
-				      <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PJ2BHQkmrK1zBSPw8QNxc16jU1l5fIrw/preview" width="640" height="480" allow="autoplay"></iframe>
+				      <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1U53owuDKIjbLMt4959tjEdRiTkli6LaD/preview" width="640" height="480" allow="autoplay"></iframe>
 		            </div>
 
 	          		<div class="tab" id="discord" style="">
