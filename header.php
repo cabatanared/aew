@@ -164,6 +164,10 @@ $lastUriSegment = array_pop($uriSegments);
     width: 7vw;
   }
 
+  .pnsovid{
+    position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;
+  }
+
   .aew_wave {
     top:10vh;
     left:58vw;
@@ -931,9 +935,9 @@ li.portal a, li.portal p{
   #countdown_contain {
     height: 100px;
   }
-  .gear {
-  top: 80vw;
- }
+  /* .gear {
+  top: 100vw;
+ } */
 }
 
 @media (max-width: 350px){
@@ -1071,7 +1075,7 @@ li.portal a, li.portal p{
 @media screen and (min-width: 641px) and (max-width: 890px){
  
  .aew {
-  width: 65vw;
+  width: 75vw;
  }
  .imgwoman{
   display:none;
@@ -1121,9 +1125,9 @@ li.portal a, li.portal p{
  .imgdna {
     top:95vw !important;
   }
- .gear{
-    top:50vw;
- }
+ /* .gear{
+    top:100vw;
+ } */
  .aewdate{
     top:10vw;
  }
@@ -1149,8 +1153,12 @@ li.portal a, li.portal p{
   top:58vh;
   /* right:4vw; */
  }
- .gear {
+ /* .gear {
   top: 90w;
+ } */
+ .pnsovid{
+  width:100% !important;
+  height:100% !important;
  }
 }
 
@@ -1190,12 +1198,12 @@ li.portal a, li.portal p{
   top: 60vw !important;
  } */
  .gear{
-  top:70vw;
+  top:75vw !important;
   width:65vw !important;
   left:16vw !important;
  }
  .aewdate{
-  top:50px !important;
+  top:20px !important;
   width:65vw !important;
  }
 

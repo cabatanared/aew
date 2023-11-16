@@ -142,7 +142,7 @@
   position: absolute;
 	opacity: 0;
 	animation: change-img-anim 10s infinite, float2 5s ease-in-out infinite;
-  /* top: 21vw; */
+  top: 22vw;
   left: 26vw;
 }
 .gear:nth-of-type(1) {
@@ -304,7 +304,7 @@ left: 167px;
         <img class="imgpinkgrass" src="assets/PinkGrass.png" style="position: absolute;">
         <img class="imgblackwhitecloud" src="assets/BlackAndWhiteCloud.png" style="position: absolute;">
         <img class="imgblackwhiteatom" src="assets/BlackAndWhiteAtom.png" style="position: absolute;">
-        <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 15vw;">
+        <img class="imgwoman" src="assets/YellowPaperDoodle.png" style="position: absolute;transform:rotate(25deg); width: 10vw;">
         <!--<img src="Assets for Webdesign/Graphics/shape 1.png" style="position: absolute;right: -20vw;top:22vh; width: 25vw;">-->
         <!--<img src="Assets for Webdesign/Graphics/shape 2.png" style="position: absolute;right: -6vw;top:-14vh; width: 25vw;">-->
         <img class="imgsmallatoms" src="assets/BlackAndWhiteSmallAtoms.png" style="position: absolute; transform:rotate(25deg);">
@@ -429,9 +429,15 @@ right: 0;">
     <!--<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE1-VaTqvI&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div>-->
 
     <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;"> 
-     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="assets/PNSO Logo-Anim_3.mp4" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe>
+     <!-- <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="assets/PNSO_Logo-Anim_3.mp4" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe> -->
+     <!-- <video type=”video/mp4″ style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://aew.pnri.dost.gov.ph/aew/2023/assets/PNSO_Logo-Anim_3.mp4" allowfullscreen="allowfullscreen" allow="fullscreen">  </video> -->
+     <video class="pnsovid" style="" controls autoplay>
+        <source src="assets/PNSO_Logo-Anim_3.mp4" type="video/mp4">
+        <source src="assets/PNSO_Logo-Anim_3.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
     </div>
-
+    <!-- <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFS1_ZcREQ&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div> -->
     <!--<div class="swiper">
 
         <div class="swiper-wrapper">
