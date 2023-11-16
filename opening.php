@@ -66,7 +66,8 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
-                  <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a>
+                  <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a> -->
+                  <a id="2btn-programme">Watch the Recorded Livestream</a>
 
 	              </div>
 	            </div>
@@ -88,7 +89,7 @@
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
-              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F698689284907961%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              <iframe src=" " width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 

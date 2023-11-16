@@ -83,7 +83,8 @@
 	                <a id="btn-programme" onclick="showTab('programme')">View Program</a>
 	                <a id="btn-registration" onclick="showTab('registration')">List of Finalists</a>
                   <a id="btn-nucleart" onclick="showTab('nucleart')">Meet the Top 5 Olympiads</a>
-                  <a id="btn-youth_panel" onclick="showTab('youth_panel')">Watch the Recorded Livestream</a>
+                  <!-- <a id="btn-youth_panel" onclick="showTab('youth_panel')">Watch the Recorded Livestream</a> -->
+                  <a id="btn-youth_panel">Watch the Recorded Livestream</a>
 
 	              </div>
 	            </div>
