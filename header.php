@@ -120,9 +120,9 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgsmallatoms {
-        right: 9vw;
+        right:15vw;
         top:22em; 
-        width: 8vw;
+        width: 6vw;
       }
 
   .imgbird {
@@ -130,7 +130,7 @@ $lastUriSegment = array_pop($uriSegments);
   }
 
   .imgyellowshine {
-        right: 20vw;top:25em; 
+        right: 23vw;top:10vw; 
         width: 5vw;
       }
   .imgwoman{
@@ -139,27 +139,28 @@ $lastUriSegment = array_pop($uriSegments);
 
   .imgdna {
     /* top:28em; */
-    top:75vh;
+    top:25vw;
+    width:3vw;
   }
 
   .imgblackwhiteatom{
     top: 20vh;
-    left: 10vw;
-    width: 7vw;
+    left: 9vw;
+    width: 5vw;
   }
   .imgpinkgrass{
-    top:9vh;
-    left:37vw;
-    width: 5vw;
-    transform:rotate(50deg);
+    top:12vh;
+    left:33vw;
+    width: 4vw;
+    transform:rotate(65deg);
   }
   .imgbrownbird{
-    top:15vh;
-    right:14vw;
+    top:22vh;
+    right:12vw;
     width: 9vw;
   }
   .imgblackwhitecloud{
-    top:13vh;
+    top:17vh;
     left:55vw;
     width: 7vw;
   }
@@ -1056,12 +1057,12 @@ li.portal a, li.portal p{
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
   .imgsmallatoms{
-    right: 11vw;
+    right: 9vw;
     top:30em;
   }
  .imgyellowshine {
 
-  top:45em;
+  top:40em;
   
  }
 
@@ -1123,7 +1124,7 @@ li.portal a, li.portal p{
   width:9vw;
  }
  .imgdna {
-    top:95vw !important;
+    top:55vw !important;
   }
  /* .gear{
     top:100vw;
@@ -1203,7 +1204,7 @@ li.portal a, li.portal p{
   left:16vw !important;
  }
  .aewdate{
-  top:20px !important;
+  top:10px !important;
   width:65vw !important;
  }
 
