@@ -32,16 +32,16 @@
       
 
           <div class="news" id="newss">
-          <h2>R&D CONFAB HIGHLIGHTS LATEST INNOVATIONS IN NUCLEAR S&T</h2>
-            <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 04 December 2022</i></p><br>
+          <h2>DOST'S NUCLEAR ENERGY OPENS DOORS FOR ATOMIC ENERGY WEEK 2023</h2>
+            <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 17 November 2023</i></p><br>
             <div class="row">
-            <img class="picnews" style="" src="assets/aew50/PNRDC2022-thumbnail.png">
+            <img class="picnews" style="" src="assets/Press_release.png">
             <p align="justify" style="font-family: Gabarito-Regular;">
 
-             The Philippine Nuclear Research Institute invites researchers, the academe, students, and interested individuals to the opening of the biennial Philippine Nuclear Research and Development Conference on Dec. 6. To be held virtually on Dec 6 and 8, the PNRDC now accepts registration of attendees at bit.ly/PNRDCregister.
+            The Department of Science and Technology-Philippine Nuclear Research Institute (DOST-PNRI) goes all out as it opens its doors to partners and guests for the celebration of the Atomic Energy Week (AEW) 2023 on December 4-7 at the PNRI grounds in Commonwealth Avenue, Quezon City.
              <br><br>
-            Speakers on the opening day include Dr. Chung Keng Yeow of the Singapore Nuclear Research and Safety Initiative of the National University of Singapore who will speak on “Innovative Nuclear Technologies: Small Modular Reactors” and Dr. Roberto Bedogni of the Frascati National Laboratories of the Instituto Nazioanale Fisica Nucleare in Italy who will present “Radiation Resistant Neutron and Photon Detectors.”
-            <br><br><a style="font-family: Gabarito-Regular;" class="arta" href="https://pnri.dost.gov.ph/index.php/2-uncategorised/748-r-d-confab-highlights-latest-innovations-in-nuclear-s-t" target="_blank"><i>Read more...</i></a>
+             With the theme “Gearing up the next generation towards a Nuclear Philippines”, the 51st AEW celebration is made more exciting by the holding of the first ever Philippine Nuclear Science Olympiad. The tilt, open to junior and senior high school students across the country, offers cash prizes, meals, and certificates to the top five awardees. Moreover, the top placer will represent the country in the first ever International Nuclear Olympiad to be held in August next year.
+            <br><br><a style="font-family: Gabarito-Regular;" class="arta" href="https://pnri.dost.gov.ph/" target="_blank"><i>Read more...</i></a>
 
             </p>
             </div>
