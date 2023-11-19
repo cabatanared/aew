@@ -7,14 +7,14 @@
 <div style="background:#FFF6CE;padding-top: 100px !important;padding: 4rem;">
   
   <center><div class="banner">
-    <!-- <img src="assets/aew_banner.jpg" style="max-width: 1000px;width: 80vw;border: 1px solid;"> -->
+  <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/3.png" class="w3-container w3-center w3-animate-zoom">
   </div>
   </center>
 
   <div class="row" id="carusel">
     <!--<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE1-VaTqvI&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div>-->
 
-    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;"> 
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 3rem; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;"> 
      <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFS1_ZcREQ&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen"" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe>
     </div>
 
