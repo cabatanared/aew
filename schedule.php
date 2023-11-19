@@ -22,7 +22,7 @@
       font-size: 12pt;
       cursor: pointer;
       margin-bottom: 0.5rem;
-      font-family: 'PublicSans-Bold';
+      font-family: 'Gabarito-Regular';
       background: #9D1F45;
       color: #ffffff; 
      }
@@ -43,7 +43,7 @@
 <br>
 <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Activities.png" class="w3-container w3-center w3-animate-zoom">
         <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
-          <a class="dl_pdf" href="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download as PDF</a>
+          <a class="dl_pdf" href="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/preview" height="480" allow="autoplay"></iframe>
               <!-- <br><br><br><h1 style="font-family: 'DarumadropOne-Regular', sans-serif;color: #9D1F45;">COMING SOON...</h1> -->
         </div>

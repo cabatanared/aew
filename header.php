@@ -43,6 +43,23 @@ session_start();
 @font-face { font-family: Gabarito-Bold; src: url("assets/font/Gabarito/static/Gabarito-Bold.ttf"); } 
 @font-face { font-family: Gabarito-Regular; src: url("assets/font/Gabarito/static/Gabarito-Regular.ttf"); } 
 @font-face { font-family: DarumadropOne-Regular; src: url("assets/font/Darumadrop_One/DarumadropOne-Regular.ttf"); } 
+
+/* PDF DOWNLOAD BUTTON */
+.dl_pdf:hover{
+        background: #FECCD9;
+        color: #9D1F45;
+     }
+     .dl_pdf {
+      padding: 0.8rem 2rem;
+      /*border: 1px solid #000;*/
+      font-size: 12pt;
+      cursor: pointer;
+      margin-bottom: 0.5rem;
+      font-family: 'Gabarito-Regular';
+      background: #9D1F45;
+      color: #ffffff; 
+     }
+     
   ::-webkit-scrollbar {
   width: 10px;
 }

@@ -5,14 +5,15 @@
    <style type="text/css">
      #schedule{
       width: unset;
-      margin: unset;
+      /* margin: unset; */
+      margin: 13px;
      }
       #schedule2{
 	    width: unset;
 	    margin: unset;
 	    position: absolute;
 	    display: none;
-	    z-index: 10;
+	    /* z-index: 2; */
      }
      .schedules{
       	margin-right: 1em;
@@ -42,9 +43,10 @@
         left: 0;
         bottom: 0;
         right: 0;
-        width: 100%;
+        width: 98%;
         height: 100vh;
         max-height: 980px;
+        margin-top: 1rem
       }
 
       .schedules a:hover{
@@ -52,6 +54,25 @@
       color: #9D1F45;
      }
       /*900*/
+      .w3-container, .w3-panel{
+    padding: 0em 0px;
+  }
+
+  .dl_pdf:hover{
+        background: #FECCD9;
+        color: #9D1F45;
+     }
+     .dl_pdf {
+      padding: 0.8rem 2rem;
+      /*border: 1px solid #000;*/
+      font-size: 12pt;
+      cursor: pointer;
+      margin-top:1rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Gabarito-Regular';
+      background: #9D1F45;
+      color: #ffffff; 
+     }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="padding: 1rem;background: #FFF6CE;">
@@ -67,7 +88,7 @@
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                   <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a> -->
-                  <a id="2btn-programme">Watch the Recorded Livestream</a>
+                  <a id="2btn-programme">Watch the Livestream</a>
 
 	              </div>
 	            </div>
@@ -85,7 +106,8 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
-				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="640" height="480" allow="autoplay"></iframe>
+              <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
+				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="100" height="480" allow="autoplay"></iframe>
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
