@@ -6,14 +6,15 @@
    <style type="text/css">
      #schedule{
       width: unset;
-      margin: unset;
+      /* margin: unset; */
+      margin: 13px;
      }
       #schedule2{
 	    width: unset;
 	    margin: unset;
 	    position: absolute;
 	    display: none;
-	    z-index: 10;
+	    /* z-index: 2; */
      }
      .schedules{
       	margin-right: 1em;
@@ -43,16 +44,36 @@
         left: 0;
         bottom: 0;
         right: 0;
-        width: 100%;
+        width: 98%;
         height: 100vh;
         max-height: 980px;
+        margin-top: 1rem
       }
 
       .schedules a:hover{
+      background: #FECCD9;
+      color: #9D1F45;
+     }
+      /*900*/
+      .w3-container, .w3-panel{
+    padding: 0em 0px;
+  }
+
+  .dl_pdf:hover{
         background: #FECCD9;
         color: #9D1F45;
      }
-      /*900*/
+     .dl_pdf {
+      padding: 0.8rem 2rem;
+      /*border: 1px solid #000;*/
+      font-size: 12pt;
+      cursor: pointer;
+      margin-top:1rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Gabarito-Regular';
+      background: #9D1F45;
+      color: #ffffff; 
+     }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="padding: 1rem;background: #FFF6CE;">
@@ -66,8 +87,8 @@
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
-	                <a id="btn-overview" class="m2" href="#">View Program</a>
-                  <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a>
+	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
+                  <a id="2btn-programme" onclick="showTab('programme')">Watch the Livestream</a>
 	              </div>
 	            </div>
 
@@ -84,10 +105,11 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+              <a class="dl_pdf" href="https://drive.google.com/file/d/1Jv07VcSkDcuaSJzkN1Xdik4-AH8dngIX/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1Jv07VcSkDcuaSJzkN1Xdik4-AH8dngIX/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
-				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
+				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;margin-top: 1rem;">
               <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1676202032798950%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
