@@ -3,6 +3,9 @@
 <?php 
 $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 $lastUriSegment = array_pop($uriSegments);
+session_start();
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -511,7 +514,7 @@ li.portal{
 
 
 p{
-  font-size: 11pt;line-height: 20px;
+  font-size: 12pt;line-height: 20px;
 }
 input, textarea{
   background: #fafafa;
@@ -848,7 +851,10 @@ li.portal a, li.portal p{
     /* visibility: hidden; */
   }
   .aew_dec, .gearup_slogan{
-    visibility: hidden;
+    /* visibility: hidden; */
+  }
+  .flink{
+    text-align: center;
   }
   .aew_dec{
     margin-top: 90px;
@@ -1396,11 +1402,11 @@ li.portal a, li.portal p{
             <a href="closing.php" style="color:#9D1F45 !important">Closing Ceremonies</a> -->
             <a href="schedule.php"style="color:#9D1F45 !important">Schedule</a>
             <a href="opening.php" style="color:#9D1F45 !important">Opening Ceremonies</a>
-            <a href="pnso.php" style="color:#9D1F45 !important">Philippine Nuclear Science Olympiad</a>
+            <a href="pnso.php" style="color:#9D1F45 !important">1st Philippine Nuclear Science Olympiad</a>
             <a href="sessions.php" style="color:#9D1F45 !important">Technical Sessions</a>
-            <a href="gad.php" style="color:#9D1F45 !important">GAD Forum</a>
-            <a href="map.php" style="color:#9D1F45 !important">Virtual Tour</a>
-            <a href="exhibit.php"style="color:#9D1F45 !important">Technical Exhibits</a>
+            <a href="gad.php" style="color:#9D1F45 !important">Gender and Development Forum</a>
+            <a href="map.php" style="color:#9D1F45 !important">Virtual Tour and Technical Exhibits</a>
+            <!-- <a href="exhibit.php"style="color:#9D1F45 !important">Technical Exhibits</a> -->
             <a href="closing.php"style="color:#9D1F45 !important">Closing Ceremonies</a>
             <!--<a href="#" >Feedback</a>-->
 
@@ -1462,14 +1468,14 @@ li.portal a, li.portal p{
       <a href="#">ACTIVITIES</a>
       <a href="schedule.php">&emsp;Schedule</a>
       <a href="opening.php">&emsp;Opening Ceremonies</a>
-      <a href="pnso.php">&emsp;Philippine Nuclear Science Olympiad</a>
+      <a href="pnso.php">&emsp;1st Philippine Nuclear Science Olympiad</a>
       <a href="sessions.php">&emsp;Technical Sessions</a>
-      <a href="gad.php">&emsp;GAD Forum</a>
-      <a href="map.php">&emsp;Virtual Tour</a>
-      <a href="exhibit.php">&emsp;Technical Exhibits</a>
+      <a href="gad.php">&emsp;Gender and Development Forum</a>
+      <a href="map.php">&emsp;Virtual Tour and Technical Exhibits</a>
+      <!-- <a href="exhibit.php">&emsp;Technical Exhibits</a> -->
       <a href="closing.php">&emsp;Closing Ceremonies</a>
-      <a href="souvenir.php">SOUVENIR PROGRAM</a>
-      <a href="#footer" >FOLLOW US</a>
+      <a href="souvenir.php">Souvenir Program</a>
+      <a href="#footer" >Follow Us</a>
     </div>
   </div>
 
