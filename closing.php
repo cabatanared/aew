@@ -55,28 +55,9 @@
       color: #9D1F45;
      }
       /*900*/
-      .w3-container, .w3-panel{
-    padding: 0em 0px;
-  }
-
-  .dl_pdf:hover{
-        background: #FECCD9;
-        color: #9D1F45;
-     }
-     .dl_pdf {
-      padding: 0.8rem 2rem;
-      /*border: 1px solid #000;*/
-      font-size: 12pt;
-      cursor: pointer;
-      margin-top:1rem;
-      margin-bottom: 0.5rem;
-      font-family: 'Gabarito-Regular';
-      background: #9D1F45;
-      color: #ffffff; 
-     }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
-<div class="main_content2" style="padding: 1rem;background: #FFF6CE;">
+<div class="main_content2" style="background: #FFF6CE;">
   
 
 	<div class="row">
