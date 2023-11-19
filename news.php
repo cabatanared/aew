@@ -33,7 +33,7 @@
 
           <div class="news" id="newss">
           <h2>DOST'S NUCLEAR ENERGY OPENS DOORS FOR ATOMIC ENERGY WEEK 2023</h2>
-            <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 17 November 2023</i></p><br>
+            <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 18 November 2023</i></p><br>
             <div class="row">
             <img class="picnews" style="" src="assets/Press_release.png">
             <p align="justify" style="font-family: Gabarito-Regular;">
