@@ -1422,7 +1422,7 @@ li.portal a, li.portal p{
             <a href="pnso.php" style="color:#9D1F45 !important">1st Philippine Nuclear Science Olympiad</a>
             <a href="sessions.php" style="color:#9D1F45 !important">Technical Sessions</a>
             <a href="gad.php" style="color:#9D1F45 !important">Gender and Development Forum</a>
-            <a href="map.php" style="color:#9D1F45 !important">Virtual Tour and Technical Exhibits</a>
+            <a href="map.php" style="color:#9D1F45 !important">Facility Tour & Technical Exhibits</a>
             <!-- <a href="exhibit.php"style="color:#9D1F45 !important">Technical Exhibits</a> -->
             <a href="closing.php"style="color:#9D1F45 !important">Closing Ceremonies</a>
             <!--<a href="#" >Feedback</a>-->
@@ -1488,7 +1488,7 @@ li.portal a, li.portal p{
       <a href="pnso.php">&emsp;1st Philippine Nuclear Science Olympiad</a>
       <a href="sessions.php">&emsp;Technical Sessions</a>
       <a href="gad.php">&emsp;Gender and Development Forum</a>
-      <a href="map.php">&emsp;Virtual Tour and Technical Exhibits</a>
+      <a href="map.php">&emsp;Facility Tour & Technical Exhibits</a>
       <!-- <a href="exhibit.php">&emsp;Technical Exhibits</a> -->
       <a href="closing.php">&emsp;Closing Ceremonies</a>
       <a href="souvenir.php">Souvenir Program</a>
