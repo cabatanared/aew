@@ -348,12 +348,12 @@ right: 0;">
           <img src="assets/51st_atomic_energy_week_text.png" class="gear">
           <img src="assets/Gearing_up_description.png" class="gear">
         </center> -->
-        <center><img src="assets/2023-AEW51-GearUp.png" class="aew" style="-webkit-animation: float2 5s ease-in-out infinite;
+        <center><img src="assets/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="-webkit-animation: float2 5s ease-in-out infinite;
           animation: float2 5s ease-in-out infinite;"><br>
-          <img src="assets/2023-AEW51-GearUp-theme.png" class="gear" style="width:50vw;">
+          <!-- <img src="assets/2023-AEW51-GearUp-theme.png" class="gear" style="width:50vw;">
           <img src="assets/2023-AEW51-Logo-Text.png" class="gear" style="width:48vw;">
           <img src="assets/2023-AEW51-date.png" class="aewdate" style="margin-top:120px;-webkit-animation: float2 5s ease-in-out infinite;
-          animation: float2 5s ease-in-out infinite; width:25vw;">
+          animation: float2 5s ease-in-out infinite; width:25vw;"> -->
         </center>
         <!--<p id="date" style="font-weight: 700;color: #f98c13;font-size: 18pt;margin-bottom: 1em;text-align: center;">December 5-9, 2022</p>-->
           <center class="center_contain">
