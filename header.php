@@ -96,7 +96,14 @@ session_start();
     scroll-behavior: smooth;
   }
   .about_section{
-    line-height: 20px;
+    margin-top: 15px;font-family: Gabarito-Regular;font-size: 10.5pt;color:#282829;
+  }
+  .logo_slogan{
+    align-items:right;
+    position:absolute;
+  }
+  .gearup_slogan{
+    font-size: 14px;width:100%;text-align:center;color:#282829;
   }
   .parallax__group {
     position: relative;
@@ -139,6 +146,12 @@ session_start();
     z-index: 2;
   }
 
+  .dost{
+    font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase
+  }
+  .pnri{
+    font-size: 16.5pt;font-family:  Gabarito-Bold;
+  }
   .imgsmallatoms {
         right:15vw;
         top:22em; 
@@ -890,6 +903,12 @@ width:91%;
   #newss > h2{
   font-size: 17pt;
   }
+  .dost{
+    font-size:14px;
+  }
+  .pnri{
+    font-size:18px;
+  }
 
 }
 
@@ -951,16 +970,38 @@ margin-left: auto;
 margin-right: auto;
 
 }
+.foot_title, .dost{
+  font-size:13px;
+}
+.pnri{
+  padding-top:-15px;
+  font-size:18px;
+}
+.about_section{
+  font-size:11px;
+}
 
 .follow{
    
-   text-align:center;
-   font-size:25px;
-   /* margin-top:-20vh; */
-   padding-bottom:-200px;
+   text-align:left;
+   /* font-size:25px;
+   padding-bottom:-200px; */
  }
- .foot_contain{
-   /* background:#FFF6CE; */
+ .logo_slogan{
+  /* margin-left:auto; */
+  top:10vh;
+  left:40vh;
+
+ }
+ .aew_dec{
+  width:20vh;
+  
+  
+ }
+ .gearup_slogan{
+  font-size:10px;
+ }
+ /* .foot_contain{
    padding-bottom:-200px;
  }
  .icons{
@@ -968,19 +1009,35 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 width:40%;
- }
+ } */
+
+ 
 }
 
 /* TABLET SCREEN */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
- .aew_wave {
+  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
  }
+ .row {
+ /* margin-right: -15px; */
+ margin-left: -10px;
+}
 
-.imgwoman {
- top: unset;
- bottom:35em;
+.press, .picnews{
+ max-height: 250px;
+ width:55%;
+ margin-right:1rem;
+ margin-bottom:2rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.foot_title{
+  font-size:15pt;
 }
 
 

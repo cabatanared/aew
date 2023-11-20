@@ -25,10 +25,10 @@
                     <img src="assets/icons/wave.png" class="aew_wave" style="margin-top:-50px;position: absolute;width: 10vw;">
                   </div>
                   <div class="foot_title" style="color:#9D1F45;">
-                    <span class="dost" style="font-weight:regular;font-size: 12pt;font-family: Gabarito-Regular;text-transform:uppercase">Department of Science and Technology</span><br>
-                    <span style="font-size: 16.5pt;font-family:  Gabarito-Bold;">Philippine Nuclear Research Institute</span>
+                    <span class="dost" style="font-weight:regular;">Department of Science and Technology</span><br>
+                    <span class= "pnri" style="">Philippine Nuclear Research Institute</span>
                   </div>
-                  <div class="about_section" style="margin-top: 15px;font-family: Gabarito-Regular;font-size: 10.5pt;color:#282829">
+                  <div class="about_section" style="">
                     <span>Commonwealth Avenue, Diliman, Quezon City, 1101, Metro Manila</span><br>
                     <span>Tel No.: (02) 8929-6011</span><br>
                     <span>PO Box: 213 UP Quezon City; 932 Manila; 1314 Central, Quezon City</span><br>
@@ -56,9 +56,9 @@
 
               </div> 
 
-              <div  style="margin-left: auto; ">
+              <div  class="logo_slogan" style=" ">
                 <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 60px;">
-                <p class="gearup_slogan" style="font-family: Gabarito-Regular;font-size: 14px;width:100%;text-align:center;color:#282829">Gearing up the next generation towards a Nuclear Philippines</p></center>
+                <p class="gearup_slogan" style="font-family: Gabarito-Regular;">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
               <div>
