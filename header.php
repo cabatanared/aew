@@ -449,7 +449,7 @@ li.portal a, .dropbtn {
 #newss > h2{
   font-family: 'DarumadropOne-Regular', sans-serif;
   color: #9D1F45;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 li.portal{
@@ -940,11 +940,11 @@ width: 50%;
  margin-left: -10px;
 }
 
-.press{
+.press, .picnews{
  max-height: 250px;
  width:55%;
  margin-right:1rem;
- margin-bottom:1rem;
+ margin-bottom:2rem;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  display: block;
 margin-left: auto;

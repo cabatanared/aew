@@ -77,7 +77,7 @@
             </div>
             <br><br><br>
 
-            <h2>PH Nuclear S&T Innovations Go Online At Atomic Energy Week</h2>
+            <h2>PH Nuclear S&T Innovations Go Online at Atomic Energy Week</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 05 November 2020</i></p><br>
             <div class="row">
             <img class="picnews" style="" src="assets/aew50/AEW48-thumbnail.jpg">
