@@ -83,7 +83,8 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
-                  <a id="2btn-programme" onclick="showTab('programme')">Watch the Livestream</a>
+                  <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Livestream</a> -->
+                  <a id="2btn-programme" onclick="">Watch the Livestream</a>
 	              </div>
 	            </div>
 
