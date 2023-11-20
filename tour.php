@@ -790,6 +790,16 @@ bottom: 2.7em;
     left: 28vw;
     width: 7vw;
   }
+  .imgbulbred{
+    top: 89vh;
+    left: 43vw;
+    width: 6vw;
+  }
+  .imgmagnetblack{
+    top: 1vh;
+    left: 48vw;
+    width: 6vw;
+  }
   .smarty{
     left: 23vw;
     top:23em;
@@ -926,7 +936,7 @@ bottom: 2.7em;
   width:11vw;
  }
  .imgdnablack{
-  top:43vh;
+  top:40vh;
   left:9vh;
   width:11vw;
  }
@@ -935,7 +945,16 @@ bottom: 2.7em;
   left:11vh;
   width:11vw;
  }
-
+ .imgbulbred{
+  top:41vh;
+  left:19vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:10vh;
+  left:23vh;
+  width:8vw;
+ }
  /* WELCOME AFTER LOGIN */
  .welcome-login{
   text-align:justify;
@@ -1250,6 +1269,8 @@ img.smarty {
     <img class="imgworldred" src="assets/map/world_red.png" style="position: absolute;">
     <img class="imgdnablack" src="assets/map/dna_black.png" style="position: absolute;">
     <img class="imgsunred" src="assets/map/sun_red.png" style="position: absolute;">
+    <img class="imgbulbred" src="assets/map/bulb_red.png" style="position: absolute;">
+    <img class="imgmagnetblack" src="assets/map/magnet_black.png" style="position: absolute;">
 
       <div class="message">
         <div class="dialog_box w3-container w3-center w3-animate-zoom">

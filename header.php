@@ -13,9 +13,9 @@ session_start();
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <!-- <link rel="stylesheet" href="assets/animate.min.css"/> -->
-<meta property="og:title" content="Atomic Energy Week @ 51"/>
+<meta property="og:title" content="Gear Up! • AEW @ 51"/>
 <meta property="og:image" content="https://aew.pnri.dost.gov.ph/aew/2023/assets/aew51_Website_thumbnail.png"/>
-<meta property="og:description" content="Atomic Energy Week @ 51"/>
+<meta property="og:description" content="Gear Up! • AEW @ 51"/>
 <meta property="og:url" content="https://aew.pnri.dost.gov.ph/aew/2023"/>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627" />
@@ -450,6 +450,7 @@ li.portal a, .dropbtn {
 #newss > h2{
   font-family: 'DarumadropOne-Regular', sans-serif;
   color: #9D1F45;
+  /* text-transform: capitalize; */
 }
 
 li.portal{
@@ -588,6 +589,7 @@ input, textarea{
 }
 
 .press{
+  text-align:center;
   max-height: 230px;
   width:38%;
   margin-right:1rem;
@@ -728,7 +730,7 @@ input, textarea{
 
 @media (max-width: 900.98px){
   #event_title{
-    margin: auto !important;
+    /* margin: auto !important; */
   }
   .news{
     width: unset;margin:2rem;
@@ -858,6 +860,7 @@ li.portal a, li.portal p{
 }
 
 @media (max-width: 480.00px){
+  
   .about_section{
       /* visibility:hidden; */
       line-height: 17px;
@@ -879,9 +882,18 @@ li.portal a, li.portal p{
   .aew_dec, .gearup_slogan{
     /* visibility: hidden; */
   }
-  .flink{
-    text-align: center;
+  .icons{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:91%;
   }
+  #newss > h2{
+  font-size: 17pt;
+  }
+
+}
+
   .aew_dec{
     margin-top: 90px;
   }
@@ -907,9 +919,72 @@ li.portal a, li.portal p{
     top:0;
     bottom:-300px;
   }
-  .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok{
-    color:#FFF6CE;
+  .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok, .flink{
+    /* color:#FFF6CE; */
+    color:white;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
   }
+
+
+
+  /* TABLET SCREEN */
+@media screen and (min-height: 1024px) and (max-width: 1366px){
+ 
+ .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+   visibility:hidden;
+ }
+ .row {
+ /* margin-right: -15px; */
+ margin-left: -10px;
+}
+
+.press, .picnews{
+ max-height: 250px;
+ width:55%;
+ margin-right:1rem;
+ margin-bottom:2rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.follow{
+   
+   text-align:center;
+   font-size:25px;
+   /* margin-top:-20vh; */
+   padding-bottom:-200px;
+ }
+ .foot_contain{
+   /* background:#FFF6CE; */
+   padding-bottom:-200px;
+ }
+ .icons{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
+ }
+}
+
+/* TABLET SCREEN */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+ .aew_wave {
+   visibility:hidden;
+ }
+
+.imgwoman {
+ top: unset;
+ bottom:35em;
+}
+
+
 }
 
  
@@ -1086,6 +1161,7 @@ li.portal a, li.portal p{
 
 
 }
+
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
   .imgsmallatoms{
@@ -1311,7 +1387,7 @@ li.portal a, li.portal p{
 </style>
 <!-- FAVICON -->
 <link href="https://aew.pnri.dost.gov.ph/aew/2023/assets/logo/2023-AEW51-Website_favicon.png" rel="icon">
-<title>Atomic Energy Week @ 51</title>
+<title>Gear Up! • AEW @ 51</title>
 </head>
 
 

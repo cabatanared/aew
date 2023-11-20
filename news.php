@@ -12,7 +12,7 @@
    </style>
 
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
-<div style="background:#FFF6CE;padding-top: 100px !important;padding: 2rem;">
+<div style="background:#FFF6CE;padding-top: 100px !important;padding: 4rem;">
   
   <center><div class="banner">
     <!-- <img src="assets/aew_banner.jpg" style="max-width: 1000px;width: 80vw;border: 1px solid;"> -->
@@ -32,7 +32,7 @@
       
 
           <div class="news" id="newss">
-          <h2>DOST'S NUCLEAR ENERGY OPENS DOORS FOR ATOMIC ENERGY WEEK 2023</h2>
+          <h2>DOST's Nuclear Energy Opens Doors for Atomic Energy Week 2023</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 18 November 2023</i></p><br>
             <div class="row">
             <img class="press" src="assets/Press_release.png">
@@ -47,7 +47,7 @@
             </div>
             
             <br><br><br>
-            <h2>ATOMIC ENERGY WEEK OPENS DEC 5</h2>
+            <h2>Atomic Energy Week Opens Dec 5</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 29 November 2022</i></p><br>
             <div class="row">
             <img class="picnews" style="" src="assets/aew50/AEW50-thumbnail.jpg">
@@ -63,7 +63,7 @@
             
             <br><br><br>
 
-            <h2>ATOMIC ENERGY WEEK 2021 TO BRANDISH THE LATEST IN PH NUCLEAR S&T INNOVATIONS</h2>
+            <h2>Atomic Energy Week 2021 to Brandish the Latest in PH Nuclear S&T Innovations</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 11 November 2021</i></p><br>
             <div class="row">
             <img class="picnews" style="" src="assets/aew50/AEW49-thumbnail.jpg">
@@ -77,7 +77,7 @@
             </div>
             <br><br><br>
 
-            <h2>PH NUCLEAR S&T INNOVATIONS GO ONLINE AT ATOMIC ENERGY WEEK</h2>
+            <h2>PH Nuclear S&T Innovations Go Online at Atomic Energy Week</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 05 November 2020</i></p><br>
             <div class="row">
             <img class="picnews" style="" src="assets/aew50/AEW48-thumbnail.jpg">
