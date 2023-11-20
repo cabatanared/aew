@@ -1148,12 +1148,17 @@ img.smarty {
         <br><br>
         <input style="font-family:Gabarito-Regular" class="inputs form-control" id="email" type="email" placeholder="Email" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
-        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="age" type="age" placeholder="Age" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
+        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="age" type="number" placeholder="Age" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
         <br><br>
-        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="gender" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
+        <!-- <input  list="genders" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>"> -->
+        <select style="font-family:Gabarito-Regular"  class="inputs form-control" id="gender"  value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
+        <option disabled selected>Select Gender</option>
+        <option value="male">Male</option>
+         <option value="female">Female</option>
+        </select>        
         <br><br>
-        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="country"  list="countries" placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
-        <datalist id="countries">
+        <select style="font-family:Gabarito-Regular" class="inputs form-control" id="country_id"   placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
+        <option disabled selected>Select Country</option>
             <?php
               include('./db_connection.php');
 
@@ -1162,13 +1167,12 @@ img.smarty {
 
                 ?>
 
-                  <option><?=$row['countryname']?></option>
+                  <option value="<?=$row['id']?>"><?=$row['countryname']?></option>
     <?php
               }
 
             ?>
-        </datalist>
-
+          </select>
 
         <h5 id="question_danger">Please provide all required details!</h5>
         
@@ -1180,13 +1184,13 @@ img.smarty {
       </div>
 
       <div id="content">
-        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100%; - 1em -10px); margin-top: 30px;  padding-top: 56.25%; border: 5px solid #F69C12">
+        <div id="video_div" style="position: relative;  overflow: hidden;  width: calc(100% - 1em -10px); margin-top: 30px;  padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe id="video_frame" class="responsive-iframe"  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
 
         <!-- General Medina Contents -->
-        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100%; - 1em -10px); height: 400px;  margin-top: 30px;padding-top: 56.25%; border: 5px solid #F69C12">
+        <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100% - 1em -10px); height: 400px;  margin-top: 30px;padding-top: 56.25%; border: 5px solid #F69C12">
           <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAExdiiK3Io/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
@@ -1203,7 +1207,7 @@ img.smarty {
           </div>
         </div>
 
-        <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100%; - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
+        <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
       
       </div>
     </div>
@@ -1333,8 +1337,10 @@ img.smarty {
 </div>
 <div style="position:absolute;bottom: 5.3em;right: 7px;font-weight: 600;"> Zoom</div>
 <div style="position:absolute;bottom: 2em;right: 0;"><button  class="zoom_control" style="color:white" onclick="action ='zoom_out';"><span class="material-icons">minimize</span></button></div>
-
+<script src="https://cdn.ipwhois.io/js/ipwho.is.js"></script>
 <script type="text/javascript">
+
+// LUMALABAS YUNG PROGRESS SAKA BACK 
   var timeLeft = 3;
   var progress = [];
   var action = 0;
@@ -1563,10 +1569,17 @@ function scene_graphics(scene){
 
       let name = $('#name').val();
       let email = $('#email').val();
-      let gender = $('#gender').val();
-      let country = $('#country').val();
+      let age = $('#age').val();
+      let gender = $('#gender,option:selected').val();
+      let country = $('#country_id').find(':selected').val();
+      
+      var ipaddress = "";
+      var apiKey = ""; // Leave blank for free endpoint
+   
+      var ipwhois = request_ipwhois(ipaddress,'en',apiKey);
+      let publicIp = ipwhois.ip;
 
-      if(name == '' || email == '' || gender == '' || country == ''){
+      if(name == '' || age == '' || email == '' || gender == '' || country == ''){
         $('#question_danger').text("Please provide all required details!");
         $('#question_danger').show();
       }
@@ -1598,7 +1611,14 @@ function scene_graphics(scene){
             $('.inputs').remove();
             $('#guard > img').addClass('smile');
             modal = 0;
-            submit_name(name, email);
+            let newParam = {
+              age,
+              gender,
+              country,
+              publicIp
+            }
+
+            submit_name(name, email,newParam);
           }       
       }
         
@@ -1786,10 +1806,11 @@ function counter(faci){
 function getUser(){
 
 }
-function submit_name(name, email){
+function submit_name(name, email,newParam){
   $.ajax({
-    url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2022/api.php'; ?>",
-    data: {name:name, email:email, action:'register'},
+    url: "<?php echo 'http://localhost/aew/api.php'; ?>",
+    // url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2022/api.php'; ?>",
+    data: {name:name, email:email, action:'register',...newParam},
     type: 'POST',
     async: false,
     success: function(d){}});
@@ -2051,6 +2072,25 @@ function onExpandableTextareaInput({ target:elm }){
 
 document.addEventListener('input', onExpandableTextareaInput)*/
 
+
+//TOUR VIEWS
+const addCountViews  = ()=>{
+      <?php
+          var_dump($_SESSION);
+        ?>
+            $.ajax({
+                url: "<?php echo 'http://localhost/aew/api.php'; ?>",
+                // url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2022/api.php'; ?>",
+                data: {id:"<?= isset($_SESSION['id']) ? $_SESSION['id'] : ''?>",action:"tour_views"},
+                type: 'POST',
+                async: false,
+                success: function(d){}});
+          }
+
+        
+          addCountViews();
+
+          
 </script>
 
 </body>

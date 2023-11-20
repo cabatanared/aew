@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2023 at 08:06 AM
+-- Generation Time: Nov 20, 2023 at 02:41 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -324,21 +324,6 @@ CREATE TABLE `website_views` (
 --
 
 --
--- Indexes for table `countries`
---
-ALTER TABLE `countries`
-  ADD PRIMARY KEY (`num_code`),
-  ADD UNIQUE KEY `alpha_2_code` (`alpha_2_code`),
-  ADD UNIQUE KEY `alpha_3_code` (`alpha_3_code`);
-
---
--- Indexes for table `map_views`
---
-ALTER TABLE `map_views`
-  ADD PRIMARY KEY (`user_id`),
-  ADD KEY `fk_num_code` (`num_code`);
-
---
 -- Indexes for table `website_views`
 --
 ALTER TABLE `website_views`
@@ -349,26 +334,10 @@ ALTER TABLE `website_views`
 --
 
 --
--- AUTO_INCREMENT for table `map_views`
---
-ALTER TABLE `map_views`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT for table `website_views`
 --
 ALTER TABLE `website_views`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `map_views`
---
-ALTER TABLE `map_views`
-  ADD CONSTRAINT `fk_num_code` FOREIGN KEY (`num_code`) REFERENCES `map_views` (`user_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
