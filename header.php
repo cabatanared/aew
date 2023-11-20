@@ -745,9 +745,12 @@ input, textarea{
 }
 
 @media (max-width: 900.98px){
-  #event_title{
-    /* margin: auto !important; */
+  #event_title, .gearup_slogan, .copyright{
+    margin: auto !important;
+    visibility: hidden;
   }
+
+
   .news{
     width: unset;margin:2rem;
   }
@@ -788,6 +791,9 @@ li.portal a, li.portal p{
 
   .foot_contain{
     padding:3rem;
+  }
+  .aew_cloud, .aew_atom, .aew_mail, .aew_stars, .aew_wave{
+    visibility: hidden;
   }
 }
 
@@ -973,10 +979,11 @@ width: 50%;
 
   /* TABLET SCREEN */
 @media screen and (min-height: 1024px) and (max-width: 1366px){
- 
- /* .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
- } */
+ }
+
+
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -1048,6 +1055,26 @@ margin-right: auto;
   .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
  }
+
+ /* .aew_wave{
+  left:40vh;
+   top:10vh;
+ }
+
+ .aew_atom{
+  left:37vh;
+   top:35vh;
+ }
+
+ .aew_cloud{
+  left:67vh;
+   top:23vh;
+ }
+  .aew_mail{
+  left:3vh;
+   top:35vh;
+ } */
+
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -1056,7 +1083,7 @@ margin-right: auto;
 .press, .picnews{
  max-height: 250px;
  width:100%;
- max-height:900px;
+ max-height:300%;
  margin-right:1rem;
  margin-bottom:2rem;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1065,9 +1092,52 @@ margin-left: auto;
 margin-right: auto;
 
 }
-.foot_title{
-  font-size:15pt;
+.foot_title, .dost{
+  font-size:13px;
 }
+.pnri{
+  padding-top:-15px;
+  font-size:18px;
+}
+.about_section{
+  font-size:11px;
+}
+
+.follow{
+   
+   text-align:left;
+   /* font-size:25px;
+   padding-bottom:-200px; */
+ }
+ .logo_slogan{
+  /* margin-left:auto; */
+  top:2vh;
+  left:51vh;
+
+ }
+ .aew_dec{
+  width:20vh;
+  
+  
+ }
+ .gearup_slogan{
+  font-size:12px;
+  /* inline-size: 250px;
+  right:-9vh;
+  line-height: 1.3 */
+ }
+
+ .website{
+  font-size: 10px;
+ }
+
+ .copyright{
+  margin-top:8vh;
+  font-size: 14px;
+  inline-size: 250px;
+  line-height: 1;
+  margin-left:24vh;
+ }
 
 
 }
