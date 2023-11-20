@@ -315,7 +315,7 @@ left: 167px;
 
         <!-- <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements (1).png" class="aew imgdna" style="position: absolute;transform:rotate(-75deg);width: 18vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;"> -->
-<img src="assets/BlackAndWhiteCursiveLine.png" class="imgdna" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 0;
+<img src="assets/BlackAndWhiteCursiveLine.png" class="aew imgdna" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;">
         
       </div>
@@ -459,16 +459,28 @@ right: 0;">
     </div>
 
     <!-- WEBSITE VISITS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.ipwhois.io/js/ipwhois.js"></script> -->
 
     <script>
-        $(document).ready(function() {
-            var ipaddress = "";
-            var apiKey = ""; // Leave blank for free endpoint
-            var ipwhois = request_ipwhois(ipaddress,'en',apiKey);
-            console.warn(ipwhois)
-        });
+      
+        
+//HOME VIEWS
+const addCountViews  = ()=>{
+      
+      $.ajax({
+          // url: "<?php echo 'http://localhost/aew/api.php'; ?>",
+          url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2023/api.php'; ?>",
+          data: {id:"<?= isset($_SESSION['id']) ? $_SESSION['id'] : ''?>",action:"home_views"},
+          type: 'POST',
+          async: false,
+          success: function(d){}});
+    }
+
+  
+    addCountViews();
+
+    
     </script>
     
     <!-- AEW OVER THE YEARS-->

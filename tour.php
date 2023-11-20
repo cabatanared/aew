@@ -1492,7 +1492,7 @@ var scene_dialog = [
 
 <?php 
       if(isset($_SESSION['email']) && !empty($_SESSION['email'])){         
-          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Login" button to play/start again.\'';
+          echo '\'Welcome back, <u>'.$_SESSION['name'].'</u>! Are you ready to explore more of PNRI facilities with me? Click the "Lets go!" button to play/start again.\'';
       }
       else{
         echo '\'Hello, welcome to Byaheng Nukleyar! Are you ready to have a tour of our facilities?\'';
@@ -1829,8 +1829,8 @@ function getUser(){
 }
 function submit_name(name, email,newParam){
   $.ajax({
-    url: "<?php echo 'http://localhost/aew/api.php'; ?>",
-    // url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2022/api.php'; ?>",
+    // url: "<?php echo 'http://localhost/aew/api.php'; ?>",
+    url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2023/api.php'; ?>",
     data: {name:name, email:email, action:'register',...newParam},
     type: 'POST',
     async: false,
@@ -2096,12 +2096,10 @@ document.addEventListener('input', onExpandableTextareaInput)*/
 
 //TOUR VIEWS
 const addCountViews  = ()=>{
-      <?php
-          var_dump($_SESSION);
-        ?>
+      
             $.ajax({
-                url: "<?php echo 'http://localhost/aew/api.php'; ?>",
-                // url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2022/api.php'; ?>",
+                // url: "<?php echo 'http://localhost/aew/api.php'; ?>",
+                url: "<?php echo 'https://aew.pnri.dost.gov.ph/aew/2023/api.php'; ?>",
                 data: {id:"<?= isset($_SESSION['id']) ? $_SESSION['id'] : ''?>",action:"tour_views"},
                 type: 'POST',
                 async: false,
