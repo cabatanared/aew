@@ -174,6 +174,7 @@ session_start();
 
   .imgdna {
     /* top:28em; */
+    top:25vw;
     top:35vw;
     width:3vw;
   }
@@ -204,6 +205,7 @@ session_start();
     position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;
   }
 
+  
   .aew_wave {
     top:10vh;
     left:58vw;
@@ -342,7 +344,8 @@ session_start();
   }
 
 
-.aew {
+  .aew {
+  margin-top:185px;
   position: relative;
   top:23vh;
   width:50vw; max-width: 900px;
@@ -1083,7 +1086,7 @@ margin-right: auto;
 .press, .picnews{
  max-height: 250px;
  width:100%;
- max-height:300%;
+ max-height:100%;
  margin-right:1rem;
  margin-bottom:2rem;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
