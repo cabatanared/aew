@@ -586,6 +586,14 @@ input, textarea{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.press{
+  max-height: 230px;
+  width:38%;
+  margin-right:1rem;
+  margin-bottom:1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #countdown{
     text-align: center;
     background: white;
@@ -1054,7 +1062,7 @@ li.portal a, li.portal p{
 
 @media (max-width: 499px){
  
- .picnews {
+ .picnews, .press {
   width: 100%;
   max-height: unset;
  }
