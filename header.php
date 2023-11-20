@@ -99,11 +99,13 @@ session_start();
     margin-top: 15px;font-family: Gabarito-Regular;font-size: 10.5pt;color:#282829;
   }
   .logo_slogan{
-    align-items:right;
+    text-align:right;
     position:absolute;
+    right:10vh;
+
   }
   .gearup_slogan{
-    font-size: 14px;width:100%;text-align:center;color:#282829;
+    position:absolute;font-size: 14px;width:100%;right:-3vh;inline-size:400px;color:#282829;
   }
   .parallax__group {
     position: relative;
@@ -352,6 +354,7 @@ session_start();
   margin-top:200px;
   max-width: 350px;
   width: 80vw;
+  
 }
 .cfront1 {
   animation: slideInLeft;
@@ -901,6 +904,16 @@ margin-left: auto;
 margin-right: auto;
 width:91%;
   }
+  .logo_slogan{
+    top:30vh;
+    left:3.8vh;
+  }
+  .gearup_slogan{
+    left:5vh;
+    line-height: 15px;
+    inline-size: 250px;
+
+  }
   #newss > h2{
   font-size: 17pt;
   }
@@ -911,17 +924,26 @@ width:91%;
     font-size:18px;
   }
 
+  .follow{
+    
+    text-align:center;
+    font-size:19px;
+  }
+  .copyright{
+    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
+    visibility: hidden;
+  }
 }
 
   .aew_dec{
     margin-top: 90px;
   }
   .copyright{
-    font-size:18px;
+    text-align:center;margin-top:90px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829;
   }
   .follow{
     
-    text-align:center;
+    /* text-align:left; */
     font-size:18px;
     /* margin-top:-20vh; */
     padding-bottom:-200px;
@@ -952,9 +974,9 @@ width: 50%;
   /* TABLET SCREEN */
 @media screen and (min-height: 1024px) and (max-width: 1366px){
  
- .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+ /* .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
- }
+ } */
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -990,8 +1012,8 @@ margin-right: auto;
  }
  .logo_slogan{
   /* margin-left:auto; */
-  top:10vh;
-  left:40vh;
+  top:2vh;
+  left:51vh;
 
  }
  .aew_dec{
@@ -1000,19 +1022,24 @@ margin-right: auto;
   
  }
  .gearup_slogan{
-  font-size:10px;
+  font-size:12px;
+  inline-size: 250px;
+  right:-9vh;
+  line-height: 1.3
  }
- /* .foot_contain{
-   padding-bottom:-200px;
- }
- .icons{
-   display: block;
-margin-left: auto;
-margin-right: auto;
-width:40%;
- } */
 
- 
+ .website{
+  font-size: 10px;
+ }
+
+ .copyright{
+  margin-top:8vh;
+  font-size: 14px;
+  inline-size: 250px;
+  line-height: 1;
+  margin-left:24vh;
+ }
+
 }
 
 /* TABLET SCREEN */
@@ -1028,7 +1055,8 @@ width:40%;
 
 .press, .picnews{
  max-height: 250px;
- width:55%;
+ width:100%;
+ max-height:900px;
  margin-right:1rem;
  margin-bottom:2rem;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
