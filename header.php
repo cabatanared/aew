@@ -159,7 +159,7 @@ session_start();
 
   .imgdna {
     /* top:28em; */
-    top:25vw;
+    top:35vw;
     width:3vw;
   }
 
@@ -328,7 +328,8 @@ session_start();
 
 
 .aew {
-  margin-top:185px;
+  position: relative;
+  top:23vh;
   width:50vw; max-width: 900px;
   /*width:100%; max-width: 755px;*/
   animation: fadeIn;

@@ -315,7 +315,7 @@ left: 167px;
 
         <!-- <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements (1).png" class="aew imgdna" style="position: absolute;transform:rotate(-75deg);width: 18vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;"> -->
-<img src="assets/BlackAndWhiteCursiveLine.png" class="aew imgdna" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 0;
+<img src="assets/BlackAndWhiteCursiveLine.png" class="imgdna" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;">
         
       </div>
@@ -348,8 +348,7 @@ right: 0;">
           <img src="assets/51st_atomic_energy_week_text.png" class="gear">
           <img src="assets/Gearing_up_description.png" class="gear">
         </center> -->
-        <center><img src="assets/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="-webkit-animation: float2 5s ease-in-out infinite;
-          animation: float2 5s ease-in-out infinite;"><br>
+        <center><img src="assets/2023-AEW51-GearUp-Logo-with-date.png" class="aew" style="-webkit-animation: float2 5s ease-in-out infinite;"><br>
           <!-- <img src="assets/2023-AEW51-GearUp-theme.png" class="gear" style="width:50vw;">
           <img src="assets/2023-AEW51-Logo-Text.png" class="gear" style="width:48vw;">
           <img src="assets/2023-AEW51-date.png" class="aewdate" style="margin-top:120px;-webkit-animation: float2 5s ease-in-out infinite;
