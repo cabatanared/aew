@@ -57,7 +57,7 @@
               </div> 
 
               <div  class="logo_slogan" style=" ">
-                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 60px;">
+                <center><img src="assets/logo/2023-AEW51-GearUp-Logo.png" id="event_title" class="aew_dec" style="margin:auto;margin-top: 90px;">
                 <p class="gearup_slogan" style="font-family: Gabarito-Regular;">Gearing up the next generation towards a Nuclear Philippines</p></center>
               </div>
 
