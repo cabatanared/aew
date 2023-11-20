@@ -37,7 +37,7 @@
                     <br>
                   </div>
                   <h2 class="follow" style="font-family:  Gabarito-Bold;color:#9D1F45;">Follow us</h2>
-                <div id="flink" style="margin-top: 1em;">
+                <div id="flink" style="margin-top: 1em;" class="icons">
                   <!-- <a target="__blank" href="https://pnri.dost.gov.ph" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_Website.png" style="width:50px"></a>
                   <a target="__blank" href="https://www.facebook.com/PNRIDOST" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_FB.png" style="width:50px"></a>
                   <a target="__blank" href="https://www.twitter.com/dost_pnri" target="_blank"><img src="Assets for Webdesign/Graphics/Icon_Twitter.png" style="width:50px"></a>
