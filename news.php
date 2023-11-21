@@ -35,7 +35,7 @@
           <h2>DOST's Nuclear Energy Opens Doors for Atomic Energy Week 2023</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 18 November 2023</i></p><br>
             <div class="row">
-            <img class="press" src="assets/Press_release.png">
+            <img class="picnews" src="assets/Press_v2.png">
             <p align="justify" style="font-family: Gabarito-Regular;">
 
             The Department of Science and Technology-Philippine Nuclear Research Institute (DOST-PNRI) goes all out as it opens its doors to partners and guests for the celebration of the Atomic Energy Week (AEW) 2023 on December 4-7 at the PNRI grounds in Commonwealth Avenue, Quezon City.
