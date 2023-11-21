@@ -569,6 +569,18 @@ textarea:focus {
   box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
 }
 
+.dropdown{
+  font-family: 'Gabarito-Regular';
+  font-size:16px;
+  width: calc(100% - 1em);
+  border: 1px solid #fff;
+  background-color:#FFF6CE;
+  height: 3em;
+  border-radius: 0;
+  padding-left: 1em;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
+}
+
 .screenbtn{
   cursor: pointer;
   height: 60px;
@@ -1170,13 +1182,13 @@ img.smarty {
         <input style="font-family:Gabarito-Regular" class="inputs form-control" id="age" type="number" placeholder="Age" value="<?php echo (isset($_GET['age'])?$_GET['age']:'')?>">
         <br><br>
         <!-- <input  list="genders" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>"> -->
-        <select style="font-family:Gabarito-Regular"  class="inputs form-control" id="gender"  value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
+        <select style="font-family:Gabarito-Regular"  class="inputs form-control dropdown" id="gender"  value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
         <option disabled selected>Select Gender</option>
         <option value="male">Male</option>
          <option value="female">Female</option>
         </select>        
         <br><br>
-        <select style="font-family:Gabarito-Regular" class="inputs form-control" id="country_id"   placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
+        <select style="font-family:Gabarito-Regular" class="inputs form-control dropdown" id="country_id"   placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
         <option disabled selected>Select Country</option>
             <?php
               include('./db_connection.php');

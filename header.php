@@ -752,8 +752,8 @@ input, textarea{
 
 @media (max-width: 900.98px){
   #event_title, .gearup_slogan, .copyright{
-    margin: auto !important;
-    visibility: hidden;
+    /* margin: auto !important; */
+    /* visibility: hidden; */
   }
 
 
@@ -887,7 +887,69 @@ li.portal a, li.portal p{
   }
 }
 
+/* PHONE SCREEN SAMSUNG GALAXY A51/71 */
 @media (max-width: 480.00px){
+  
+  .about_section{
+      /* visibility:hidden; */
+      line-height: 17px;
+  }
+  .about_section > span{
+    font-size: 9pt!important;
+  }
+
+  .foot_title{
+    /* visibility:hidden; */
+    font-size: 11pt;line-height: 20px;
+  }
+  .dost{
+    font-size:18px;
+  }
+  .aew_dec, .gearup_slogan, .copyright{
+    visibility: hidden;
+  }
+  .aew_dec, .gearup_slogan{
+    /* visibility: hidden; */
+  }
+  .icons{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:91%;
+  }
+  .logo_slogan{
+    top:30vh;
+    left:3.8vh;
+  }
+  .gearup_slogan{
+    left:5vh;
+    line-height: 15px;
+    inline-size: 250px;
+
+  }
+  #newss > h2{
+  font-size: 17pt;
+  }
+  .dost{
+    font-size:14px;
+  }
+  .pnri{
+    font-size:18px;
+  }
+
+  .follow{
+    
+    text-align:center;
+    font-size:19px;
+  }
+  .copyright{
+    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
+    visibility: hidden;
+  }
+}
+
+
+@media screen and (min-height: 914px) and (max-width: 412){
   
   .about_section{
       /* visibility:hidden; */
@@ -947,6 +1009,67 @@ width:91%;
   }
 }
 
+/* PHONE SCREEN IPHONE SE */
+@media screen and (min-height: 667px) and (min-width: 375){
+  
+  .about_section{
+      /* visibility:hidden; */
+      line-height: 17px;
+  }
+  .about_section > span{
+    font-size: 9pt!important;
+  }
+
+  .foot_title{
+    /* visibility:hidden; */
+    font-size: 11pt;line-height: 20px;
+  }
+  .dost{
+    font-size:18px;
+  }
+  .aew_dec, .gearup_slogan, .copyright{
+    visibility: hidden;
+  }
+  .aew_dec, .gearup_slogan{
+    /* visibility: hidden; */
+  }
+  .icons{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:91%;
+  }
+  /* .logo_slogan{
+    top:30vh;
+    left:3.8vh;
+  }
+  .gearup_slogan{
+    left:5vh;
+    line-height: 15px;
+    inline-size: 250px;
+
+  } */
+  #newss > h2{
+  font-size: 17pt;
+  }
+  .dost{
+    font-size:14px;
+  }
+  .pnri{
+    font-size:18px;
+  }
+
+  .follow{
+    
+    text-align:center;
+    font-size:19px;
+  }
+  .copyright, .logo_slogan{
+    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
+    visibility: hidden;
+  }
+}
+
   .aew_dec{
     margin-top: 90px;
   }
@@ -988,8 +1111,6 @@ width: 50%;
   .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
  }
-
-
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -997,7 +1118,8 @@ width: 50%;
 
 .press, .picnews{
  max-height: 250px;
- width:55%;
+ width:100%;
+ max-height:100%;
  margin-right:1rem;
  margin-bottom:2rem;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1018,14 +1140,14 @@ margin-right: auto;
 }
 
 .follow{
-   
-   text-align:left;
+   top:5vh;
+   text-align:center;
+   font-size:22px;
    /* font-size:25px;
    padding-bottom:-200px; */
  }
  .logo_slogan{
-  /* margin-left:auto; */
-  top:2vh;
+  top:-2vh;
   left:51vh;
 
  }
@@ -1042,7 +1164,14 @@ margin-right: auto;
  }
 
  .website{
-  font-size: 10px;
+  font-size: 13px;
+
+ }
+ .icons{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
  }
 
  .copyright{
@@ -1051,6 +1180,7 @@ margin-right: auto;
   inline-size: 250px;
   line-height: 1;
   margin-left:24vh;
+  visibility:hidden;
  }
 
 }
@@ -1110,14 +1240,14 @@ margin-right: auto;
 }
 
 .follow{
-   
-   text-align:left;
+   margin-top:5vh;
+   text-align:center;
+   font-size:22px;
    /* font-size:25px;
    padding-bottom:-200px; */
  }
  .logo_slogan{
-  /* margin-left:auto; */
-  top:2vh;
+  top:-3vh;
   left:51vh;
 
  }
@@ -1128,13 +1258,20 @@ margin-right: auto;
  }
  .gearup_slogan{
   font-size:12px;
-  /* inline-size: 250px;
+  inline-size: 250px;
   right:-9vh;
-  line-height: 1.3 */
+  line-height: 1.3
  }
 
  .website{
-  font-size: 10px;
+  font-size: 13px;
+
+ }
+ .icons{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
  }
 
  .copyright{
@@ -1143,8 +1280,89 @@ margin-right: auto;
   inline-size: 250px;
   line-height: 1;
   margin-left:24vh;
+  visibility:hidden;
  }
 
+
+}
+
+
+/* TABLET SCREEN IPAD AIR*/
+@media screen and (min-height: 1180px) and (max-width: 820px){
+  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+   visibility:hidden;
+ }
+ .row {
+ /* margin-right: -15px; */
+ margin-left: -10px;
+}
+
+.press, .picnews{
+ max-height: 250px;
+ width:100%;
+ max-height:100%;
+ margin-right:1rem;
+ margin-bottom:2rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.foot_title, .dost{
+  font-size:14px;
+}
+.pnri{
+  padding-top:-15px;
+  font-size:19px;
+}
+.about_section{
+  font-size:12px;
+}
+
+.follow{
+   margin-top:6vh;
+   text-align:center;
+   font-size:22px;
+   /* font-size:25px;
+   padding-bottom:-200px; */
+ }
+ .logo_slogan{
+  top:-1vh;
+  left:46vh;
+
+ }
+ .aew_dec{
+  width:20vh;
+  
+  
+ }
+ .gearup_slogan{
+  font-size:13px;
+  inline-size: 250px;
+  right:-8vh;
+  line-height: 1.3
+ }
+
+ .website{
+  font-size: 13px;
+
+ }
+ .icons{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
+ }
+
+ .copyright{
+  margin-top:8vh;
+  font-size: 14px;
+  inline-size: 250px;
+  line-height: 1;
+  margin-left:24vh;
+  visibility:hidden;
+ }
 
 }
 
