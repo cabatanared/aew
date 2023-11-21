@@ -1109,6 +1109,85 @@ bottom: 2.7em;
  
 }
 
+/* TABLET SCREEN IPAD MINI */
+@media screen and (min-width: 768px) and (max-width: 1076px){
+ 
+  .pixel2{
+    margin-top:25px;
+  }
+  .logo{
+    margin-top:160px;
+    width:50vw;
+  }
+  .dialog_box{
+    max-width:250px;
+  }
+  /* VMAP HOMPEPAGE */
+  .imgcloudblack{
+  top:23vh;
+  left:2vh;
+  width:9vw;
+ }
+ .imgatomblack{
+  top:41vh;
+  left:7vh;
+  width:10vw;
+ }
+ .imgworldred{
+  top:61vh;
+  left:2vh;
+  width:8vw;
+ }
+ .imgdnablack{
+  top:75vh;
+  left:15vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:15vh;
+  width:11vw;
+ }
+ .imgbulbred{
+  top:75vh;
+  left:34vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:8vh;
+  left:34vh;
+  width:8vw;
+ }
+
+ .imgleafred{
+  top:10vh;
+  left:52vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:23vh;
+  left:67vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:45vh;
+  left:59vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:64vh;
+  left:64vh;
+  width:11vw;
+ }
+ .imgpeanutblack{
+  top:76vh;
+  left:52vh;
+  width:10vw;
+ }
+ 
+ 
+}
+
 /* DOST PNRI LOGO */
 .clogo{
   width: 65px;padding-top: 13px;margin-left: auto; margin-right: 1em;
