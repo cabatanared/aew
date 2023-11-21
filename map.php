@@ -86,8 +86,8 @@
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
-	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Overview of PNRI Facilities & Technical Exhibits</a>
-	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">PNRI Facilities & Technical Exhibits</a>
+	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Overview</a>
+	                <a id="btn-programme" href="https://aew.pnri.dost.gov.ph/aew/2023/tour.php">Start Tour</a>
 	                <!--<a id="btn-registration" onclick="showTab('registration')">Poster Presentation</a>
                   <a id="btn-livestream" href="#">Watch the Livestream</a>-->
 
