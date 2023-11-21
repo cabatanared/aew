@@ -47,7 +47,7 @@
         width: 98%;
         height: 100vh;
         max-height: 980px;
-        margin-top: 1rem
+        margin-top: 1rem;
       }
 
       .schedules a:hover{
@@ -69,6 +69,14 @@
       background: #9D1F45;
       color: #ffffff; 
      }
+     @media (max-width: 730.98px){
+      #programme>iframe {
+        width: 100%;
+        height: 100vh;
+        max-height: 980px;
+        margin-top: 1rem;
+      }
+     }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="background: #FFF6CE;">
@@ -83,8 +91,8 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
-                  <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Livestream</a> -->
-                  <a id="2btn-programme" onclick="">Watch the Livestream</a>
+                  <a id="2btn-programme" onclick="showTab('programme')">Watch the Livestream</a>
+                  <!-- <a id="2btn-programme" onclick="">Watch the Livestream</a> -->
 	              </div>
 	            </div>
 
@@ -105,7 +113,7 @@
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1Jv07VcSkDcuaSJzkN1Xdik4-AH8dngIX/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
-				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;margin-top: 1rem;">
+				    <div class="tab" id="programme" style="">
               <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1676202032798950%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
