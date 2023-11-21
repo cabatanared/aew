@@ -345,7 +345,7 @@ session_start();
 
 
   .aew {
-  margin-top:185px;
+  /* margin-top:185px; */
   position: relative;
   top:23vh;
   width:50vw; max-width: 900px;
@@ -1448,8 +1448,8 @@ width:40%;
 @media (max-width: 640px){
  
  .aew {
-  width: 80%;
-  top: 10vw !important;
+  width: 90%;
+  top: 35vw !important;
  }
  .imgblackwhiteatom{
   top:40vh;
@@ -1485,7 +1485,7 @@ width:40%;
   width:9vw;
  }
  .imgdna {
-    top:55vw !important;
+    top:50vh !important;
   }
  /* .gear{
     top:100vw;
