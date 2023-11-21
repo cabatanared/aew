@@ -948,6 +948,68 @@ width:91%;
   }
 }
 
+/* PHONE SCREEN POCO */
+@media (max-width: 500.00px){
+  
+  .about_section{
+      /* visibility:hidden; */
+      line-height: 17px;
+  }
+  .about_section > span{
+    font-size: 9pt!important;
+  }
+
+  .foot_title{
+    /* visibility:hidden; */
+    font-size: 11pt;line-height: 20px;
+  }
+  .dost{
+    font-size:18px;
+  }
+  .aew_dec, .gearup_slogan, .copyright{
+    /* visibility: hidden; */
+  }
+  .aew_dec, .gearup_slogan{
+    /* visibility: hidden; */
+  }
+  .icons{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:75%;
+  }
+  .logo_slogan{
+    top:30vh;
+    left:5vh;
+    visibility: hidden;
+  }
+  .gearup_slogan{
+    left:5vh;
+    line-height: 15px;
+    inline-size: 250px;
+
+  }
+  #newss > h2{
+  font-size: 17pt;
+  }
+  .dost{
+    font-size:14px;
+  }
+  .pnri{
+    font-size:18px;
+  }
+
+  .follow{
+    
+    text-align:center;
+    font-size:19px;
+  }
+  .copyright{
+    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
+    visibility: hidden;
+  }
+}
+
 
 @media screen and (min-height: 914px) and (max-width: 412){
   
