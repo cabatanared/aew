@@ -784,7 +784,7 @@ bottom: 2.7em;
   }
   .imgatomblack{
     left: 14vw;
-    top:28em;
+    top:24em;
     width:7vw;
   }
   .imgworldred{
@@ -811,6 +811,31 @@ bottom: 2.7em;
     top: 1vh;
     left: 48vw;
     width: 6vw;
+  }
+  .imgleafred{
+    top: -3vh;
+    left: 66vw;
+    width: 6vw;
+  }
+  .imgrocketred{
+    top: 19vh;
+    left: 86vw;
+    width: 7vw;
+  }
+  .imgwholeatomblack{
+    top: 53vh;
+    left: 77vw;
+    width: 6vw;
+  }
+  .imgstarsred{
+    top: 82vh;
+    left: 88vw;
+    width: 7vw;
+  }
+  .imgpeanutblack{
+    top: 86vh;
+    left: 66vw;
+    width: 7vw;
   }
   .smarty{
     left: 23vw;
@@ -963,10 +988,37 @@ bottom: 2.7em;
   width:11vw;
  }
  .imgmagnetblack{
-  top:10vh;
+  top:8vh;
   left:23vh;
   width:8vw;
  }
+
+ .imgleafred{
+  top:10vh;
+  left:33vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:14vh;
+  left:39vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:24vh;
+  left:36vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:34vh;
+  left:39vh;
+  width:10vw;
+ }
+ .imgpeanutblack{
+  top:41vh;
+  left:31vh;
+  width:9vw;
+ }
+
  /* WELCOME AFTER LOGIN */
  .welcome-login{
   text-align:justify;
@@ -1283,6 +1335,11 @@ img.smarty {
     <img class="imgsunred" src="assets/map/sun_red.png" style="position: absolute;">
     <img class="imgbulbred" src="assets/map/bulb_red.png" style="position: absolute;">
     <img class="imgmagnetblack" src="assets/map/magnet_black.png" style="position: absolute;">
+    <img class="imgleafred" src="assets/map/leaf_red.png" style="position: absolute;">
+    <img class="imgrocketred" src="assets/map/rocket_red.png" style="position: absolute;">
+    <img class="imgwholeatomblack" src="assets/map/whole_atom.png" style="position: absolute;">
+    <img class="imgstarsred" src="assets/map/stars_red.png" style="position: absolute;">
+    <img class="imgpeanutblack" src="assets/map/peanut_black.png" style="position: absolute;">
 
       <div class="message">
         <div class="dialog_box w3-container w3-center w3-animate-zoom">
