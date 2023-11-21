@@ -1952,6 +1952,7 @@ width:40%;
    width:9vw !important;
  }
 
+ /* FOOTER CSS */
  .about_section{
       /* visibility:hidden; */
       line-height: 17px;
