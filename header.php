@@ -1578,7 +1578,7 @@ width:40%;
   top: 35vw !important;
  }
  .imgblackwhiteatom{
-  top:40vh;
+  top:50vh;
   width:10vw;
   left: 80vw;
  }
@@ -1588,7 +1588,7 @@ width:40%;
   left: 10vw;
  }
  .imgpinkgrass{
-  top:40vh;
+  top:50vh;
   width:8vw;
   left:10vw;
   transform:rotate(-50deg);
@@ -1611,7 +1611,7 @@ width:40%;
   width:9vw;
  }
  .imgcursive {
-    top:50vh !important;
+    top:60vh !important;
   }
  /* .gear{
     top:100vw;
