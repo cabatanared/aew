@@ -1184,7 +1184,9 @@ bottom: 2.7em;
   left:52vh;
   width:10vw;
  }
- 
+ .pencil{
+  width:17vw;
+ }
  
 }
 
@@ -1314,9 +1316,10 @@ img.smarty {
         <br><br>
         <!-- <input  list="genders" placeholder="Gender" value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>"> -->
         <select style="font-family:Gabarito-Regular"  class="inputs form-control dropdown" id="gender"  value="<?php echo (isset($_GET['gender'])?$_GET['gender']:'')?>">
-        <option disabled selected>Select Gender</option>
+        <option disabled selected>Select Sex</option>
         <option value="male">Male</option>
          <option value="female">Female</option>
+         <option value="prefer not to say">Prefer not to say</option>
         </select>        
         <br><br>
         <select style="font-family:Gabarito-Regular" class="inputs form-control dropdown" id="country_id"   placeholder="Country" value="<?php echo (isset($_GET['country'])?$_GET['country']:'')?>">
@@ -1359,14 +1362,15 @@ img.smarty {
 
         <div>
           <!--<h2>Community Questions:</h2>-->
-           <h2 style="font-family:DarumadropOne-Regular;color:#231F20">Virtual Tour FAQs:</h2>
-          <div style="font-size: 14pt;" id="question_list">
-            <!--  <div>
+           <!-- <h2 style="font-family:DarumadropOne-Regular;color:#231F20">Virtual Tour FAQs:</h2> -->
+           
+          <!-- <div style="font-size: 14pt;" id="question_list">
+             <div>
               <textarea id="question" class='autoExpand' rows='3' data-min-rows='3'  autofocus style="max-width:560px;width: calc(100% - 2em - 10px);border: 2px solid #fff;height: 5em; border-radius: 0;" placeholder="Ask a question. We'll email you the answer."></textarea>
               <div class="pixel2 form-btn" onclick="submitQuestion()">SUBMIT</div>
               <h5 id="question_success" >Question submitted!</h5>
-            </div> -->
-          </div>
+            </div>
+          </div> -->
         </div>
 
         <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
