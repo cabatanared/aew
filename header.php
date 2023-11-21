@@ -1530,7 +1530,7 @@ width:40%;
  .imgyellowshine {
   top: unset;
   bottom:33em;
-  width:10vw;
+  width:9vw;
  }
 
  .imgwoman {
@@ -1563,12 +1563,20 @@ width:40%;
 @media screen and (min-width: 641px) and (max-width: 890px){
  
  .aew {
+  top:25vh !important;
   width: 75vw;
  }
  .imgwoman{
   display:none;
  }
+ .imgyellowshine {
+  top:27em;
+  width:6vh !important;
+  right:20vw;
+  }
+  .imgsmallatoms{
 
+  }
 }
 
 @media (max-width: 640px){
@@ -1653,7 +1661,7 @@ width:40%;
 @media (max-width: 439px){
  
  .parallax__group {
-  height: 65vh;
+  height: 60vh;
  }
 
 }
@@ -1695,6 +1703,34 @@ width:40%;
   width:65vw !important;
  }
 
+ .imgpinkgrass{
+  top:42vh;
+  width:9vw;
+  left:10vw;
+  transform:rotate(-50deg);
+ }
+
+ .imgblackwhiteatom{
+  top:42vh;
+  width:10vw;
+  left: 80vw;
+ }
+
+ .imgcursive {
+    top:50vh !important;
+    width:15vw !important;
+  }
+  .imgsmallatoms{
+    width:10vw;
+  }
+
+  .imgbrownbird{
+    width:14vw;
+ }
+
+ .imgyellowshine{
+   width:9vw !important;
+ }
 }
 
 
