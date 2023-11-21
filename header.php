@@ -656,6 +656,10 @@ input, textarea{
   border-bottom: 1px solid #9D1F45;
   padding: 0.75em;
 }
+#burger-menu a:hover{
+  background:#9D1F45;
+  color: white;
+}
 /* /* #burger-menu:hover a{
   background: #9D1F45;
 } */ */
@@ -1903,6 +1907,7 @@ width:40%;
 
 }
 
+/* MOBILE VIEW */
 @media (max-width: 439px){
  
  /* .aew{
