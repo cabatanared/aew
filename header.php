@@ -172,9 +172,9 @@ session_start();
     left: 9vw;top:23em;
   }
 
-  .imgdna {
+  .imgcursive {
     /* top:28em; */
-    top:25vw;
+    position: absolute;
     top:35vw;
     width:3vw;
   }
@@ -715,6 +715,9 @@ input, textarea{
  ul.portal{
   width: 100vw;
  }
+   .imgcursive {
+    top:70vh !important;
+  }
 }
 
 
@@ -1389,7 +1392,7 @@ margin-right: auto;
   right:35vw;
   width:9vw;
  }
- .imgdna {
+ .imgcursive {
     top:50vh !important;
   }
  /* .gear{

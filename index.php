@@ -315,7 +315,7 @@ left: 167px;
 
         <!-- <img src="Assets for Webdesign/Graphics/AEW50 Brand Elements (1).png" class="aew imgdna" style="position: absolute;transform:rotate(-75deg);width: 18vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;"> -->
-<img src="assets/BlackAndWhiteCursiveLine.png" class="aew imgdna" style="position: absolute;width: 10vw;margin-left: auto;margin-right: auto;left: 0;
+<img src="assets/BlackAndWhiteCursiveLine.png" class="imgcursive" style="width: 10vw;margin-left: auto;margin-right: auto;left: 0;
 right: 0;">
         
       </div>
