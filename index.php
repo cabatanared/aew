@@ -240,7 +240,7 @@ left: 167px;
         /* background: #eee; */
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
-        /* BAR ICON */
+        /* MENU BAR ICON */
         color: #9D1F45;
         margin: 0;
         padding: 0;
