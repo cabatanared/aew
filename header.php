@@ -264,7 +264,9 @@ session_start();
     border-radius: 50%;
   /* box-shadow: 0 0 2px #888; */
     /* padding:  0.6em 0.6em; */
-    margin: 0 5px;
+    
+    /* REMOVE HOVER */
+    /* margin: 0 5px; */
   }
 
   #flink a.website:after
@@ -1345,6 +1347,157 @@ width:40%;
   visibility:hidden;
  }
 
+ /* VMAP HOMPEPAGE */
+ .imgcloudblack{
+  top:14vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:40vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
+ .imgbulbred{
+  top:41vh;
+  left:19vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:8vh;
+  left:23vh;
+  width:8vw;
+ }
+
+ .imgleafred{
+  top:10vh;
+  left:33vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:14vh;
+  left:39vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:24vh;
+  left:36vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:34vh;
+  left:39vh;
+  width:10vw;
+ }
+ .imgpeanutblack{
+  top:41vh;
+  left:31vh;
+  width:9vw;
+ }
+
+ /* WELCOME AFTER LOGIN */
+ .welcome-login{
+  text-align:justify;
+  letter-spacing:-1px;
+ }
+ .aew {
+  width: 70%;
+ }
+ .imgblackwhiteatom{
+  top:8vh;
+  left:1vh;
+  width:20vw;
+ }
+ .imgwoman{
+  top:20vh;
+  left:3vh;
+  width:20vw;
+ }
+ .smarty{
+  top:35vh;
+  left:7vh;
+  width:30vw;
+ }
+ .uranium{
+  top:34vh;
+  left:1vh;
+  width:20vw;
+ }
+ /* REGISTRATION IN MOBILE */
+ .pencil{
+  top:1vh;
+  right:1vw;
+  width:20vw;
+ }
+
+ .modal{
+  max-height:600px;
+  padding: 1em;
+ }
+ .register-label{
+  margin-top: 30px;
+  font-size: 23px;
+ }
+ .form-control{
+  top:2vh;
+ }
+ .imgsmallatoms{
+  top:20vh;
+  right:11vw;
+ }
+ .imgyellowshine{
+  top:32vh;
+  right:9vw;
+ }
+ .imgblackwhitecloud{
+  top:18vh;
+  width:12vw;
+ }
+ .imgpinkgrass{
+  top:16vh;
+  width:8vw;
+ }
+ .imgbrownbird{
+  top:11vh;
+  width:13vw;
+ }
+ .login-btn{
+  top:-8vh;
+ }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
+
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
+ 
 
 }
 
