@@ -1729,28 +1729,119 @@ width:40%;
 }
 
 
+/* TABLET LANDSCAPE 1200 X 570 FOOTER */
 @media(max-height: 734px){
   #copyright{
     bottom: 1em;
     font-size: 9pt;
   }
   #event_title{
-    display: none;
+    margin-top:-10px;
+    /* display: none; */
   }
   #group3{
     margin-top: -4em;
   }
 }
 
+/* TABLET LANDSCAPE 1200 X 570 */
 @media (max-height: 590.98px){
  
  #group3{
     margin-top: 7rem;
   }
 
+  /* FOOTER */
 .foot_contain{
-  padding: 0;
+  padding: 3rem;
 }
+.aew_dec{
+  top:90vh;
+}
+.aew_mail{
+  top:68vh;
+}
+.aew_stars{
+  right:48vh;
+  top:68vh;
+}
+.aew_cloud{
+  top:50vh;
+}
+.aew_atom{
+  top:65vh;
+}
+.aew_wave{
+  top:15vh;
+}
+
+
+}
+
+/* TABLET PORTRAIT 728 X 920 */
+@media (max-height: 920px){
+/* VMAP HOMPEPAGE */
+.imgcloudblack{
+  top:10vh;
+  left:2vh;
+  width:11vw;
+ }
+ /* .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:40vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
+ .imgbulbred{
+  top:41vh;
+  left:19vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:8vh;
+  left:23vh;
+  width:8vw;
+ }
+
+ .imgleafred{
+  top:10vh;
+  left:33vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:14vh;
+  left:39vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:24vh;
+  left:36vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:34vh;
+  left:39vh;
+  width:10vw;
+ }
+ .imgpeanutblack{
+  top:41vh;
+  left:31vh;
+  width:9vw;
+ } */
 
 }
 
@@ -1819,6 +1910,11 @@ width:40%;
 
   top:35em;
  }
+
+ /* .register-label{
+  margin-top:20px;
+  font-size: 25px;
+ } */
 
 }
 
