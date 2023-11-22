@@ -1259,6 +1259,49 @@ width:40%;
   .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
    visibility:hidden;
  }
+ .aew {
+  width: 90%;
+  top: 25vw !important;
+ }
+ .imgblackwhiteatom{
+  top:15vh !important;
+  width:8vw !important;
+  left: 10vw !important;
+ }
+ .imgblackwhitecloud{
+  top:17vh;
+  width:15vw;
+  left: 50vw;
+ }
+ .imgpinkgrass{
+  top:50vh;
+  width:8vw;
+  left:30vw;
+  transform:rotate(-50deg);
+ }
+ .imgbrownbird{
+  top:17vh !important;
+  width:12vw;
+ }
+ .imgwoman{
+  display:none;
+ }
+ .imgsmallatoms{
+    right:50vw;
+    top:6em;
+    width:13vw;
+  }
+ .imgyellowshine {
+  top:10em;
+  right:35vw;
+  width:9vw;
+ }
+ .imgcursive {
+    top:65vh !important;
+  }
+  .imgsmallatoms{
+    width:10vw !important;
+  }
 
  /* .aew_wave{
   left:40vh;
