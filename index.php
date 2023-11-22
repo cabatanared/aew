@@ -241,7 +241,7 @@ left: 167px;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         /* MENU BAR ICON */
-        color: #9D1F45;
+        /* color: #9D1F45; */
         margin: 0;
         padding: 0;
       }

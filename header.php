@@ -2222,7 +2222,7 @@ width:98%;
       </li>
 
       <li class="burger" onclick="$('#burger-menu').toggle()">
-         <span class="material-icons">reorder</span>
+         <span style="color: #9D1F45;" class="material-icons">reorder</span>
       </li>
     
     </ul>
