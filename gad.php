@@ -88,7 +88,7 @@
                     <div class="schedules">
                         <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                     <!-- <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a> -->
-                    <a id="btn-sessions" onclick="">Watch the Livestream</a>
+                    <a id="btn-sessions" onclick="">Watch the FB Live</a>
 
                     </div>
 	            </div>
