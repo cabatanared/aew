@@ -476,7 +476,7 @@ session_start();
   /* SCROLL BAR */
   overflow-y: scroll;
   position: relative;
-  max-width: 550px;
+  max-width: 450px;
   width: calc(100vw - 4em);
   /*background: #efffe5;*/
   background-color:white; 
@@ -563,7 +563,7 @@ textarea:focus {
   width: calc(100% - 2em);
   border: 1px solid #fff;
   background-color:#FFF6CE;
-  height: 3em;
+  height: 2.5em;
   border-radius: 0;
   padding-left: 1em;
   box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
@@ -575,7 +575,7 @@ textarea:focus {
   width: calc(100% - 1em);
   border: 1px solid #fff;
   background-color:#FFF6CE;
-  height: 3em;
+  height: 2.5em;
   border-radius: 0;
   padding-left: 1em;
   box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
@@ -756,7 +756,7 @@ bottom: 2.7em;
   font-size:30px;
 }
 .register-label{
-  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:30px;font-weight:bold;color:#282829;margin-top: 55px;
+  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:23px;font-weight:bold;color:#282829;margin-top: 40px;
 }
 .imgsmallatoms {
         right: 9vw;
@@ -1111,7 +1111,6 @@ bottom: 2.7em;
 
 /* TABLET SCREEN IPAD MINI */
 @media screen and (min-width: 768px) and (max-width: 1076px){
- 
   .pixel2{
     margin-top:25px;
   }
@@ -1185,7 +1184,7 @@ bottom: 2.7em;
   width:10vw;
  }
  .pencil{
-  width:17vw;
+  width:15vw;
  }
  
 }
@@ -1274,6 +1273,22 @@ img.smarty {
     /* display: none; */
   }
 }
+
+
+/* TABLET PORTRAIT 750 X 928 */
+@media(max-height: 928px){
+  /* REGISTRATION */
+.pencil{
+  top:42px;
+  left:32vh;
+  width:13vw;
+}
+
+
+}
+
+
+
     </style>
 </head>
 <body>
