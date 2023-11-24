@@ -756,7 +756,7 @@ bottom: 2.7em;
   font-size:30px;
 }
 .register-label{
-  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:23px;font-weight:bold;color:#282829;margin-top: 40px;
+  font-family:DarumadropOne-Regular;left:10vw;letter-spacing:1px;font-size:23px;font-weight:bold;color:#282829;margin-top: 10px;
 }
 .imgsmallatoms {
         right: 9vw;
@@ -841,7 +841,7 @@ bottom: 2.7em;
     left: 23vw;
     top:23em;
     width:20vw;
-  }
+  }664
   .uranium{
     left: 4vw;
     top:35em;
@@ -1276,16 +1276,18 @@ img.smarty {
 
 
 /* TABLET PORTRAIT 750 X 928 */
-@media(max-height: 928px){
+@media(min-width: 928px){
   /* REGISTRATION */
-.pencil{
+/* .pencil{
   top:42px;
-  left:32vh;
-  width:13vw;
-}
+  left:34vh;
+  width:12vw;
+} */
 
 
 }
+
+
 
 
 
@@ -1388,7 +1390,136 @@ img.smarty {
           </div> -->
         </div>
 
-        <div id="techEx"><h2>Exhibit(s) you can find in this facility:</h2><div style="display:flex"><img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"> <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #f9a11c;margin:3px"></div></div>
+        <!-- ARC -->
+        <div id="techEx"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Cold Kit sa Hot Lab… Ano Daw???"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Rizalina Osorio, Jolan Tano, Michelle Valdez</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: John Andrew A. Luna</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p>
+          </div>
+
+        </div>
+
+        <div id="techExQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+          </div>
+        </div>
+
+
+        <!-- RPSS -->
+        <div id="techExRPSS"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="rpssEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"BREAKOUT: Exposing the Truth About Radioactive Waste"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ronald E. Piquero, Angelo A. Panlaqui</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="rpssEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Sobrang safe mo na dyan Insan!"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ma. Eloisa Villacora</p>
+          </div>
+
+        </div>
+
+        <div id="techExRPSSQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+          </div>
+        </div>
+
+
+        <!-- NART -->
+        <div id="techExNART"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Who’s That Isotope? (Science Communication on Atomic Structure and Radioactivity)"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Michael Angelo C. Sia</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Nuclear Law in the Philippines: Origins and Directions"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Alfonso A. Singayan</p>
+          </div>
+
+          <div style="display:flex;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Safe ka ba? I-CPR kita (Season 2)"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Abby Joy T. De Los Santos</p>
+          </div>
+
+        </div>
+
+        <div id="techExNARTQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+          </div>
+        </div>
+
+        <!-- EBEAM -->
+        <div id="techExEBEAM"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
+            <p id="ebeamEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"PhilGamma and Ebeam - Embracing the Way Forward with Irradiation Technologies"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <p id="ebeamEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: James Harold Guillermo, Jason Meneses</p>
+          </div>
+
+        </div>
+
+        <div id="techExEBEAMQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+          </div>
+        </div>
       
       </div>
     </div>
@@ -1827,6 +1958,19 @@ function scene_graphics(scene){
       $('#static_frame').show();
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
+      
 
     break;
     case 2233:
@@ -1840,7 +1984,19 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/kOUkJNaWyfg';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#techExNART').show();
+      $('#nartEx').show();
+      $('#techExNARTQ').show();
       $('#techEx').hide();
+      $('#nmrsEx').hide();
+      $('#chemEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       
     break;
     case 1640:
@@ -1855,6 +2011,18 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/3706jI-hm1U';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       
     break;
     case 1683:
@@ -1870,6 +2038,18 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/3cqLc7zheCE';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       
     break;
     case 1727:
@@ -1884,7 +2064,19 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/ENzLXkTyobA';
       getQuestions(facility);
       document.getElementById('bg').pause();
+      $('#techExEBEAM').show();
+      $('#ebeamEx').show();
+      $('#techExEBEAMQ').show();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
       $('#techEx').hide();
+      $('#nmrsEx').hide();
+      $('#chemEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
     break;
     
     case 1726:
@@ -1899,6 +2091,18 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/ENzLXkTyobA';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       
     break;
     case 1598:
@@ -1912,10 +2116,19 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/iQhqlPhgQaU';
       getQuestions(facility);document.getElementById('bg').pause();
-      $('#techEx').show();
+      $('#techExRPSS').show();
       $('#rpssEx').show();
+      $('#techExRPSSQ').show();
       $('#nmrsEx').hide();
+      $('#techEx').hide();
       $('#chemEx').hide();
+      $('#techExQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       
     break;
 
@@ -1931,9 +2144,20 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/aRnE9eR8z18';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').show();
-      $('#rpssEx').hide();
       $('#nmrsEx').show();
       $('#chemEx').show();
+      $('#techExQ').show();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
+      
+      
       
     break;
     case 1641:
@@ -1949,6 +2173,18 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/OjCRaITLeHA';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       break;
     case 1555:
     case 2394:
@@ -1962,6 +2198,18 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/AWItrRcTdpc';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
       break;
     case 1556:
     case 1835:
@@ -1975,6 +2223,19 @@ function scene_graphics(scene){
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/hxcvnUY9Xso';
       getQuestions(facility);document.getElementById('bg').pause();
       $('#techEx').hide();
+      $('#chemEx').hide();
+      $('#nmrsEx').hide();
+      $('#techExQ').hide();
+      $('#techExRPSS').hide();
+      $('#rpssEx').hide();
+      $('#techExRPSSQ').hide();
+      $('#techExNART').hide();
+      $('#nartEx').hide();
+      $('#techExNARTQ').hide();
+      $('#techExEBEAM').hide();
+      $('#ebeamEx').hide();
+      $('#techExEBEAMQ').hide();
+
       break;
     case 4:
     $('#scene_box').hide(300);
