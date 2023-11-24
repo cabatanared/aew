@@ -88,8 +88,8 @@
 	        <div class="row">
 	        	<div id="schedule">
 	              <div class="schedules">
-	                <a id="btn-overview" class="m2" onclick="showTab('overview')">Event Information</a>
-	                <a id="btn-programme" onclick="showTab('programme')">View Program</a>
+	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
+	                <!-- <a id="btn-programme" onclick="showTab('programme')">View Program</a> -->
 	                <a id="btn-registration" onclick="showTab('registration')">List of Finalists</a>
                   <a id="btn-nucleart" onclick="showTab('nucleart')">Top 5 Olympiads</a>
                   <!-- <a id="btn-youth_panel" onclick="showTab('youth_panel')">Watch the Recorded Livestream</a> -->
