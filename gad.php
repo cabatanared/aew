@@ -73,6 +73,12 @@
       background: #9D1F45;
       color: #ffffff; 
      }
+     @media (max-width: 730.98px){
+      #sessions>iframe {
+        width: 100%;
+        max-height: 250px;
+      }
+     }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="background: #FFF6CE;">
