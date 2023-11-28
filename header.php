@@ -223,7 +223,7 @@ session_start();
 
   .aew_stars {
     top:43vh;
-    right:26vw;
+    right:21vw;
   }
 
   .aew_mail {
@@ -733,6 +733,10 @@ input, textarea{
     padding-top: 25px;
     margin-right: 0.3em;
    }
+  .return_button{
+  width: -60px !important;
+  margin-top:25px;
+}
 }
 
 
@@ -757,12 +761,29 @@ input, textarea{
 }
 
 @media (max-width: 900.98px){
-  #event_title, .gearup_slogan, .copyright{
+  #event_title{
     /* margin: auto !important; */
     /* visibility: hidden; */
   }
 
+  .gearup_slogan, .copyright{
+    /* margin: auto !important; */
+    /* visibility: hidden; */
+  }
 
+  /* .logo_slogan{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:70%;
+  }
+  .gearup_slogan{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:110%;
+  } */
+  
   .news{
     width: unset;margin:2rem;
   }
@@ -1555,7 +1576,6 @@ width:40%;
    visibility:hidden;
  }
  .row {
- /* margin-right: -15px; */
  margin-left: -10px;
 }
 
@@ -1627,6 +1647,86 @@ width:40%;
  }
 
 }
+
+/* TABLET SCREEN 750 x 928*/
+@media screen and (min-height: 928px) and (max-width: 750px){
+  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+   visibility:hidden;
+ }
+ .row {
+ margin-left: -10px;
+}
+
+.press, .picnews{
+ max-height: 250px;
+ width:100%;
+ max-height:100%;
+ margin-right:1rem;
+ margin-bottom:2rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.foot_title, .dost{
+  font-size:14px;
+}
+.pnri{
+  padding-top:-15px;
+  font-size:19px;
+}
+.about_section{
+  font-size:12px;
+}
+
+.follow{
+   margin-top:6vh;
+   text-align:center;
+   font-size:22px;
+   /* font-size:25px;
+   padding-bottom:-200px; */
+ }
+ .logo_slogan{
+  top:-1vh;
+  left:46vh;
+
+ }
+ .aew_dec{
+  width:20vh;
+  margin-right:-13vh;
+  
+  
+ }
+ .gearup_slogan{
+  font-size:13px;
+  inline-size: 250px;
+  right:-8vh;
+  line-height: 1.3
+ }
+
+ .website{
+  font-size: 13px;
+
+ }
+ .icons{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
+ }
+
+ .copyright{
+  margin-top:8vh;
+  font-size: 14px;
+  inline-size: 250px;
+  line-height: 1;
+  margin-left:24vh;
+  visibility:hidden;
+ }
+
+}
+
 
  
 @media (max-width: 460.00px){
@@ -2147,7 +2247,7 @@ width:98%;
   }
   .copyright{
     /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
+    /* visibility: hidden; */
   }
 }
 
@@ -2216,6 +2316,20 @@ width:98%;
 /* .content.has-bg .content-bg:before{content:'';background:url(images/bg-content-cover.png);position:absolute;left:0;right:0;top:0;bottom:0} */
 .milestone .title{
   top:8vh;
+}
+
+/* TABLET PORTRAIT 750 X 928 */
+@media(min-width: 750px){
+  /* REGISTRATION */
+/* .pencil{
+  top:42px;
+  left:34vh;
+  width:12vw;
+} */
+.copyright{
+  /* visibility: hidden; */
+}
+
 }
 </style>
 <!-- FAVICON -->
