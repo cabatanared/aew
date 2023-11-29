@@ -829,12 +829,12 @@ bottom: 2.7em;
   }
   .imgstarsred{
     top: 82vh;
-    left: 88vw;
+    left: 86vw;
     width: 7vw;
   }
   .imgpeanutblack{
     top: 86vh;
-    left: 66vw;
+    left: 63vw;
     width: 7vw;
   }
   .smarty{
@@ -973,8 +973,8 @@ bottom: 2.7em;
   width:11vw;
  }
  .imgdnablack{
-  top:40vh;
-  left:9vh;
+  top:42vh;
+  /* left:9vh; */
   width:11vw;
  }
  .imgsunred{
@@ -983,8 +983,8 @@ bottom: 2.7em;
   width:11vw;
  }
  .imgbulbred{
-  top:41vh;
-  left:19vh;
+  top:44vh;
+  left:22vh;
   width:11vw;
  }
  .imgmagnetblack{
@@ -995,27 +995,27 @@ bottom: 2.7em;
 
  .imgleafred{
   top:10vh;
-  left:33vh;
+  left:38vh;
   width:7vw;
  }
  .imgrocketred{
   top:14vh;
-  left:39vh;
+  right:2vh;
   width:9.5vw;
  }
  .imgwholeatomblack{
   top:24vh;
-  left:36vh;
+  right:4vh;
   width:8vw;
  }
  .imgstarsred{
   top:34vh;
-  left:39vh;
+  right:3vh;
   width:10vw;
  }
  .imgpeanutblack{
-  top:41vh;
-  left:31vh;
+  top:44vh;
+  right:8vh;
   width:9vw;
  }
 
@@ -1397,34 +1397,61 @@ img.smarty {
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Rizalina Osorio, Jolan Tano, Michelle Valdez</p>
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Rizalina Osorio, Jolan Tano, Michelle Valdez</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
             <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: John Andrew A. Luna</p>
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: John Andrew A. Luna</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
             <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p>
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
             <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p>
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+          </div>
+
+          <div style="display:flex;margin-top:20px;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Atomic Marvels Unearthed: Exploring Naturally Occurring Radioactive Materials (NORM)"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+          </div>
+
+          <div style="display:flex;margin-top:20px;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"BMRS Heroes of Nuclear Science: A Superpowered Future"</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+          </div>
+
+          <div style="display:flex;margin-top:20px;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin and Lamok! "</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
           </div>
 
         </div>

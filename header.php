@@ -223,7 +223,7 @@ session_start();
 
   .aew_stars {
     top:43vh;
-    right:26vw;
+    right:21vw;
   }
 
   .aew_mail {
@@ -733,6 +733,10 @@ input, textarea{
     padding-top: 25px;
     margin-right: 0.3em;
    }
+  .return_button{
+  width: -60px !important;
+  margin-top:25px;
+}
 }
 
 
@@ -757,12 +761,29 @@ input, textarea{
 }
 
 @media (max-width: 900.98px){
-  #event_title, .gearup_slogan, .copyright{
+  #event_title{
     /* margin: auto !important; */
     /* visibility: hidden; */
   }
 
+  .gearup_slogan, .copyright{
+    /* margin: auto !important; */
+    /* visibility: hidden; */
+  }
 
+  /* .logo_slogan{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:70%;
+  }
+  .gearup_slogan{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width:110%;
+  } */
+  
   .news{
     width: unset;margin:2rem;
   }
@@ -1075,6 +1096,157 @@ width:91%;
     /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
     visibility: hidden;
   }
+
+  /* VMAP HOMPEPAGE */
+  .imgcloudblack{
+  top:14vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:40vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
+ .imgbulbred{
+  top:41vh;
+  left:19vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:8vh;
+  left:23vh;
+  width:8vw;
+ }
+
+ .imgleafred{
+  top:10vh;
+  left:33vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:14vh;
+  left:39vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:24vh;
+  left:36vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:34vh;
+  left:39vh;
+  width:10vw;
+ }
+ .imgpeanutblack{
+  top:41vh;
+  left:31vh;
+  width:9vw;
+ }
+
+ /* WELCOME AFTER LOGIN */
+ .welcome-login{
+  text-align:justify;
+  letter-spacing:-1px;
+ }
+ .aew {
+  width: 70%;
+ }
+ .imgblackwhiteatom{
+  top:8vh;
+  left:1vh;
+  width:20vw;
+ }
+ .imgwoman{
+  top:20vh;
+  left:3vh;
+  width:20vw;
+ }
+ .smarty{
+  top:35vh;
+  left:7vh;
+  width:30vw;
+ }
+ .uranium{
+  top:34vh;
+  left:1vh;
+  width:20vw;
+ }
+ /* REGISTRATION IN MOBILE */
+ .pencil{
+  top:1vh;
+  right:1vw;
+  width:20vw;
+ }
+
+ .modal{
+  max-height:600px;
+  padding: 1em;
+ }
+ .register-label{
+  margin-top: 30px;
+  font-size: 23px;
+ }
+ .form-control{
+  top:2vh;
+ }
+ .imgsmallatoms{
+  top:20vh;
+  right:11vw;
+ }
+ .imgyellowshine{
+  top:32vh;
+  right:9vw;
+ }
+ .imgblackwhitecloud{
+  top:18vh;
+  width:12vw;
+ }
+ .imgpinkgrass{
+  top:16vh;
+  width:8vw;
+ }
+ .imgbrownbird{
+  top:11vh;
+  width:13vw;
+ }
+ .login-btn{
+  top:-8vh;
+ }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
+
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
 }
 
 /* PHONE SCREEN IPHONE SE */
@@ -1253,7 +1425,7 @@ width:40%;
 
 }
 
-/* TABLET SCREEN */
+/* TABLET SCREEN IPAD MINI */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
   .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
@@ -1555,7 +1727,6 @@ width:40%;
    visibility:hidden;
  }
  .row {
- /* margin-right: -15px; */
  margin-left: -10px;
 }
 
@@ -1627,6 +1798,300 @@ width:40%;
  }
 
 }
+
+/* TABLET SCREEN 750 x 928*/
+@media screen and (min-height: 928px) and (max-width: 750px){
+  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
+   visibility:hidden;
+ }
+ .aew {
+  width: 90%;
+  top: 25vw !important;
+ }
+ .imgblackwhiteatom{
+  top:15vh !important;
+  width:8vw !important;
+  left: 10vw !important;
+ }
+ .imgblackwhitecloud{
+  top:17vh;
+  width:15vw;
+  left: 50vw;
+ }
+ .imgpinkgrass{
+  top:50vh;
+  width:8vw;
+  left:30vw;
+  transform:rotate(-50deg);
+ }
+ .imgbrownbird{
+  top:17vh !important;
+  width:12vw;
+ }
+ .imgwoman{
+  display:none;
+ }
+ .imgsmallatoms{
+    right:50vw;
+    top:6em;
+    width:13vw;
+  }
+ .imgyellowshine {
+  top:10em;
+  right:35vw;
+  width:9vw;
+ }
+ .imgcursive {
+    top:65vh !important;
+  }
+  .imgsmallatoms{
+    width:10vw !important;
+  }
+
+ /* .aew_wave{
+  left:40vh;
+   top:10vh;
+ }
+
+ .aew_atom{
+  left:37vh;
+   top:35vh;
+ }
+
+ .aew_cloud{
+  left:67vh;
+   top:23vh;
+ }
+  .aew_mail{
+  left:3vh;
+   top:35vh;
+ } */
+
+ .row {
+ /* margin-right: -15px; */
+ margin-left: -10px;
+}
+
+.press, .picnews{
+ max-height: 250px;
+ width:100%;
+ max-height:100%;
+ margin-right:1rem;
+ margin-bottom:2rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.foot_title, .dost{
+  font-size:13px;
+}
+.pnri{
+  padding-top:-15px;
+  font-size:18px;
+}
+.about_section{
+  font-size:11px;
+}
+
+.follow{
+   margin-top:5vh;
+   text-align:center;
+   font-size:22px;
+   /* font-size:25px;
+   padding-bottom:-200px; */
+ }
+ .logo_slogan{
+  top:-3vh;
+  left:51vh;
+
+ }
+ .aew_dec{
+  width:20vh;
+  
+  
+ }
+ .gearup_slogan{
+  font-size:12px;
+  inline-size: 250px;
+  right:-5vh;
+  line-height: 1.3
+ }
+
+ .website{
+  font-size: 13px;
+
+ }
+ .icons{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
+ }
+
+ .copyright{
+  margin-top:8vh;
+  font-size: 14px;
+  inline-size: 250px;
+  line-height: 1;
+  margin-left:24vh;
+  visibility:hidden;
+ }
+
+ /* VMAP HOMPEPAGE */
+ .imgcloudblack{
+  top:14vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgatomblack{
+  top:24vh;
+  left:5vh;
+  width:11vw;
+ }
+ .imgworldred{
+  top:34vh;
+  left:2vh;
+  width:11vw;
+ }
+ .imgdnablack{
+  top:40vh;
+  left:9vh;
+  width:11vw;
+ }
+ .imgsunred{
+  top:8vh;
+  left:11vh;
+  width:11vw;
+ }
+ .imgbulbred{
+  top:41vh;
+  left:19vh;
+  width:11vw;
+ }
+ .imgmagnetblack{
+  top:8vh;
+  left:23vh;
+  width:8vw;
+ }
+
+ .imgleafred{
+  top:10vh;
+  left:33vh;
+  width:7vw;
+ }
+ .imgrocketred{
+  top:14vh;
+  left:39vh;
+  width:9.5vw;
+ }
+ .imgwholeatomblack{
+  top:24vh;
+  left:36vh;
+  width:8vw;
+ }
+ .imgstarsred{
+  top:34vh;
+  left:39vh;
+  width:10vw;
+ }
+ .imgpeanutblack{
+  top:41vh;
+  left:31vh;
+  width:9vw;
+ }
+
+ /* WELCOME AFTER LOGIN */
+ .welcome-login{
+  text-align:justify;
+  letter-spacing:-1px;
+ }
+ .aew {
+  width: 70%;
+ }
+ .imgblackwhiteatom{
+  top:8vh;
+  left:1vh;
+  width:20vw;
+ }
+ .imgwoman{
+  top:20vh;
+  left:3vh;
+  width:20vw;
+ }
+ .smarty{
+  top:35vh;
+  left:7vh;
+  width:30vw;
+ }
+ .uranium{
+  top:34vh;
+  left:1vh;
+  width:20vw;
+ }
+ /* REGISTRATION IN MOBILE */
+ .pencil{
+  top:1vh;
+  right:1vw;
+  width:20vw;
+ }
+
+ .modal{
+  max-height:600px;
+  padding: 1em;
+ }
+ .register-label{
+  margin-top: 30px;
+  font-size: 23px;
+ }
+ .form-control{
+  top:2vh;
+ }
+ .imgsmallatoms{
+  top:20vh;
+  right:11vw;
+ }
+ .imgyellowshine{
+  top:32vh;
+  right:9vw;
+ }
+ .imgblackwhitecloud{
+  top:18vh;
+  width:12vw;
+ }
+ .imgpinkgrass{
+  top:16vh;
+  width:8vw;
+ }
+ .imgbrownbird{
+  top:11vh;
+  width:13vw;
+ }
+ .login-btn{
+  top:-8vh;
+ }
+ .aew_wave{
+  top:48vh;
+  left:45vw;
+ }
+
+ .aew_cloud{
+  top:41vh;
+  right:4vw;
+ }
+ .aew_atom{
+  top:41vh;
+  /* right:4vw; */
+ }
+
+ .aew_stars{
+  top:58vh;
+  /* right:4vw; */
+ }
+
+}
+
 
  
 @media (max-width: 460.00px){
@@ -1979,9 +2444,7 @@ width:40%;
  .imgcursive {
     top:60vh !important;
   }
- /* .gear{
-    top:100vw;
- } */
+
  .aewdate{
     top:10vw;
  }
@@ -1999,17 +2462,14 @@ width:40%;
    .aew_atom, .aew_mail{
     visibility: hidden;
     top:41vh;
-    /* right:4vw; */
    }
 
  .aew_stars{
   visibility:hidden;
   top:58vh;
-  /* right:4vw; */
+
  }
- /* .gear {
-  top: 90w;
- } */
+ 
  .pnsovid{
   width:100% !important;
   height:100% !important;
@@ -2147,7 +2607,7 @@ width:98%;
   }
   .copyright{
     /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
+    /* visibility: hidden; */
   }
 }
 
@@ -2216,6 +2676,20 @@ width:98%;
 /* .content.has-bg .content-bg:before{content:'';background:url(images/bg-content-cover.png);position:absolute;left:0;right:0;top:0;bottom:0} */
 .milestone .title{
   top:8vh;
+}
+
+/* TABLET PORTRAIT 750 X 928 */
+@media(min-width: 750px){
+  /* REGISTRATION */
+/* .pencil{
+  top:42px;
+  left:34vh;
+  width:12vw;
+} */
+.copyright{
+  /* visibility: hidden; */
+}
+
 }
 </style>
 <!-- FAVICON -->
