@@ -1,4 +1,4 @@
- <?php 
+<?php 
    include 'header.php';
    ?>
    <link href="assets/css/zoom.css" rel="stylesheet" />
@@ -113,7 +113,7 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+	        		<div class="tab opened" id="overview" style="min-height: 60vh;max-height: 900px;">
               <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="100" height="480" allow="autoplay"></iframe>
 				      </div>

@@ -29,7 +29,7 @@
    </style>
 
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
-<div class="main_content2" style="padding: 1rem;background: #FFF6CE;">
+<div class="main_content2" style="background: #FFF6CE;">
   
   <center><div class="banner">
     <!-- <img src="assets/aew_banner.jpg" style="max-width: 1000px;width: 80vw;border: 1px solid;"> -->
@@ -40,10 +40,10 @@
 
 <div class="article" style="margin: auto;">
 <br>
-          <img style="max-width: 1000px;width: 100%;margin-bottom: 0.5rem" src="assets/banners/Souvenir.png"  class="w3-container w3-center w3-animate-zoom">
+          <img style="max-width: 1000px;width: 100%;margin-bottom: 30px" src="assets/banners/Souvenir.png"  class="w3-container w3-center w3-animate-zoom">
           
 
-        <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
+        <div style="position: relative;min-height: 60vh; max-width: 1000px;width:100%">
             <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
             <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/preview" height="480" allow="autoplay"></iframe>-->
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" height="480" allow="autoplay"></iframe>

@@ -106,7 +106,7 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+	        		<div class="tab opened" id="overview" style="min-height: 60vh;max-height: 900px;">
               <a class="dl_pdf" href="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
