@@ -42,7 +42,7 @@
 
 <br>
 <img style="max-width: 1000px;width: 100%;margin-bottom: 1.7rem" src="assets/banners/Activities.png" class="w3-container w3-center w3-animate-zoom">
-        <div style="position: relative;min-height: 100vh; max-width: 1000px;width:100%">
+        <div style="position: relative;min-height: 60vh; max-width: 1000px;width:100%">
           <a class="dl_pdf" href="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/preview" height="480" allow="autoplay"></iframe>
               <!-- <br><br><br><h1 style="font-family: 'DarumadropOne-Regular', sans-serif;color: #9D1F45;">COMING SOON...</h1> -->
