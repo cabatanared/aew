@@ -430,7 +430,7 @@ right: 0;">
     <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0px; margin-bottom: 0px; overflow: hidden; border-radius: 8px; will-change: transform;"> 
      <!-- <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="assets/PNSO_Logo-Anim_3.mp4" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe> -->
      <!-- <video type=”video/mp4″ style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://aew.pnri.dost.gov.ph/aew/2023/assets/PNSO_Logo-Anim_3.mp4" allowfullscreen="allowfullscreen" allow="fullscreen">  </video> -->
-     <video class="pnsovid" style="" controls autoplay>
+     <video class="pnsovid" style="" controls loop>
         <source src="assets/PNSO_Logo-Anim_3.mp4" type="video/mp4">
         <source src="assets/PNSO_Logo-Anim_3.ogg" type="video/ogg">
         Your browser does not support the video tag.
