@@ -647,6 +647,8 @@ input, textarea{
 }
 #burger-menu{
   display: none;
+  width: 75%;
+  float: right;
 }
 #burger-menu a{
   /*background: #efffe5;*/
