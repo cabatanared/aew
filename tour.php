@@ -1445,15 +1445,7 @@ img.smarty {
             <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
           </div>
 
-          <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin and Lamok! "</p>
-          </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
-          </div>
-
+          
         </div>
 
         <div id="techExQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
@@ -1471,16 +1463,16 @@ img.smarty {
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ronald E. Piquero, Angelo A. Panlaqui</p>
+            <!-- <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ronald E. Piquero, Angelo A. Panlaqui</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
             <p id="rpssEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Sobrang safe mo na dyan Insan!"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ma. Eloisa Villacora</p>
+            <!-- <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ma. Eloisa Villacora</p> -->
           </div>
 
         </div>
@@ -1500,26 +1492,36 @@ img.smarty {
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Michael Angelo C. Sia</p>
+            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Michael Angelo C. Sia</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
             <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Nuclear Law in the Philippines: Origins and Directions"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Alfonso A. Singayan</p>
+            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Alfonso A. Singayan</p> -->
           </div>
 
-          <div style="display:flex;">
+          <div style="display:flex;margin-top:20px;">
             <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
             <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Safe ka ba? I-CPR kita (Season 2)"</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Abby Joy T. De Los Santos</p>
+            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Abby Joy T. De Los Santos</p> -->
           </div>
+
+          <div style="display:flex;margin-top:20px;">
+            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin and Lamok! "</p>
+          </div>
+          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
+            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
+            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+          </div>
+
 
         </div>
 
@@ -1537,7 +1539,7 @@ img.smarty {
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <p id="ebeamEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: James Harold Guillermo, Jason Meneses</p>
+            <!-- <p id="ebeamEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: James Harold Guillermo, Jason Meneses</p> -->
           </div>
 
         </div>
