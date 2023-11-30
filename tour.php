@@ -1424,7 +1424,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Cold Kit sa Hot Lab… Ano Daw???</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Cold Kit sa Hot Lab… Ano Daw???</i>
               </span>
             </div>
           </div>
@@ -1452,7 +1452,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section</i>
               </span>
             </div>
           </div>
@@ -1480,7 +1480,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: NATs going Nuts…</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> NATs going Nuts…</i>
               </span>
             </div>
           </div>
@@ -1498,7 +1498,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
-                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Pingpong ARC</i>
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Pingpong Area, ARC</i>
               </span>
             </div>
           </div>
@@ -1508,7 +1508,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Atomic Marvels Unearthed: Exploring Naturally Occurring Radioactive Materials (NORM)</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Atomic Marvels Unearthed: Exploring Naturally Occurring Radioactive Materials (NORM)</i>
               </span>
             </div>
           </div>
@@ -1536,7 +1536,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: BMRS Heroes of Nuclear Science: A Superpowered Future</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> BMRS Heroes of Nuclear Science: A Superpowered Future</i>
               </span>
             </div>
           </div>
@@ -1564,7 +1564,7 @@ img.smarty {
             <div class="rating" id="chemEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Radiation Reveal: From Big Bang To Your Backyard</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Radiation Reveal: From Big Bang To Your Backyard</i>
               </span>
             </div>
           </div>
@@ -1587,34 +1587,6 @@ img.smarty {
             </div>
           </div>
 
-
-          <!-- EXHIBIT 7 -->
-          <div style="display:flex;margin-top:20px;">
-            <div class="rating" id="chemEx">
-              <span>
-                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: SITahin ang Lamok!</i>
-              </span>
-            </div>
-          </div>
-           
-          <div style="display:flex;">
-            <div class="rating" id="chemEx">
-              <span>
-                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
-                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Sterile Insect Techniques</i>
-              </span>
-            </div>
-          </div>
-
-          <div style="display:flex;">
-            <div class="rating" id="chemEx">
-              <span>
-                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
-                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Entomology Building Lobby</i>
-              </span>
-            </div>
-          </div>
           
         </div>
 
@@ -1632,7 +1604,7 @@ img.smarty {
             <div class="rating" id="rpssEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: BREAKOUT: Exposing the Truth About Radioactive Waste</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> BREAKOUT: Exposing the Truth About Radioactive Waste</i>
               </span>
             </div>
           </div>
@@ -1660,7 +1632,7 @@ img.smarty {
             <div class="rating" id="rpssEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Sobrang safe mo na dyan Insan!</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Sobrang safe mo na dyan Insan!</i>
               </span>
             </div>
           </div>
@@ -1699,7 +1671,7 @@ img.smarty {
             <div class="rating" id="nartEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Who’s That Isotope? (Science Communication on Atomic Structure and Radioactivity)</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Who’s That Isotope? (Science Communication on Atomic Structure and Radioactivity)</i>
               </span>
             </div>
           </div>
@@ -1727,7 +1699,7 @@ img.smarty {
             <div class="rating" id="nartEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Nuclear Law in the Philippines: Origins and Directions</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Nuclear Law in the Philippines: Origins and Directions</i>
               </span>
             </div>
           </div>
@@ -1755,7 +1727,7 @@ img.smarty {
             <div class="rating" id="nartEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Safe ka ba? I-CPR kita (Season 2)</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Safe ka ba? I-CPR kita (Season 2)</i>
               </span>
             </div>
           </div>
@@ -1778,6 +1750,36 @@ img.smarty {
             </div>
           </div>
 
+
+          <!-- EXHIBIT 4 -->
+          <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> SITahin ang Lamok!</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Sterile Insect Techniques</i>
+              </span>
+            </div>
+          </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Entomology Building Lobby</i>
+              </span>
+            </div>
+          </div>
+
+
         </div>
 
         <div id="techExNARTQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
@@ -1794,7 +1796,7 @@ img.smarty {
             <div class="rating" id="ebeamEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
-                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: PhilGamma and Ebeam - Embracing the Way Forward with Irradiation Technologies</i>
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> PhilGamma and Ebeam - Embracing the Way Forward with Irradiation Technologies</i>
               </span>
             </div>
           </div>
@@ -1862,13 +1864,43 @@ img.smarty {
           </div>
         </div>  
 
+        <!-- SATER-->
+        <div id="SATER"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
+          <!-- EXHIBIT 1 -->
+          <div style="display:flex;margin-top:30px;">
+            <div class="rating" id="saterEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#4DA850"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Philippine Research Reactor-1 Subcritical Assembly for Training, Education, and Research (PRR-1 SATER)</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="saterEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">51st AEW Special Technical Exhibit</i>
+              </span>
+            </div>
+          </div>
 
-        <!-- PRR -->
-        <div id="PRR"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;">
+            <div class="rating" id="saterEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: NROS Hallway, ARC</i>
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="saterExQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
           <div style="display:flex;margin-top:-20px;">
             <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
-        </div> 
+        </div>  
         
         
       </div>
@@ -2325,7 +2357,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
 
     break;
     case 2233:
@@ -2357,7 +2391,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       
     break;
     case 1640:
@@ -2389,7 +2425,9 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       
     break;
     case 1683:
@@ -2422,7 +2460,9 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       
     break;
     case 1727:
@@ -2455,7 +2495,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
     break;
     
     case 1726:
@@ -2487,7 +2529,9 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       
     break;
     case 1598:
@@ -2519,7 +2563,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
 
     break;
 
@@ -2552,7 +2598,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       
       
     break;
@@ -2568,7 +2616,9 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/OjCRaITLeHA';
       getQuestions(facility);document.getElementById('bg').pause();
-      $('#PRR').show();
+      $('#SATER').show();
+      $('#saterEx').show();
+      $('#saterExQ').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2617,7 +2667,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
       break;
     case 1556:
     case 1835:
@@ -2648,7 +2700,9 @@ function scene_graphics(scene){
       $('#tech99M').hide();
       $('#NATAS').hide();
       $('#COBALT').hide();
-      $('#PRR').hide();
+      $('#SATER').hide();
+      $('#saterEx').hide();
+      $('#saterExQ').hide();
 
       break;
     case 4:
