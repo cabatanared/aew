@@ -94,7 +94,7 @@
 	        	<div id="schedule">
                     <div class="schedules">
                       <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
-                      <!-- <a id="btn-overview" class="m2" onclick="showTab('programme')">About the Speakers</a> -->
+                      <a id="btn-programme" class="m2" onclick="showTab('programme')">Abstracts</a>
                       <!-- <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a> -->
                       <a id="btn-sessions" onclick="">Watch the FB Live</a>
 
@@ -119,8 +119,8 @@
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
-            <a class="dl_pdf"href="https://bit.ly/PNRDCregister" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
-              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/19VIBCD06u40f9L3BUzOwNPOeQ-yvLcez/preview" width="640" height="480" allow="autoplay"></iframe>
+            <a class="dl_pdf"href="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
+              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 
