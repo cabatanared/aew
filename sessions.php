@@ -96,7 +96,7 @@
                       <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                       <a id="btn-programme" onclick="showTab('programme')">Abstracts</a>
                       <!-- <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a> -->
-                      <a id="btn-sessions" onclick="">Watch the FB Live</a>
+                      <a id="btn-sessions" onclick="">Watch Live</a>
 
                     </div>
 	            </div>
