@@ -119,7 +119,7 @@
 				      </div>
 
 				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
-            <a class="dl_pdf"href="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join the Conference</a>
+            <a class="dl_pdf"href="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
               <iframe class="responsive-iframe" src="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
