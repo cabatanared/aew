@@ -28,7 +28,10 @@ session_start();
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
+  <!-- ZOOM ANIMATION -->
   <link href="assets/css/zoom.css" rel="stylesheet" />
+  <!-- FONTS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); 
@@ -41,6 +44,26 @@ session_start();
         font-style: normal;
         font-weight: 400;
         src: url(assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+      }
+
+      .fa{
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering:auto;
+        -webkit-font-smoothing:antialiased;
+        -moz-osx-font-smoothing:grayscale;
+      }
+
+      .fa-star:before{
+        content:"\f005";
+
+      }
+
+      :after, :before{
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
       }
 
       .material-icons {
@@ -1306,7 +1329,7 @@ img.smarty {
     <!-- PNRI Interactive Map PDF-->
     <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  
       <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    
-        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFTgdy8Ruw&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  
+        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1h8_j5GM&#x2F;u7bFtSAML82iO-2Og8jeAA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  
       </iframe>
     </div>
     <!--<img src="facilities/info.png" style="width: calc(100vw - 4em);max-width: 600px;">-->
@@ -1373,7 +1396,7 @@ img.smarty {
 
         <!-- General Medina Contents -->
         <div id="static_frame" style="position: relative;  overflow: hidden;  display:none; width: calc(100% - 1em -10px); height: 400px;  margin-top: 30px;padding-top: 56.25%; border: 5px solid #F69C12">
-          <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAExdiiK3Io/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          <iframe class="responsive-iframe"  src="https://www.canva.com/design/DAF1h5xu6AE/w0WLjx5pDkuFciz_ifXZJg/view?embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
 
@@ -1410,17 +1433,11 @@ img.smarty {
           </div>
 
           <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="chemEx">
+              <span><i class="fa fa-star fa-beat fa-large m-t-10" style="color:orange"></i> <i style="ont-size:18px;font-family:Gabarito-Regular;font-style:italic"> "NATs going Nuts…"</i></span>
+            </div>
             <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
-          </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
-          </div>
-
-          <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p>
+            <!-- <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p> -->
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
@@ -1515,7 +1532,7 @@ img.smarty {
 
           <div style="display:flex;margin-top:20px;">
             <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin and Lamok! "</p>
+            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin ang Lamok! "</p>
           </div>
           <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
             <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
