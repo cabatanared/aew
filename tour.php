@@ -66,6 +66,10 @@ session_start();
         -webkit-box-sizing:border-box;
       }
 
+      i.exhibit { 
+            text-indent: -30px;
+        } 
+
       .material-icons {
         font-family: 'Material Icons';
         font-weight: normal;
@@ -1415,155 +1419,410 @@ img.smarty {
 
         <!-- ARC -->
         <div id="techEx"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
-          <div style="display:flex;margin-top:-20px;">
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Cold Kit sa Hot Lab… Ano Daw???"</p>
+          <!-- EXHIBIT 1 -->
+          <div style="display:flex;margin-top:30px;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Cold Kit sa Hot Lab… Ano Daw???</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Rizalina Osorio, Jolan Tano, Michelle Valdez</p> -->
+          
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Isotopes Techniques</i>
+              </span>
+            </div>
           </div>
 
-          <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section"</p>
-          </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: John Andrew A. Luna</p> -->
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Pingpong Area, ARC</i>
+              </span>
+            </div>
           </div>
 
+          <!-- EXHBIT 2 -->
           <div style="display:flex;margin-top:20px;">
             <div class="rating" id="chemEx">
-              <span><i class="fa fa-star fa-beat fa-large m-t-10" style="color:orange"></i> <i style="ont-size:18px;font-family:Gabarito-Regular;font-style:italic"> "NATs going Nuts…"</i></span>
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: All Aboard the Nuclear Philippines Express: Chug along with the Chemistry Research Section</i>
+              </span>
             </div>
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <!-- <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"NATs going Nuts…"</p> -->
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Radiation Processing and Radiochemistry</i>
+              </span>
+            </div>
           </div>
 
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: ARC Hallway 2nd Floor/RBA Lab 2/CRS RP Laboratory</i>
+              </span>
+            </div>
+          </div>
+
+          <!-- EXHIBIT 3 -->
           <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Atomic Marvels Unearthed: Exploring Naturally Occurring Radioactive Materials (NORM)"</p>
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: NATs going Nuts…</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Nuclear Analytic Techniques</i>
+              </span>
+            </div>
           </div>
 
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Pingpong ARC</i>
+              </span>
+            </div>
+          </div>
+
+          <!-- EXHIBIT 4 -->
           <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"BMRS Heroes of Nuclear Science: A Superpowered Future"</p>
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Atomic Marvels Unearthed: Exploring Naturally Occurring Radioactive Materials (NORM)</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: NORM</i>
+              </span>
+            </div>
           </div>
 
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: NMRS Facility</i>
+              </span>
+            </div>
+          </div>
+
+          <!-- EXHIBIT 5 -->
+          <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: BMRS Heroes of Nuclear Science: A Superpowered Future</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Cytogenetics, Microbiology, Food Irradiation, Wound Dressing</i>
+              </span>
+            </div>
+          </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: BMRS Modular Building 1</i>
+              </span>
+            </div>
+          </div>
+
+           <!-- EXHIBIT 6 -->
+           <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Radiation Reveal: From Big Bang To Your Backyard</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Environmental Monitoring</i>
+              </span>
+            </div>
+          </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: HPRS Envi Lab</i>
+              </span>
+            </div>
+          </div>
+
+
+          <!-- EXHIBIT 7 -->
+          <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: SITahin ang Lamok!</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Sterile Insect Techniques</i>
+              </span>
+            </div>
+          </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="chemEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Entomology Building Lobby</i>
+              </span>
+            </div>
+          </div>
           
         </div>
 
         <div id="techExQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
           <div style="display:flex;margin-top:-20px;">
-            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>
 
 
         <!-- RPSS -->
         <div id="techExRPSS"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
-          <div style="display:flex;margin-top:-20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="rpssEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"BREAKOUT: Exposing the Truth About Radioactive Waste"</p>
+          <!-- EXHIBIT 1 -->
+          <div style="display:flex;margin-top:30px;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: BREAKOUT: Exposing the Truth About Radioactive Waste</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ronald E. Piquero, Angelo A. Panlaqui</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Radioactive Waste</i>
+              </span>
+            </div>
           </div>
 
-          <div style="display:flex;margin-top:20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="rpssEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Sobrang safe mo na dyan Insan!"</p>
+          <div style="display:flex;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: RWMF/Breakout Room</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="rpssEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Ma. Eloisa Villacora</p> -->
+
+          <!-- EXHIBIT 2 -->
+          <div style="display:flex;margin-top:20px;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Sobrang safe mo na dyan Insan!</i>
+              </span>
+            </div>
+          </div>
+           
+          <div style="display:flex;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Radiation protection</i>
+              </span>
+            </div>
+          </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="rpssEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: RPSS</i>
+              </span>
+            </div>
           </div>
 
         </div>
 
         <div id="techExRPSSQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
           <div style="display:flex;margin-top:-20px;">
-            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>
 
 
         <!-- NART -->
         <div id="techExNART"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
-          <div style="display:flex;margin-top:-20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Who’s That Isotope? (Science Communication on Atomic Structure and Radioactivity)"</p>
+          <!-- EXHIBIT 1 -->
+          <div style="display:flex;margin-top:30px;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Who’s That Isotope? (Science Communication on Atomic Structure and Radioactivity)</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Michael Angelo C. Sia</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Radiation protection</i>
+              </span>
+            </div>
           </div>
 
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: RPSS</i>
+              </span>
+            </div>
+          </div>
+
+          <!-- EXHIBIT 2 -->
           <div style="display:flex;margin-top:20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Nuclear Law in the Philippines: Origins and Directions"</p>
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Nuclear Law in the Philippines: Origins and Directions</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Alfonso A. Singayan</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Nuclear Law</i>
+              </span>
+            </div>
           </div>
 
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: REMCON, NART</i>
+              </span>
+            </div>
+          </div>
+
+          <!-- EXHIBIT 3 -->
           <div style="display:flex;margin-top:20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="nartEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"Safe ka ba? I-CPR kita (Season 2)"</p>
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: Safe ka ba? I-CPR kita (Season 2)</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="nartEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: Abby Joy T. De Los Santos</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: National Regualtions</i>
+              </span>
+            </div>
           </div>
 
-          <div style="display:flex;margin-top:20px;">
-            <!-- <img id="nmrsEx" src="../2022/assets/NMRS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px">  -->
-            <p id="chemEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"SITahin ang Lamok! "</p>
+          <div style="display:flex;">
+            <div class="rating" id="nartEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: REMCON, NART</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="chemEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: All NATAS personnel / Raymond Sucgang</p> -->
-          </div>
-
 
         </div>
 
         <div id="techExNARTQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
           <div style="display:flex;margin-top:-20px;">
-            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>
 
+        
         <!-- EBEAM -->
         <div id="techExEBEAM"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;letter-spacing:0.5px">Exhibit(s) you can find in this facility:</h2>
-          <div style="display:flex;margin-top:-20px;">
-            <!-- <img id="rpssEx" src="../2022/assets/RPSS-Technical Exhibit.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;;margin:3px"> -->
-            <p id="ebeamEx" style="font-size:18px;font-family:Gabarito-Regular;font-style:italic">"PhilGamma and Ebeam - Embracing the Way Forward with Irradiation Technologies"</p>
+          <!-- EXHIBIT 1 -->
+          <div style="display:flex;margin-top:30px;">
+            <div class="rating" id="ebeamEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45"></i> 
+                  <i class="exhibit" style="font-size:17px;font-family:Gabarito-Regular;font-weight:bold;font-style:normal;color:#231F20"> Exhibit Name: PhilGamma and Ebeam - Embracing the Way Forward with Irradiation Technologies</i>
+              </span>
+            </div>
           </div>
-          <div style="display:flex;margin-left: auto;margin-right: auto;width:85%;margin-top:-30px;">
-            <!-- <img id="chemEx" src="../2022/assets/iRadiate-1-inFrame.jpg" style="position: relative; width: calc(100% - 1em -10px); height: 400px; border: 2px solid #4DA850;margin:3px"> -->
-            <!-- <p id="ebeamEx" style="font-size:16px;font-family:Gabarito-Regular;">  ~ by: James Harold Guillermo, Jason Meneses</p> -->
+           
+          <div style="display:flex;">
+            <div class="rating" id="ebeamEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Irradiation Technologies</i>
+              </span>
+            </div>
           </div>
+
+          <div style="display:flex;">
+            <div class="rating" id="ebeamEx">
+              <span>
+                <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: PHILGamma Facility</i>
+              </span>
+            </div>
+          </div>
+          
 
         </div>
 
         <div id="techExEBEAMQ"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
           <div style="display:flex;margin-top:-20px;">
-            <p style="font-size:18px;"><a target="_blank" href="https://www.facebook.com/PNRIDOST"style="color:#9D1F45 !important">Message us here!</a> </p>
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>
       
