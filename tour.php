@@ -1708,7 +1708,7 @@ img.smarty {
             <div class="rating" id="nartEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
-                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Radiation protection</i>
+                  <i style="font-size:14px;font-family:Gabarito-Regular;font-style:normal;">Topic: Atomic Structure and Radioactivity</i>
               </span>
             </div>
           </div>
@@ -1717,7 +1717,7 @@ img.smarty {
             <div class="rating" id="nartEx">
               <span>
                 <i class="fa fa-star fa-beat fa-large m-t-10" style="color:#9d1f45;visibility:hidden;"></i> 
-                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: RPSS</i>
+                  <i style="font-size:12px;font-family:Gabarito-Regular;font-style:normal;">Location: Library, NART</i>
               </span>
             </div>
           </div>
