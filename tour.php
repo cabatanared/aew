@@ -1825,7 +1825,36 @@ img.smarty {
             <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>
-      
+
+
+        <!-- SOMER -->
+        <div id="SOMER"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div>  
+
+         <!-- HUMANE -->
+         <div id="humane"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div>  
+
+        <!-- TECHNETIUM-99M -->
+        <div id="tech99M"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div>  
+
+        <!-- NATAS -->
+        <div id="NATAS"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div>  
+        
       </div>
     </div>
   </div>
@@ -2275,7 +2304,10 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
-      
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
 
     break;
     case 2233:
@@ -2302,6 +2334,10 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
       
     break;
     case 1640:
@@ -2315,6 +2351,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/3706jI-hm1U';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#tech99M').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2328,6 +2365,9 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#NATAS').hide();
       
     break;
     case 1683:
@@ -2342,6 +2382,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/3cqLc7zheCE';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#NATAS').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2355,6 +2396,9 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
       
     break;
     case 1727:
@@ -2382,6 +2426,10 @@ function scene_graphics(scene){
       $('#techExRPSS').hide();
       $('#rpssEx').hide();
       $('#techExRPSSQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
     break;
     
     case 1726:
@@ -2408,6 +2456,10 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
       
     break;
     case 1598:
@@ -2434,7 +2486,11 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
-      
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
+
     break;
 
     case 1684:
@@ -2461,7 +2517,10 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
-      
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
       
       
     break;
@@ -2490,6 +2549,10 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
       break;
     case 1555:
     case 2394:
@@ -2502,6 +2565,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/AWItrRcTdpc';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#SOMER').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2515,6 +2579,9 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#humane').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
       break;
     case 1556:
     case 1835:
@@ -2527,6 +2594,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/hxcvnUY9Xso';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#humane').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2540,6 +2608,9 @@ function scene_graphics(scene){
       $('#techExEBEAM').hide();
       $('#ebeamEx').hide();
       $('#techExEBEAMQ').hide();
+      $('#SOMER').hide();
+      $('#tech99M').hide();
+      $('#NATAS').hide();
 
       break;
     case 4:
