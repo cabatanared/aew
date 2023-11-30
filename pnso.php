@@ -74,6 +74,17 @@
       color: #ffffff; 
      }
 
+     @media (max-width: 511px){
+ 
+    div.tab{
+      min-height:60vh;
+    }
+
+    }
+
+    .tab{
+      position: relative;min-height: 100vh; max-width: 1000px;width:100%
+    }
 
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
@@ -110,7 +121,7 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;">
+	        		<div class="tab opened" id="overview" style="">
                 <a class="dl_pdf" href="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
@@ -121,7 +132,7 @@
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 
-		            <div class="tab" id="nucleart" style="min-height: 100vh;max-height: 900px;">
+		            <div class="tab" id="nucleart" style="">
 		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1GE9bgAKu2Ul5q3Zn3a8oOtYCMmjvFR0q/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		              
 		            </div>
@@ -143,7 +154,7 @@
                   
                 </div>
 
-				    <div class="tab " id="registration" style="min-height: 100vh;max-height: 900px;">
+				    <div class="tab " id="registration" style="">
               
 				      <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1U53owuDKIjbLMt4959tjEdRiTkli6LaD/preview" width="640" height="480" allow="autoplay"></iframe>
 		            </div>

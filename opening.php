@@ -81,6 +81,18 @@
         margin-top: 1rem;
       }
      }
+
+     @media (max-width: 511px){
+ 
+ div.tab{
+   min-height:60vh;
+ }
+
+ }
+
+ .tab{
+   position: relative;min-height: 100vh; max-width: 1000px;width:100%
+ }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="background: #FFF6CE;">
@@ -96,7 +108,7 @@
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                   <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a> -->
-                  <a id="2btn-programme" onclick="">Watch the FB Live</a>
+                  <a id="2btn-programme" onclick="">Watch Live</a>
 
 	              </div>
 	            </div>
@@ -113,7 +125,8 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 60vh;max-height: 900px;">
+              <!-- <div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;"> -->
+	        		<div class="tab opened" id="overview" style="">
               <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="100" height="480" allow="autoplay"></iframe>
 				      </div>

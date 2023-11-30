@@ -80,6 +80,18 @@
         max-height: 250px;
       }
      }
+
+     @media (max-width: 511px){
+ 
+      div.tab{
+        min-height:60vh;
+      }
+
+      }
+
+      .tab{
+        position: relative;min-height: 100vh; max-width: 1000px;width:100%
+      }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
 <div class="main_content2" style="background: #FFF6CE;">
@@ -113,12 +125,12 @@
 	              </div>
 	            </div>-->
 	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 60vh;max-height: 900px;">
+	        		<div class="tab opened" id="overview" style="">
               <a class="dl_pdf" href="https://drive.google.com/file/d/164HU8FqfYRppAV-QpfmGCRUQTN2rIoYF/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/164HU8FqfYRppAV-QpfmGCRUQTN2rIoYF/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
-				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
+				    <div class="tab" id="programme" style="">
             <a class="dl_pdf"href="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
               <iframe class="responsive-iframe" src="https://drive.google.com/file/d/15CkAxEQrQK9maQ8jkjtWpBvrxg5WEhnS/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
@@ -135,7 +147,7 @@
                   
                 </div>
 
-                <div class="tab" id="sessions" style="min-height: 100vh;max-height: 900px;overflow-y:scroll;margin-top:1rem;   ">
+                <div class="tab" id="sessions" style="overflow-y:scroll;margin-top:1rem;   ">
                   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1259781891549177%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
                   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F525144669633910%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>

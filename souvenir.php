@@ -26,6 +26,19 @@
       background: #9D1F45;
       color: #ffffff; 
      }
+
+     @media (max-width: 511px){
+ 
+      div.pdf_file{
+        min-height:60vh;
+      }
+
+      }
+
+      .pdf_file{
+        position: relative;min-height: 130vh; max-width: 1000px;width:100%
+      }
+
    </style>
 
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
@@ -43,7 +56,7 @@
           <img style="max-width: 1000px;width: 100%;margin-bottom: 30px" src="assets/banners/Souvenir.png"  class="w3-container w3-center w3-animate-zoom">
           
 
-        <div style="position: relative;min-height: 60vh; max-width: 1000px;width:100%">
+        <div class ="pdf_file" style="">
             <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
             <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/preview" height="480" allow="autoplay"></iframe>-->
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" height="480" allow="autoplay"></iframe>

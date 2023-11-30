@@ -73,6 +73,18 @@
       background: #9D1F45;
       color: #ffffff; 
      }
+
+     @media (max-width: 511px){
+      
+      div.tab{
+        min-height:60vh;
+      }
+
+      }
+
+      .tab{
+        position: relative;min-height: 100vh; max-width: 1000px;width:100%
+      }
    </style>
    <a href="index.php" style="text-decoration: none;color: #2f2e2e;font-size: 10pt; margin-left: 8rem;"><i class="icofont-home"></i> Back to Home</a>
   <div class="main_content2" style="background: #FFF6CE;">
@@ -105,30 +117,30 @@
 	                <a id="2btn-discord" onclick="showTab('discord')">Discord Server</a>
 	              </div>
 	            </div>-->
-	        	<div class="news">
-	        		<div class="tab opened" id="overview" style="min-height: 60vh;max-height: 900px;">
+	        	<div class="news" style="">
+	        		<div class="tab opened" id="overview" >
               <a class="dl_pdf" href="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1d7TmquV9VdsjcdwW9OuZcCqTSI3AmPdT/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 
-				    <div class="tab" id="programme" style="min-height: 100vh;max-height: 900px;">
+				    <div class="tab" id="programme" style="">
               <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1bKV7bMy2vCQqYwsHSQbnXuxh9efZHBP-/preview" width="640" height="480" allow="autoplay"></iframe>
 				        <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
 				    </div>
 
-		            <div class="tab" id="nucleart" style="min-height: 100vh;max-height: 900px;">
+		            <div class="tab" id="nucleart" style="">
 		              <a href="https://drive.google.com/file/d/1yO2hNA2C2sm_gSNUktEC0JJtXqbbAbWr/view" target="_blank" style="text-decoration: none; position:absolute; z-index:11;color: #ffffff; background: #27c77b;padding: 1em;">Registration Form</a>
 		              <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1wvzT0Bfv7lF1Rnb42utVwCMFVWRAqFmK/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		              
 		            </div>
 
-                <div class="tab" id="career_talk" style="min-height: 100vh;max-height: 900px;">
+                <div class="tab" id="career_talk" style="">
                  
                   <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1ViRfvzVc67y1LzhmZ5vvr6hyqZUlTnI6/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                   
                 </div>
 
-                <div class="tab" id="youth_panel" style="min-height: 100vh;max-height: 900px;">
+                <div class="tab" id="youth_panel" style="">
                  
                   <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16qQY7CVAXJGBgLoaJpxVJJNUdL46-5mo/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                   
