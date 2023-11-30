@@ -1854,6 +1854,22 @@ img.smarty {
             <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
           </div>
         </div>  
+
+        <!-- COBALT -->
+        <div id="COBALT"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div>  
+
+
+        <!-- PRR -->
+        <div id="PRR"><h2 style="font-size:23px; font-family:DarumadropOne-Regular;margin-top:40px;">Got Questions?</h2>
+          <div style="display:flex;margin-top:-20px;">
+            <p style="font-size:18px;">E-mail us at <a target="_blank" href="mailto:information@pnri.dost.gov.ph"style="color:#9D1F45 !important">information@pnri.dost.gov.ph</a> </p>
+          </div>
+        </div> 
+        
         
       </div>
     </div>
@@ -2308,6 +2324,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
 
     break;
     case 2233:
@@ -2338,6 +2356,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
       
     break;
     case 1640:
@@ -2368,6 +2388,8 @@ function scene_graphics(scene){
       $('#SOMER').hide();
       $('#humane').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
       
     break;
     case 1683:
@@ -2399,6 +2421,8 @@ function scene_graphics(scene){
       $('#SOMER').hide();
       $('#humane').hide();
       $('#tech99M').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
       
     break;
     case 1727:
@@ -2430,6 +2454,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
     break;
     
     case 1726:
@@ -2443,6 +2469,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/ENzLXkTyobA';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#COBALT').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2460,6 +2487,7 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#PRR').hide();
       
     break;
     case 1598:
@@ -2490,6 +2518,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
 
     break;
 
@@ -2521,6 +2551,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
       
       
     break;
@@ -2536,6 +2568,7 @@ function scene_graphics(scene){
       $('#content').show();
       document.getElementById('video_frame').src = 'https://www.youtube.com/embed/OjCRaITLeHA';
       getQuestions(facility);document.getElementById('bg').pause();
+      $('#PRR').show();
       $('#techEx').hide();
       $('#chemEx').hide();
       $('#nmrsEx').hide();
@@ -2553,6 +2586,7 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
       break;
     case 1555:
     case 2394:
@@ -2582,6 +2616,8 @@ function scene_graphics(scene){
       $('#humane').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
       break;
     case 1556:
     case 1835:
@@ -2611,6 +2647,8 @@ function scene_graphics(scene){
       $('#SOMER').hide();
       $('#tech99M').hide();
       $('#NATAS').hide();
+      $('#COBALT').hide();
+      $('#PRR').hide();
 
       break;
     case 4:
