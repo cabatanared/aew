@@ -2172,8 +2172,8 @@ margin-right: auto;
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/exhibit.php">&emsp;Technical Exhibits</a>
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/closing.php">&emsp;Closing Ceremonies</a>
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/souvenir.php">SOUVENIR PROGRAM</a> -->
-      <a href="https://aew.pnri.dost.gov.ph/aew/2023">HOME</a>
-      <a href="#">ABOUT</a>
+      <a href="https://aew.pnri.dost.gov.ph/aew/2023" style="font-weight:bold">HOME</a>
+      <a href="#" style="font-weight:bold">ABOUT</a>
       <a href="aew.php">&emsp;Overview</a>
       <a href="news.php">&emsp;News</a>
       <!--<a href="https://aew.pnri.dost.gov.ph/aew/2022">&emsp;AEW Over the Years</a>-->
@@ -2182,7 +2182,7 @@ margin-right: auto;
           <?php } else {?>
             <a href="aewoveryears.php">&emsp;AEW Over the Years</a>
           <?php } ?>
-      <a href="#">ACTIVITIES</a>
+      <a href="#" style="font-weight:bold">ACTIVITIES</a>
       <a href="schedule.php">&emsp;Schedule</a>
       <a href="opening.php">&emsp;Opening Ceremonies</a>
       <a href="pnso.php">&emsp;1st Philippine Nuclear Science Olympiad</a>
@@ -2191,8 +2191,8 @@ margin-right: auto;
       <a href="map.php">&emsp;Facility Tour & Technical Exhibits</a>
       <!-- <a href="exhibit.php">&emsp;Technical Exhibits</a> -->
       <a href="closing.php">&emsp;Closing Ceremonies</a>
-      <a href="souvenir.php">Souvenir Program</a>
-      <a href="#footer" onclick="$('#burger-menu').toggle()" >Follow Us</a>
+      <a href="souvenir.php" style="font-weight:bold">SOUVENIR PROGRAM</a>
+      <a href="#footer" onclick="$('#burger-menu').toggle()" style="font-weight:bold">FOLLOW US</a>
     </div>
   </div>
 
