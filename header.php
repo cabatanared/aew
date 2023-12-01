@@ -169,8 +169,8 @@ session_start();
         right: 23vw;top:10vw; 
         width: 5vw;
       }
-  .imgwoman1{
-    top:65%;left:14%;max-width: 120px;width:10vw
+  .imgwoman{
+    top:65%;left:8%;max-width: 150px;width:10vw
   }
 
   .imgwave1{
@@ -194,8 +194,8 @@ session_start();
   }
 
   .imgblackwhiteatom{
-    top: 20vh;
-    left: 9vw;
+    top: 23vh;
+    left: 12vw;
     width: 5vw;
   }
   .imgpinkgrass{
