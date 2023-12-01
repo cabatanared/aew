@@ -96,16 +96,11 @@ session_start();
     scroll-behavior: smooth;
   }
   .about_section{
-    margin-top: 15px;font-family: Gabarito-Regular;font-size: 10.5pt;color:#282829;
+    margin-top: 15px;font-family: Gabarito-Regular;font-size: 10pt;color:#282829;
   }
-  .logo_slogan{
-    text-align:right;
-    position:absolute;
-    right:10vh;
 
-  }
   .gearup_slogan{
-    position:absolute;font-size: 14px;width:100%;right:-3vh;inline-size:400px;color:#282829;
+    font-size: 14px;width:100%;right:-3vh;text-align;color:#282829;margin-top:15px
   }
   .parallax__group {
     position: relative;
@@ -140,6 +135,12 @@ session_start();
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
     z-index: 3;
+    position: relative;
+    height: 100vh;
+    /*background: #FFF6CE;*/
+    background:linear-gradient(0deg, rgba(255, 246, 206, 1), rgba(255, 246, 206, 1)), url(assets/assets/reactor2.jpg);
+    background-size:cover;
+    background-position: center;
   }
 
   .parallax__layer--deep {
@@ -168,8 +169,21 @@ session_start();
         right: 23vw;top:10vw; 
         width: 5vw;
       }
-  .imgwoman{
-    left: 9vw;top:23em;
+  .imgwoman1{
+    top:65%;left:14%;max-width: 120px;width:10vw
+  }
+
+  .imgwave1{
+    top:75%;right:45%;max-width: 150px;width:15vw
+  }
+
+  .imgyellowshine1{
+    top:72%;right:28%;max-width: 80px;width:10vw
+  }
+
+  .imgsmallatoms1 {
+    top:62%;right:12%;max-width: 80px;width:10vw
+
   }
 
   .imgcursive {
@@ -201,34 +215,36 @@ session_start();
     width: 7vw;
   }
 
+  
+
   .pnsovid{
     position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;
   }
 
   
   .aew_wave {
-    top:10vh;
-    left:58vw;
+    top:10%;
+    right:35%;
   }
 
   .aew_cloud {
-    top:35vh;
-    right:58vw;
+    top:55%;
+    right:3%;
   }
 
   .aew_atom {
-    top:35vh;
-    right:48vw;
+    bottom:40%;
+    left:48%;
   }
 
   .aew_stars {
-    top:43vh;
-    right:21vw;
+    bottom:-4%;
+    right:23%;
   }
 
   .aew_mail {
-    top:44vh;
-    left:2vw;
+    /* bottom:15%; */
+    left:1%;
   }
 
 
@@ -291,7 +307,17 @@ session_start();
     transform: translate(-50%, -50%);
   }
 
-
+  .aew_dec
+  {
+    max-width:320px;
+    width:100%;
+    margin-top:50px;
+  }
+  .follow{
+    
+    text-align:left;
+    font-size:19px;
+  }
 
   #group1 {
     z-index: 5;
@@ -303,9 +329,9 @@ session_start();
   #group2 {
     z-index: 3; 
   }
-  #group2 .parallax__layer--back {
+  /*#group2 .parallax__layer--back {
     background: rgb(123,210,102);
-  }
+  }*/
 
   #about_pnri,#group3 {
     z-index: 4;
@@ -334,9 +360,9 @@ session_start();
   #group6 {
     z-index: 2;
   }
-  #group6 .parallax__layer--back {
+  /*#group6 .parallax__layer--back {
     background: rgb(245,235,100);
-  }
+  }*/
 
   #group7 {
     z-index: 3;
@@ -350,17 +376,13 @@ session_start();
   /* margin-top:185px; */
   position: relative;
   top:23vh;
-  width:50vw; max-width: 900px;
+  width:100%; max-width: 900px;
+  padding: 30px;
   /*width:100%; max-width: 755px;*/
   animation: fadeIn;
   animation-duration: 3s;
 }
-.aew_dec{
-  margin-top:200px;
-  max-width: 350px;
-  width: 80vw;
-  
-}
+
 .cfront1 {
   animation: slideInLeft;
   animation-duration: 2s;
@@ -649,6 +671,7 @@ input, textarea{
   display: none;
   width: 75%;
   float: right;
+  
 }
 #burger-menu a{
   /*background: #efffe5;*/
@@ -657,20 +680,18 @@ input, textarea{
   color: black;
   border-bottom: 1px solid #9D1F45;
   padding: 0.75em;
+ 
 }
 #burger-menu a:hover{
   background:#9D1F45;
   color: white;
 }
-/* /* #burger-menu:hover a{
-  background: #9D1F45;
-} */ */
-#copyright{
-  /*font-size: 10pt; left: 0; position:absolute; width:100%;bottom: 5rem;text-align: center;*/
-  font-size: 10pt; left: 0;  width:100%;bottom: 5em;
-  margin-top:3rem;
-  text-align: center;
-}
+
+
+
+.copyright{
+   margin:auto;text-align:center;font-family: Gabarito-Regular;font-size: 12pt;color:#282829;width:100%;bottom:20px
+  }
 .burger{
   cursor: pointer;
   display: none;
@@ -702,14 +723,24 @@ input, textarea{
   background-size: cover;
   background-position-x: center;
   /*min-height: 500px;*/
-  min-height: 350px;
-  padding: 5.5rem;
+  min-height: 450px;
+  padding-right: 5.5rem;
+  padding-left: 5.5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
   position: relative;
   height: calc(100vh- 6em);
 }
 .foot_title{
   font-size: 13pt;line-height: 25px;
 }
+
+.icons{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+
+  }
 
 @media (max-width: 1700.98px){
  
@@ -735,10 +766,6 @@ input, textarea{
     padding-top: 25px;
     margin-right: 0.3em;
    }
-  .return_button{
-  width: -60px !important;
-  margin-top:25px;
-}
 }
 
 
@@ -763,29 +790,8 @@ input, textarea{
 }
 
 @media (max-width: 900.98px){
-  #event_title{
-    /* margin: auto !important; */
-    /* visibility: hidden; */
-  }
 
-  .gearup_slogan, .copyright{
-    /* margin: auto !important; */
-    /* visibility: hidden; */
-  }
 
-  /* .logo_slogan{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:70%;
-  }
-  .gearup_slogan{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:110%;
-  } */
-  
   .news{
     width: unset;margin:2rem;
   }
@@ -824,12 +830,7 @@ li.portal a, li.portal p{
     bottom: 30vh;
    }
 
-  .foot_contain{
-    padding:3rem;
-  }
-  .aew_cloud, .aew_atom, .aew_mail, .aew_stars, .aew_wave{
-    visibility: hidden;
-  }
+  
 }
 
 @media (max-width: 700.98px){
@@ -871,14 +872,6 @@ li.portal a, li.portal p{
 
 @media (max-width: 560.98px){
  
- #flink{
-  display: flex;
- }
- #flink > a{
-  margin-bottom: 1em;
-  /* width:75vw !important; */
-
- }
  #countdown_contain{
   height: 170px;
  }    
@@ -919,440 +912,117 @@ li.portal a, li.portal p{
 /* PHONE SCREEN SAMSUNG GALAXY A51/71 */
 @media (max-width: 480.00px){
   
-  .about_section{
-      /* visibility:hidden; */
-      line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
+  
 
   .foot_title{
     /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
-  .dost{
-    font-size:18px;
-  }
-  .aew_dec, .gearup_slogan, .copyright{
-    visibility: hidden;
-  }
-  .aew_dec, .gearup_slogan{
-    /* visibility: hidden; */
-  }
-  .icons{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:91%;
-  }
-  .logo_slogan{
-    top:30vh;
-    left:3.8vh;
-  }
-  .gearup_slogan{
-    left:5vh;
-    line-height: 15px;
-    inline-size: 250px;
+ 
 
-  }
+
+  
+
   #newss > h2{
   font-size: 17pt;
   }
-  .dost{
-    font-size:14px;
-  }
-  .pnri{
-    font-size:18px;
-  }
 
-  .follow{
-    
-    text-align:center;
-    font-size:19px;
-  }
-  .copyright{
-    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
-  }
 }
 
 /* PHONE SCREEN POCO */
 @media (max-width: 500.00px){
   
-  .about_section{
-      /* visibility:hidden; */
-      line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
+  
 
   .foot_title{
     /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
-  .dost{
-    font-size:18px;
-  }
-  .aew_dec, .gearup_slogan, .copyright{
-    /* visibility: hidden; */
-  }
-  .aew_dec, .gearup_slogan{
-    /* visibility: hidden; */
-  }
-  .icons{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:75%;
-  }
-  .logo_slogan{
-    top:30vh;
-    left:5vh;
-    visibility: hidden;
-  }
-  .gearup_slogan{
-    left:5vh;
-    line-height: 15px;
-    inline-size: 250px;
+  
 
-  }
+ 
+ 
+
   #newss > h2{
   font-size: 17pt;
   }
-  .dost{
-    font-size:14px;
-  }
-  .pnri{
-    font-size:18px;
-  }
+  
+  
 
-  .follow{
-    
-    text-align:center;
-    font-size:19px;
-  }
-  .copyright{
-    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
-  }
+  
+
 }
 
 
 @media screen and (min-height: 914px) and (max-width: 412){
   
-  .about_section{
-      /* visibility:hidden; */
-      line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
-
+  
   .foot_title{
     /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
-  .dost{
-    font-size:18px;
-  }
-  .aew_dec, .gearup_slogan, .copyright{
-    /* visibility: hidden; */
-  }
-  .aew_dec, .gearup_slogan{
-    /* visibility: hidden; */
-  }
-  .icons{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:91%;
-  }
-  .logo_slogan{
-    top:30vh;
-    left:3.8vh;
-  }
-  .gearup_slogan{
-    left:5vh;
-    line-height: 15px;
-    inline-size: 250px;
+  
 
-  }
+
+ 
+
   #newss > h2{
   font-size: 17pt;
   }
-  .dost{
-    font-size:14px;
-  }
-  .pnri{
-    font-size:18px;
-  }
+  
+ 
 
-  .follow{
-    
-    text-align:center;
-    font-size:19px;
-  }
-  .copyright{
-    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
-  }
 
-  /* VMAP HOMPEPAGE */
-  .imgcloudblack{
-  top:14vh;
-  left:2vh;
-  width:11vw;
- }
- .imgatomblack{
-  top:24vh;
-  left:5vh;
-  width:11vw;
- }
- .imgworldred{
-  top:34vh;
-  left:2vh;
-  width:11vw;
- }
- .imgdnablack{
-  top:40vh;
-  left:9vh;
-  width:11vw;
- }
- .imgsunred{
-  top:8vh;
-  left:11vh;
-  width:11vw;
- }
- .imgbulbred{
-  top:41vh;
-  left:19vh;
-  width:11vw;
- }
- .imgmagnetblack{
-  top:8vh;
-  left:23vh;
-  width:8vw;
- }
-
- .imgleafred{
-  top:10vh;
-  left:33vh;
-  width:7vw;
- }
- .imgrocketred{
-  top:14vh;
-  left:39vh;
-  width:9.5vw;
- }
- .imgwholeatomblack{
-  top:24vh;
-  left:36vh;
-  width:8vw;
- }
- .imgstarsred{
-  top:34vh;
-  left:39vh;
-  width:10vw;
- }
- .imgpeanutblack{
-  top:41vh;
-  left:31vh;
-  width:9vw;
- }
-
- /* WELCOME AFTER LOGIN */
- .welcome-login{
-  text-align:justify;
-  letter-spacing:-1px;
- }
- .aew {
-  width: 70%;
- }
- .imgblackwhiteatom{
-  top:8vh;
-  left:1vh;
-  width:20vw;
- }
- .imgwoman{
-  top:20vh;
-  left:3vh;
-  width:20vw;
- }
- .smarty{
-  top:35vh;
-  left:7vh;
-  width:30vw;
- }
- .uranium{
-  top:34vh;
-  left:1vh;
-  width:20vw;
- }
- /* REGISTRATION IN MOBILE */
- .pencil{
-  top:1vh;
-  right:1vw;
-  width:20vw;
- }
-
- .modal{
-  max-height:600px;
-  padding: 1em;
- }
- .register-label{
-  margin-top: 30px;
-  font-size: 23px;
- }
- .form-control{
-  top:2vh;
- }
- .imgsmallatoms{
-  top:20vh;
-  right:11vw;
- }
- .imgyellowshine{
-  top:32vh;
-  right:9vw;
- }
- .imgblackwhitecloud{
-  top:18vh;
-  width:12vw;
- }
- .imgpinkgrass{
-  top:16vh;
-  width:8vw;
- }
- .imgbrownbird{
-  top:11vh;
-  width:13vw;
- }
- .login-btn{
-  top:-8vh;
- }
- .aew_wave{
-  top:48vh;
-  left:45vw;
- }
-
- .aew_cloud{
-  top:41vh;
-  right:4vw;
- }
- .aew_atom{
-  top:41vh;
-  /* right:4vw; */
- }
-
- .aew_stars{
-  top:58vh;
-  /* right:4vw; */
- }
 }
 
 /* PHONE SCREEN IPHONE SE */
 @media screen and (min-height: 667px) and (min-width: 375){
   
-  .about_section{
-      /* visibility:hidden; */
-      line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
+
 
   .foot_title{
     /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
-  .dost{
-    font-size:18px;
-  }
-  .aew_dec, .gearup_slogan, .copyright{
-    visibility: hidden;
-  }
-  .aew_dec, .gearup_slogan{
-    /* visibility: hidden; */
-  }
-  .icons{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:91%;
-  }
-  /* .logo_slogan{
-    top:30vh;
-    left:3.8vh;
-  }
-  .gearup_slogan{
-    left:5vh;
-    line-height: 15px;
-    inline-size: 250px;
+  
 
-  } */
+
+
   #newss > h2{
   font-size: 17pt;
   }
-  .dost{
-    font-size:14px;
-  }
-  .pnri{
-    font-size:18px;
-  }
+  
+  
 
-  .follow{
-    
-    text-align:center;
-    font-size:19px;
-  }
-  .copyright, .logo_slogan{
-    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    visibility: hidden;
-  }
+ 
+
 }
 
-  .aew_dec{
-    margin-top: 90px;
-  }
-  .copyright{
-    text-align:center;margin-top:90px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829;
-  }
-  .follow{
-    
-    /* text-align:left; */
-    font-size:18px;
-    /* margin-top:-20vh; */
-    padding-bottom:-200px;
-  }
-  .foot_contain{
-    /* background:#FFF6CE; */
-    padding-bottom:-200px;
-  }
-  .parallax{
+
+  
+  
+  /*.parallax{
     height:100vh;
     background:#FFF6CE;
-  }
+  }*/
   body{
     top:0;
     bottom:-300px;
   }
-  .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok, .flink{
+  .fa-globe, .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-youtube, .fa-tiktok{
     /* color:#FFF6CE; */
     color:white;
     display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
+/*width: 50%;*/
   }
 
 
 
   /* TABLET SCREEN */
 @media screen and (min-height: 1024px) and (max-width: 1366px){
-  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
-   visibility:hidden;
- }
+  
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -1370,73 +1040,31 @@ margin-left: auto;
 margin-right: auto;
 
 }
-.foot_title, .dost{
+.foot_title{
   font-size:13px;
 }
-.pnri{
-  padding-top:-15px;
-  font-size:18px;
-}
-.about_section{
-  font-size:11px;
-}
 
-.follow{
-   top:5vh;
-   text-align:center;
-   font-size:22px;
-   /* font-size:25px;
-   padding-bottom:-200px; */
- }
- .logo_slogan{
-  top:-2vh;
-  left:51vh;
 
- }
- .aew_dec{
-  width:20vh;
-  
-  
- }
- .gearup_slogan{
-  font-size:12px;
-  inline-size: 250px;
-  right:-9vh;
-  line-height: 1.3
- }
+
+ 
+
 
  .website{
   font-size: 13px;
 
  }
- .icons{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width:40%;
- }
 
- .copyright{
-  margin-top:8vh;
-  font-size: 14px;
-  inline-size: 250px;
-  line-height: 1;
-  margin-left:24vh;
-  visibility:hidden;
- }
 
 }
 
-/* TABLET SCREEN IPAD MINI */
+/* TABLET SCREEN */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
-  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
-   visibility:hidden;
- }
- .aew {
+ 
+ /*.aew {
   width: 90%;
   top: 25vw !important;
- }
+ }*/
  .imgblackwhiteatom{
   top:15vh !important;
   width:8vw !important;
@@ -1477,29 +1105,7 @@ width:40%;
     width:10vw !important;
   }
 
- /* .aew_wave{
-  left:40vh;
-   top:10vh;
- }
-
- .aew_atom{
-  left:37vh;
-   top:35vh;
- }
-
- .aew_cloud{
-  left:67vh;
-   top:23vh;
- }
-  .aew_mail{
-  left:3vh;
-   top:35vh;
- } */
-
- .row {
- /* margin-right: -15px; */
- margin-left: -10px;
-}
+ 
 
 .press, .picnews{
  max-height: 250px;
@@ -1513,60 +1119,21 @@ margin-left: auto;
 margin-right: auto;
 
 }
-.foot_title, .dost{
+.foot_title{
   font-size:13px;
 }
-.pnri{
-  padding-top:-15px;
-  font-size:18px;
-}
-.about_section{
-  font-size:11px;
-}
 
-.follow{
-   margin-top:5vh;
-   text-align:center;
-   font-size:22px;
-   /* font-size:25px;
-   padding-bottom:-200px; */
- }
- .logo_slogan{
-  top:-3vh;
-  left:51vh;
 
- }
- .aew_dec{
-  width:20vh;
-  
-  
- }
- .gearup_slogan{
-  font-size:12px;
-  inline-size: 250px;
-  right:-9vh;
-  line-height: 1.3
- }
+
+ 
+
+ 
 
  .website{
   font-size: 13px;
 
  }
- .icons{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width:40%;
- }
 
- .copyright{
-  margin-top:8vh;
-  font-size: 14px;
-  inline-size: 250px;
-  line-height: 1;
-  margin-left:24vh;
-  visibility:hidden;
- }
 
  /* VMAP HOMPEPAGE */
  .imgcloudblack{
@@ -1636,9 +1203,9 @@ width:40%;
   text-align:justify;
   letter-spacing:-1px;
  }
- .aew {
+ /*.aew {
   width: 70%;
- }
+ }*/
  .imgblackwhiteatom{
   top:8vh;
   left:1vh;
@@ -1700,24 +1267,7 @@ width:40%;
  .login-btn{
   top:-8vh;
  }
- .aew_wave{
-  top:48vh;
-  left:45vw;
- }
-
- .aew_cloud{
-  top:41vh;
-  right:4vw;
- }
- .aew_atom{
-  top:41vh;
-  /* right:4vw; */
- }
-
- .aew_stars{
-  top:58vh;
-  /* right:4vw; */
- }
+ 
  
 
 }
@@ -1725,150 +1275,7 @@ width:40%;
 
 /* TABLET SCREEN IPAD AIR*/
 @media screen and (min-height: 1180px) and (max-width: 820px){
-  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
-   visibility:hidden;
- }
- .row {
- margin-left: -10px;
-}
-
-.press, .picnews{
- max-height: 250px;
- width:100%;
- max-height:100%;
- margin-right:1rem;
- margin-bottom:2rem;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- display: block;
-margin-left: auto;
-margin-right: auto;
-
-}
-.foot_title, .dost{
-  font-size:14px;
-}
-.pnri{
-  padding-top:-15px;
-  font-size:19px;
-}
-.about_section{
-  font-size:12px;
-}
-
-.follow{
-   margin-top:6vh;
-   text-align:center;
-   font-size:22px;
-   /* font-size:25px;
-   padding-bottom:-200px; */
- }
- .logo_slogan{
-  top:-1vh;
-  left:46vh;
-
- }
- .aew_dec{
-  width:20vh;
   
-  
- }
- .gearup_slogan{
-  font-size:13px;
-  inline-size: 250px;
-  right:-8vh;
-  line-height: 1.3
- }
-
- .website{
-  font-size: 13px;
-
- }
- .icons{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width:40%;
- }
-
- .copyright{
-  margin-top:8vh;
-  font-size: 14px;
-  inline-size: 250px;
-  line-height: 1;
-  margin-left:24vh;
-  visibility:hidden;
- }
-
-}
-
-/* TABLET SCREEN 750 x 928*/
-@media screen and (min-height: 928px) and (max-width: 750px){
-  .aew_wave, .aew_atom, .aew_mail, .aew_cloud, .aew_stars {
-   visibility:hidden;
- }
- .aew {
-  width: 90%;
-  top: 25vw !important;
- }
- .imgblackwhiteatom{
-  top:15vh !important;
-  width:8vw !important;
-  left: 10vw !important;
- }
- .imgblackwhitecloud{
-  top:17vh;
-  width:15vw;
-  left: 50vw;
- }
- .imgpinkgrass{
-  top:50vh;
-  width:8vw;
-  left:30vw;
-  transform:rotate(-50deg);
- }
- .imgbrownbird{
-  top:17vh !important;
-  width:12vw;
- }
- .imgwoman{
-  display:none;
- }
- .imgsmallatoms{
-    right:50vw;
-    top:6em;
-    width:13vw;
-  }
- .imgyellowshine {
-  top:10em;
-  right:35vw;
-  width:9vw;
- }
- .imgcursive {
-    top:65vh !important;
-  }
-  .imgsmallatoms{
-    width:10vw !important;
-  }
-
- /* .aew_wave{
-  left:40vh;
-   top:10vh;
- }
-
- .aew_atom{
-  left:37vh;
-   top:35vh;
- }
-
- .aew_cloud{
-  left:67vh;
-   top:23vh;
- }
-  .aew_mail{
-  left:3vh;
-   top:35vh;
- } */
-
  .row {
  /* margin-right: -15px; */
  margin-left: -10px;
@@ -1886,214 +1293,22 @@ margin-left: auto;
 margin-right: auto;
 
 }
-.foot_title, .dost{
-  font-size:13px;
-}
-.pnri{
-  padding-top:-15px;
-  font-size:18px;
-}
-.about_section{
-  font-size:11px;
+.foot_title{
+  font-size:14px;
 }
 
-.follow{
-   margin-top:5vh;
-   text-align:center;
-   font-size:22px;
-   /* font-size:25px;
-   padding-bottom:-200px; */
- }
- .logo_slogan{
-  top:-3vh;
-  left:51vh;
 
- }
- .aew_dec{
-  width:20vh;
-  
-  
- }
- .gearup_slogan{
-  font-size:12px;
-  inline-size: 250px;
-  right:-5vh;
-  line-height: 1.3
- }
+ 
+ 
 
  .website{
   font-size: 13px;
 
  }
- .icons{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width:40%;
- }
+ 
 
- .copyright{
-  margin-top:8vh;
-  font-size: 14px;
-  inline-size: 250px;
-  line-height: 1;
-  margin-left:24vh;
-  visibility:hidden;
- }
-
- /* VMAP HOMPEPAGE */
- .imgcloudblack{
-  top:14vh;
-  left:2vh;
-  width:11vw;
- }
- .imgatomblack{
-  top:24vh;
-  left:5vh;
-  width:11vw;
- }
- .imgworldred{
-  top:34vh;
-  left:2vh;
-  width:11vw;
- }
- .imgdnablack{
-  top:40vh;
-  left:9vh;
-  width:11vw;
- }
- .imgsunred{
-  top:8vh;
-  left:11vh;
-  width:11vw;
- }
- .imgbulbred{
-  top:41vh;
-  left:19vh;
-  width:11vw;
- }
- .imgmagnetblack{
-  top:8vh;
-  left:23vh;
-  width:8vw;
- }
-
- .imgleafred{
-  top:10vh;
-  left:33vh;
-  width:7vw;
- }
- .imgrocketred{
-  top:14vh;
-  left:39vh;
-  width:9.5vw;
- }
- .imgwholeatomblack{
-  top:24vh;
-  left:36vh;
-  width:8vw;
- }
- .imgstarsred{
-  top:34vh;
-  left:39vh;
-  width:10vw;
- }
- .imgpeanutblack{
-  top:41vh;
-  left:31vh;
-  width:9vw;
- }
-
- /* WELCOME AFTER LOGIN */
- .welcome-login{
-  text-align:justify;
-  letter-spacing:-1px;
- }
- .aew {
-  width: 70%;
- }
- .imgblackwhiteatom{
-  top:8vh;
-  left:1vh;
-  width:20vw;
- }
- .imgwoman{
-  top:20vh;
-  left:3vh;
-  width:20vw;
- }
- .smarty{
-  top:35vh;
-  left:7vh;
-  width:30vw;
- }
- .uranium{
-  top:34vh;
-  left:1vh;
-  width:20vw;
- }
- /* REGISTRATION IN MOBILE */
- .pencil{
-  top:1vh;
-  right:1vw;
-  width:20vw;
- }
-
- .modal{
-  max-height:600px;
-  padding: 1em;
- }
- .register-label{
-  margin-top: 30px;
-  font-size: 23px;
- }
- .form-control{
-  top:2vh;
- }
- .imgsmallatoms{
-  top:20vh;
-  right:11vw;
- }
- .imgyellowshine{
-  top:32vh;
-  right:9vw;
- }
- .imgblackwhitecloud{
-  top:18vh;
-  width:12vw;
- }
- .imgpinkgrass{
-  top:16vh;
-  width:8vw;
- }
- .imgbrownbird{
-  top:11vh;
-  width:13vw;
- }
- .login-btn{
-  top:-8vh;
- }
- .aew_wave{
-  top:48vh;
-  left:45vw;
- }
-
- .aew_cloud{
-  top:41vh;
-  right:4vw;
- }
- .aew_atom{
-  top:41vh;
-  /* right:4vw; */
- }
-
- .aew_stars{
-  top:58vh;
-  /* right:4vw; */
- }
 
 }
-
 
  
 @media (max-width: 460.00px){
@@ -2198,10 +1413,6 @@ width:40%;
 
 /* TABLET LANDSCAPE 1200 X 570 FOOTER */
 @media(max-height: 734px){
-  #copyright{
-    bottom: 1em;
-    font-size: 9pt;
-  }
   #event_title{
     margin-top:-10px;
     /* display: none; */
@@ -2219,28 +1430,8 @@ width:40%;
   }
 
   /* FOOTER */
-.foot_contain{
-  padding: 3rem;
-}
-.aew_dec{
-  top:90vh;
-}
-.aew_mail{
-  top:68vh;
-}
-.aew_stars{
-  right:48vh;
-  top:68vh;
-}
-.aew_cloud{
-  top:50vh;
-}
-.aew_atom{
-  top:65vh;
-}
-.aew_wave{
-  top:15vh;
-}
+
+
 
 
 }
@@ -2387,10 +1578,10 @@ width:40%;
 
 @media screen and (min-width: 641px) and (max-width: 890px){
  
- .aew {
+ /*.aew {
   top:25vh !important;
   width: 75vw;
- }
+ }*/
  .imgwoman{
   display:none;
  }
@@ -2406,10 +1597,10 @@ width:40%;
 
 @media (max-width: 640px){
  
- .aew {
+ /*.aew {
   width: 90%;
   top: 35vw !important;
- }
+ }*/
  .imgblackwhiteatom{
   top:50vh;
   width:10vw;
@@ -2446,30 +1637,11 @@ width:40%;
  .imgcursive {
     top:60vh !important;
   }
-
+ /* .gear{
+    top:100vw;
+ } */
  .aewdate{
     top:10vw;
- }
- .aew_wave{
-  visibility:hidden;
-  top:48vh;
-  left:45vw;
- }
-
- .aew_cloud{
-  visibility: hidden;
-    top:41vh;
-    right:4vw;
-   }
-   .aew_atom, .aew_mail{
-    visibility: hidden;
-    top:41vh;
-   }
-
- .aew_stars{
-  visibility:hidden;
-  top:58vh;
-
  }
  
  .pnsovid{
@@ -2480,21 +1652,23 @@ width:40%;
 
 @media (max-width: 439px){
  
- .parallax__group {
+ /*.parallax__group {
   height: 60vh;
- }
+ }*/
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 900px) { .parallax__group {
+@media only screen and (min-width: 375px) and (max-width: 900px) { 
+  /*.parallax__group {
   height: 53vh;
- } }
+ }*/
+ }
 
 @media screen and (min-width: 440px) and (max-width: 1119px){
  
- .parallax__group {
+ /*.parallax__group {
   height: 70vh;
- }
+ }*/
 
 }
 
@@ -2502,9 +1676,9 @@ width:40%;
 
 @media (min-height: 1180px){
  
- .parallax__group {
+/* .parallax__group {
   height: 100vh;
- }
+ }*/
 
 }
 
@@ -2553,65 +1727,211 @@ width:40%;
    width:9vw !important;
  }
 
- /* FOOTER CSS */
- .about_section{
-      /* visibility:hidden; */
-      line-height: 17px;
-  }
-  .about_section > span{
-    font-size: 9pt!important;
-  }
+
 
   .foot_title{
     /* visibility:hidden; */
     font-size: 11pt;line-height: 20px;
   }
-  .dost{
-    font-size:18px;
-  }
-  .aew_dec, .gearup_slogan, .copyright{
-    /* visibility: hidden; */
-  }
-  .aew_dec, .gearup_slogan{
-    /* visibility: hidden; */
-  }
-  .icons{
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width:98%;
-  }
-  .logo_slogan{
-    top:30vh;
-    left:5vh;
-    visibility: hidden;
-  }
-  .gearup_slogan{
-    left:5vh;
-    line-height: 15px;
-    inline-size: 250px;
+  
 
-  }
+
+
+ 
   #newss > h2{
   font-size: 17pt;
   }
-  .dost{
-    font-size:14px;
-  }
-  .pnri{
-    font-size:18px;
-  }
+  
+  
 
-  .follow{
-    
-    text-align:center;
-    font-size:19px;
-  }
-  .copyright{
-    /* text-align:center;margin-top:190px;font-family: Gabarito-Regular;font-size: 12pt;color:#282829; */
-    /* visibility: hidden; */
+}
+
+@media (min-width: 1016px) and (max-width: 1119px) {
+  li.portal a, .dropbtn {
+    letter-spacing:unset;
   }
 }
+
+@media (min-width: 1016px) and (max-width: 1119px) {
+  li.portal a, .dropbtn {
+    letter-spacing:unset;
+  }
+}
+@media (max-width: 900px){
+ 
+
+ .about_section {
+  text-align: left;
+ }
+ #footer{
+  margin-bottom:30px;
+ }
+
+ .logo_slogan {
+  margin-bottom:30px
+ }
+
+ .foot_title {
+  text-align: left;
+
+ }
+
+ .follow {
+  text-align: center;
+ }
+
+ #flink {
+  align-items: center;
+  justify-content: center;
+  
+ }
+
+ /* HIDE ELEMENTS IN MOBILE */
+ .aew_wave,.aew_cloud,.aew_atom,.aew_stars,.aew_mail{
+  visibility: hidden;
+ }
+
+ .aew_wave {
+    top:88%;
+    right:9%;
+  }
+
+  .aew_cloud {
+    top:1%;
+    right:17%;
+  }
+
+  .aew_atom {
+    bottom:43%;
+    left:80%;
+  }
+
+  .aew_stars {
+    bottom:2%;
+    left:2%;
+  }
+
+  .aew_mail {
+    top:24%;
+    left:3%;
+  }
+
+}
+
+@media (max-width: 350px)
+{
+  
+  #flink {
+  flex-wrap: wrap; 
+ }
+
+}
+
+@media (max-width: 800px) and (max-height:1000px){
+
+  .parallax__group 
+  {
+    height: 70vh;
+  }
+
+  .parallax__layer--back 
+  {
+    height: 90vh;
+  }
+
+  
+  
+}
+
+@media (max-width: 800px) and (min-height:1000px){
+
+
+
+.imgwoman1 {
+      top: 50%;
+}
+
+.imgwave1 {
+      top: 53%;
+}
+
+.imgyellowshine1 {
+      top: 50%;
+}
+
+.imgsmallatoms1 {
+    top: 48%;
+} 
+
+}
+
+@media (min-width: 1024px) and (min-height:1024px){
+
+
+
+.imgwoman1 {
+      top: 50%;
+}
+
+.imgwave1 {
+      top: 53%;
+}
+
+.imgyellowshine1 {
+      top: 50%;
+}
+
+.imgsmallatoms1 {
+    top: 48%;
+} 
+
+}
+/* IPAD MINI */
+@media (width: 768px) and (height:1024px){
+
+
+
+.imgwoman1 {
+      top: 55%;
+}
+
+.imgwave1 {
+      top: 56%;
+}
+
+.imgyellowshine1 {
+      top: 55%;
+}
+
+.imgsmallatoms1 {
+    top: 52%;
+} 
+
+}
+
+/* IPAD AIR */
+@media (width: 820px) and (height:1180px){
+
+
+
+.imgwoman1 {
+      top: 52%;
+}
+
+.imgwave1 {
+      top: 55%;
+}
+
+.imgyellowshine1 {
+      top: 57%;
+}
+
+.imgsmallatoms1 {
+    top: 50%;
+} 
+
+}
+
 
 
 .disabled{
@@ -2678,20 +1998,6 @@ width:98%;
 /* .content.has-bg .content-bg:before{content:'';background:url(images/bg-content-cover.png);position:absolute;left:0;right:0;top:0;bottom:0} */
 .milestone .title{
   top:8vh;
-}
-
-/* TABLET PORTRAIT 750 X 928 */
-@media(min-width: 750px){
-  /* REGISTRATION */
-/* .pencil{
-  top:42px;
-  left:34vh;
-  width:12vw;
-} */
-.copyright{
-  /* visibility: hidden; */
-}
-
 }
 </style>
 <!-- FAVICON -->
@@ -2866,8 +2172,8 @@ width:98%;
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/exhibit.php">&emsp;Technical Exhibits</a>
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/closing.php">&emsp;Closing Ceremonies</a>
       <a href="https://aew.pnri.dost.gov.ph/aew/2023/souvenir.php">SOUVENIR PROGRAM</a> -->
-      <a href="https://aew.pnri.dost.gov.ph/aew/2023"><b>HOME</b></a>
-      <a href="#"><b>ABOUT</b></a>
+      <a href="https://aew.pnri.dost.gov.ph/aew/2023">HOME</a>
+      <a href="#">ABOUT</a>
       <a href="aew.php">&emsp;Overview</a>
       <a href="news.php">&emsp;News</a>
       <!--<a href="https://aew.pnri.dost.gov.ph/aew/2022">&emsp;AEW Over the Years</a>-->
@@ -2876,7 +2182,7 @@ width:98%;
           <?php } else {?>
             <a href="aewoveryears.php">&emsp;AEW Over the Years</a>
           <?php } ?>
-      <a href="#"><b>ACTIVITIES</b></a>
+      <a href="#">ACTIVITIES</a>
       <a href="schedule.php">&emsp;Schedule</a>
       <a href="opening.php">&emsp;Opening Ceremonies</a>
       <a href="pnso.php">&emsp;1st Philippine Nuclear Science Olympiad</a>
@@ -2885,8 +2191,8 @@ width:98%;
       <a href="map.php">&emsp;Facility Tour & Technical Exhibits</a>
       <!-- <a href="exhibit.php">&emsp;Technical Exhibits</a> -->
       <a href="closing.php">&emsp;Closing Ceremonies</a>
-      <a href="souvenir.php"><b>SOUVENIR PROGRAM</b></a>
-      <a href="#footer" ><b>FOLLOW US</b></a>
+      <a href="souvenir.php">Souvenir Program</a>
+      <a href="#footer" onclick="$('#burger-menu').toggle()" >Follow Us</a>
     </div>
   </div>
 
