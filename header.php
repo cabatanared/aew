@@ -1,5 +1,3 @@
-
-
 <?php 
 $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 $lastUriSegment = array_pop($uriSegments);
@@ -169,8 +167,8 @@ session_start();
         right: 23vw;top:10vw; 
         width: 5vw;
       }
-  .imgwoman{
-    top:65%;left:8%;max-width: 150px;width:10vw
+  .imgwoman1{
+    top:65%;left:14%;max-width: 120px;width:10vw
   }
 
   .imgwave1{
@@ -194,8 +192,8 @@ session_start();
   }
 
   .imgblackwhiteatom{
-    top: 23vh;
-    left: 12vw;
+    top: 20vh;
+    left: 9vw;
     width: 5vw;
   }
   .imgpinkgrass{
@@ -2195,4 +2193,3 @@ margin-right: auto;
       <a href="#footer" onclick="$('#burger-menu').toggle()" style="font-weight:bold">FOLLOW US</a>
     </div>
   </div>
-
