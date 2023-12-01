@@ -46,6 +46,7 @@ session_start();
         src: url(assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
       }
 
+      /* STAR ANIMATION */
       .fa{
         display: inline-block;
         font: normal normal normal 14px/1 FontAwesome;
@@ -60,7 +61,7 @@ session_start();
 
       }
 
-      :after, :before{
+      .fa-star:after, :before{
         box-sizing:border-box;
         -moz-box-sizing:border-box;
         -webkit-box-sizing:border-box;
@@ -776,7 +777,9 @@ bottom: 2.7em;
 .pencil {
         /* right: 9vw;
         top:10em;  */
-        width: 8vw;
+        width: 5vw;
+        right:2vw;
+        top:1vh;
       }
 
 .modal-dialog{
@@ -951,10 +954,10 @@ bottom: 2.7em;
 }
 
 @media screen and (min-width: 760px) and (max-height: 1180px){
-  .pencil{
+  /* .pencil{
     right: 4vw;
     top:1vh;
-  }
+  } */
 
   .imgsmallatoms{
     right: 16vw;
@@ -1352,7 +1355,7 @@ img.smarty {
           <p class="register-label" style="">But first, register here</p>
         </div>
         <img class="pencil" src="assets/Pencil.png" style="position: absolute;">
-        <input style="font-family:Gabarito-Regular" class="inputs form-control" id="name" type="text" placeholder="Name" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
+        <input style="font-family:Gabarito-Regular;margin-top:10px" class="inputs form-control" id="name" type="text" placeholder="Name" value="<?php echo (isset($_GET['name'])?$_GET['name']:'')?>">
         <br><br>
         <input style="font-family:Gabarito-Regular" class="inputs form-control" id="email" type="email" placeholder="Email" value="<?php echo (isset($_GET['email'])?$_GET['email']:'')?>">
         <br><br>
@@ -1939,18 +1942,18 @@ img.smarty {
     <img class="imgbrownbird" src="assets/Isotopes/Helium-3.png" style="opacity:0.3;position: absolute; ">
     <img class="smarty" src="assets/Isotopes/Smarty.png" style="position: absolute;"> -->
 
-    <img class="imgcloudblack" src="assets/map/cloud_black.png" style="position: absolute;">
-    <img class="imgatomblack" src="assets/map/atom_black.png" style="position: absolute;">
-    <img class="imgworldred" src="assets/map/world_red.png" style="position: absolute;">
-    <img class="imgdnablack" src="assets/map/dna_black.png" style="position: absolute;">
-    <img class="imgsunred" src="assets/map/sun_red.png" style="position: absolute;">
-    <img class="imgbulbred" src="assets/map/bulb_red.png" style="position: absolute;">
-    <img class="imgmagnetblack" src="assets/map/magnet_black.png" style="position: absolute;">
-    <img class="imgleafred" src="assets/map/leaf_red.png" style="position: absolute;">
-    <img class="imgrocketred" src="assets/map/rocket_red.png" style="position: absolute;">
-    <img class="imgwholeatomblack" src="assets/map/whole_atom.png" style="position: absolute;">
-    <img class="imgstarsred" src="assets/map/stars_red.png" style="position: absolute;">
-    <img class="imgpeanutblack" src="assets/map/peanut_black.png" style="position: absolute;">
+    <img class="imgcloudblack w3-container w3-center w3-animate-top" src="assets/map/cloud_black.png" style="position: absolute;">
+    <img class="imgatomblack w3-container w3-center w3-animate-top" src="assets/map/atom_black.png" style="position: absolute;">
+    <img class="imgworldred w3-container w3-center w3-animate-bottom" src="assets/map/world_red.png" style="position: absolute;">
+    <img class="imgdnablack w3-container w3-center w3-animate-bottom" src="assets/map/dna_black.png" style="position: absolute;">
+    <img class="imgsunred w3-container w3-center w3-animate-top" src="assets/map/sun_red.png" style="position: absolute;">
+    <img class="imgbulbred w3-container w3-center w3-animate-bottom" src="assets/map/bulb_red.png" style="position: absolute;">
+    <img class="imgmagnetblack w3-container w3-center w3-animate-top" src="assets/map/magnet_black.png" style="position: absolute;">
+    <img class="imgleafred w3-container w3-center w3-animate-top" src="assets/map/leaf_red.png" style="position: absolute;">
+    <img class="imgrocketred w3-container w3-center w3-animate-top" src="assets/map/rocket_red.png" style="position: absolute;">
+    <img class="imgwholeatomblack w3-container w3-center w3-animate-bottom" src="assets/map/whole_atom.png" style="position: absolute;">
+    <img class="imgstarsred w3-container w3-center w3-animate-bottom" src="assets/map/stars_red.png" style="position: absolute;">
+    <img class="imgpeanutblack w3-container w3-center w3-animate-bottom" src="assets/map/peanut_black.png" style="position: absolute;">
 
       <div class="message">
         <div class="dialog_box w3-container w3-center w3-animate-zoom">
