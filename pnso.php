@@ -58,10 +58,7 @@
       .w3-container, .w3-panel{
     padding: 0em 0px;
   }
-  .dl_pdf:hover{
-        background: #FECCD9;
-        color: #9D1F45;
-     }
+  
      .dl_pdf {
       padding: 0.8rem 2rem;
       /*border: 1px solid #000;*/
@@ -74,10 +71,20 @@
       color: #ffffff; 
      }
 
+     .dl_pdf:hover{
+        background: #FF997D;
+        color: #9D1F45;
+     }
+
+     .dl_pdf:hover::after{
+        background:#9D1F45;
+        color: white;
+     }
+
      @media (max-width: 511px){
  
     div.tab{
-      min-height:60vh;
+      min-height:100vh;
     }
 
     }
@@ -122,7 +129,7 @@
 	            </div>-->
 	        	<div class="news">
 	        		<div class="tab opened" id="overview" style="">
-                <a class="dl_pdf" href="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
+                <a class="dl_pdf" href="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1ZwHAnuEcQ7THBFU1Hj5Kq_wgrNJYnecg/preview" width="640" height="480" allow="autoplay"></iframe>
 				      </div>
 

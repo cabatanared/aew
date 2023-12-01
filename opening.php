@@ -59,7 +59,7 @@
   }
 
   .dl_pdf:hover{
-        background: #FECCD9;
+        background: #FF997D;
         color: #9D1F45;
      }
      .dl_pdf {
@@ -85,7 +85,7 @@
      @media (max-width: 511px){
  
  div.tab{
-   min-height:60vh;
+   min-height:67vh;
  }
 
  }
@@ -127,7 +127,7 @@
 	        	<div class="news">
               <!-- <div class="tab opened" id="overview" style="min-height: 100vh;max-height: 900px;"> -->
 	        		<div class="tab opened" id="overview" style="">
-              <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
+              <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2; color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="100" height="480" allow="autoplay"></iframe>
 				      </div>
 

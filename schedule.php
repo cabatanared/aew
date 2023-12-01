@@ -12,10 +12,7 @@
         width: 100%;
         height: 100%;
       }
-      .dl_pdf:hover{
-        background: #FECCD9;
-        color: #9D1F45;
-     }
+      
      .dl_pdf {
       padding: 0.8rem 2rem;
       /*border: 1px solid #000;*/
@@ -25,6 +22,18 @@
       font-family: 'Gabarito-Regular';
       background: #9D1F45;
       color: #ffffff; 
+     }
+
+     .dl_pdf:hover{
+        background: #FF997D;
+        color: #9D1F45;
+     }
+
+     .dl_pdf:hover::after{
+        /* background:#9D1F45;
+        color: white; */
+        background: #FECCD9;
+        color: #9D1F45;
      }
 
      @media (max-width: 511px){
@@ -55,7 +64,7 @@
 <br>
 <img style="max-width: 1000px;width: 100%;margin-bottom: 1.7rem" src="assets/banners/Activities.png" class="w3-container w3-center w3-animate-zoom">
         <div class ="pdf_file" style="">
-          <a class="dl_pdf" href="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;">Download</a>
+          <a class="dl_pdf" href="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1hksEoZw0lsWy0RFVoWbHHw903LA1TjRq/preview" height="480" allow="autoplay"></iframe>
               <!-- <br><br><br><h1 style="font-family: 'DarumadropOne-Regular', sans-serif;color: #9D1F45;">COMING SOON...</h1> -->
         </div>
