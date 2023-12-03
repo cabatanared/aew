@@ -62,7 +62,7 @@
           
 
         <div class ="pdf_file" style="">
-            <a class="dl_pdf" href="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
+            <a class="dl_pdf" href="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" target="_blank" style="text-decoration: none; position:absolute; z-index:2;color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
             <!--<iframe class="responsive-iframe" src="https://drive.google.com/file/d/1n9li69hFDqsR_wR24oOrYLf3Q7TeUOkj/preview" height="480" allow="autoplay"></iframe>-->
             <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1XjPcTqszkKvwjqtvRVtjFCfS2Lxoz9v6/preview" height="480" allow="autoplay"></iframe>
 
