@@ -108,7 +108,7 @@
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                   <!-- <a id="2btn-programme" onclick="showTab('programme')">Watch the Recorded Livestream</a> -->
-                  <a id="2btn-programme" onclick="">Watch Live</a>
+                  <a id="2btn-programme" onclick="showTab('programme')">Watch Live</a>
 
 	              </div>
 	            </div>
@@ -130,10 +130,11 @@
               <a class="dl_pdf" href="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/view" target="_blank" style="text-decoration: none; position:absolute; z-index:2; color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Download</a>
 				        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PecPR83flA1hZnMz5Dok0-ItCHExcxBE/preview" width="100" height="480" allow="autoplay"></iframe>
 				      </div>
-
+              <!-- https://www.facebook.com/PNRIDOST/videos/1660234534504523/ -->
               <div class="tab" id="programme" style="">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1676202032798950%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                <!-- <iframe src="https://fb.watch/oIY2nktpSv/?mibextid=Nif5oz" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe> -->
 				          <!-- <img style="max-width: 100%;object-fit: cover;" src="documents/PNYS AEW Programme_rev.png"> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https://www.facebook.com/PNRIDOST/videos/1660234534504523/" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 				      </div>
 
 		            <div class="tab" id="nucleart" style="min-height: 100vh;max-height: 900px;">
