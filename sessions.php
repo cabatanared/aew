@@ -87,6 +87,18 @@
       }
      }
 
+      /* WATCH LIVE CSS - MOBILE*/
+      @media (max-width: 730.98px){
+      #sessions>iframe {
+        width: 93%;
+        height: 100vh;
+        max-height: 980px;
+        margin-left:10px;
+        /* margin-top: 1rem; */
+        
+      }
+     }
+
      @media (max-width: 511px){
  
       div.tab{
@@ -114,7 +126,7 @@
                       <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
                       <a id="btn-programme" onclick="showTab('programme')">Abstracts</a>
                       <!-- <a id="btn-sessions" onclick="showTab('sessions')">Watch the Recorded Livestream</a> -->
-                      <a id="btn-sessions" onclick="">Watch Live</a>
+                      <a id="btn-sessions" onclick="showTab('sessions')">Watch Live</a>
 
                     </div>
 	            </div>
@@ -153,7 +165,12 @@
                   
                 </div>
 
-                <div class="tab" id="sessions" style="overflow-y:scroll;margin-top:1rem;   ">
+                <div class="tab" id="sessions" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                  <!-- <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https://www.facebook.com/PNRIDOST/videos/1660234534504523/" width="790" height="530" 
+                    style="padding-top: 1em;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe> -->
+                </div>
+
+                <!-- <div class="tab" id="sessions" style="overflow-y:scroll;margin-top:1rem;   ">
                   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F1259781891549177%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
                   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F525144669633910%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
@@ -162,7 +179,7 @@
                   
                   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPNRIDOST%2Fvideos%2F882039702822348%2F&show_text=false&width=560&t=0" width="700" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                   
-                </div>
+                </div> -->
 
 				    <div class="tab " id="registration" style="min-height: 100vh;max-height: 900px;">
               

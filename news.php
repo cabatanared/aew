@@ -32,7 +32,7 @@
       
 
           <div class="news" id="newss">
-          <h2>DOST's Nuclear Energy Opens Doors for Atomic Energy Week 2023</h2>
+            <h2>DOST's Nuclear Energy Opens Doors for Atomic Energy Week 2023</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 18 November 2023</i></p><br>
             <div class="row">
             <img class="picnews" src="assets/Press_v2.png">
@@ -47,6 +47,23 @@
             </div>
             
             <br><br><br>
+
+            <h2>DOST Calls on HS Studies to Vie for the First National Nuclear Scieance Olympiad</h2>
+            <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 8 November 2023</i></p><br>
+            <div class="row">
+            <img class="picnews" src="assets/PNSO-Datesv2.png">
+            <p align="justify" style="font-family: Gabarito-Regular;">
+
+            The Philippine Nuclear Research Institute (PNRI) of the Department of Science and Technology (DOST) is calling Filipino Junior and Senior High School students, or those in Grades 9 to 12, from public or private secondary schools in the Philippines, to join the First Philippine Nuclear Science Olympiad (1st PNSO) to be held this December.
+             <br><br>
+             To qualify, participating students must not be more than18 years old and must not be in enrolled or admitted in a university/college by 7 August 2024. This is because the winners in the PNSO will vie in the First International Nuclear Science Olympiad (1st INSO) to be held in the country on 31 July to 07 August 2024. Like the PNSO, the INSO is open only to high school students.
+            <br><br><a style="font-family: Gabarito-Regular;" class="arta" href="https://www.pnri.dost.gov.ph/index.php/2-uncategorised/784-dost-calls-on-hs-studes-to-vie-for-the-first-nat-l-nuclear-science-olympiad" target="_blank"><i>Read more...</i></a>
+
+            </p>
+            </div>
+            
+            <br><br><br>
+
             <h2>Atomic Energy Week Opens Dec 5</h2>
             <p style="margin-top: 10px;font-family: Gabarito-Regular;"><i>Published: 29 November 2022</i></p><br>
             <div class="row">
