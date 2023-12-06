@@ -84,6 +84,18 @@
       }
      }
 
+     /* WATCH LIVE CSS - MOBILE*/
+     @media (max-width: 730.98px){
+      #sessions>iframe {
+        width: 93%;
+        height: 100vh;
+        max-height: 980px;
+        margin-left:10px;
+        /* margin-top: 1rem; */
+        
+      }
+     }
+
      @media (max-width: 511px){
  
       div.tab{
@@ -109,7 +121,7 @@
 	        	<div id="schedule">
 	              <div class="schedules">
 	                <a id="btn-overview" class="m2" onclick="showTab('overview')">View Program</a>
-                  <a id="2btn-programme" onclick="showTab('programme')">Watch Live</a>
+                  <a id="btn-sessions"onclick="showTab('sessions')">Watch Live</a>
                   <!-- <a id="2btn-programme" onclick="">Watch the Livestream</a> -->
 	              </div>
 	            </div>
@@ -147,6 +159,11 @@
                   <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1ViRfvzVc67y1LzhmZ5vvr6hyqZUlTnI6/preview"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                   
                 </div>
+
+                <!-- <div class="tab" id="sessions" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https://www.facebook.com/PNRIDOST/videos/" width="790" height="530" 
+                    style="padding-top: 1em;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div> -->
 
                 <div class="tab" id="youth_panel" style="min-height: 100vh;max-height: 900px;">
                  
